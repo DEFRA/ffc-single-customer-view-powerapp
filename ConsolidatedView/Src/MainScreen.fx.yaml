@@ -36,7 +36,15 @@ MainScreen As screen:
                     FieldType: ="s"
                     FieldVariantName: ="textualColumn"
                     Order: =1
-                    ZIndex: =2
+                    ZIndex: =7
+
+                "'Created On1' As pcfDataField.textualColumn":
+                    FieldDisplayName: ="Created On"
+                    FieldName: ="createdon"
+                    FieldType: ="d"
+                    FieldVariantName: ="textualColumn"
+                    Order: =2
+                    ZIndex: =8
 
             BusinessSelector As Combobox.pcfdataset:
                 DisplayMode: =DisplayMode.Edit
