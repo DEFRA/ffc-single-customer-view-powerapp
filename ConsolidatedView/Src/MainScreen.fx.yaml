@@ -506,25 +506,25 @@ MainScreen As screen:
                     Width: =Parent.Width
                     ZIndex: =3
 
-                    BusinessDetailsPageTitle_2 As label:
+                    LandUsePageTitle As label:
                         FontWeight: =FontWeight.Bold
                         Size: =20
-                        Text: ="Business Details"
+                        Text: ="Land Use"
                         Width: =Parent.Width
                         ZIndex: =1
 
-                    BusinessDetailsPageSubTitle_2 As label:
+                    LandUsePageSubTitle As label:
                         Color: =RGBA(89, 89, 89, 1)
                         Size: =16
                         Text: ="A Radford & Son"
                         Width: =Parent.Width
                         ZIndex: =2
 
-                    BusinessDetailsColumns_2 As groupContainer.horizontalAutoLayoutContainer:
+                    LandUseColumns As groupContainer.horizontalAutoLayoutContainer:
                         AlignInContainer: =AlignInContainer.SetByContainer
                         DropShadow: =DropShadow.None
                         FillPortions: =0
-                        Height: =Max(BusinessDetailsLeftSection_2.Height, BusinessDetailsRightSection_2.Height)
+                        Height: =Max(LandUseLeftSection.Height, LandUseRightSection.Height)
                         LayoutGap: =20
                         LayoutJustifyContent: =LayoutJustifyContent.SpaceBetween
                         LayoutMinHeight: =100
@@ -533,18 +533,18 @@ MainScreen As screen:
                         Width: =Parent.Width
                         ZIndex: =3
 
-                        BusinessDetailsLeftSection_2 As groupContainer.horizontalAutoLayoutContainer:
+                        LandUseLeftSection As groupContainer.horizontalAutoLayoutContainer:
                             AlignInContainer: =AlignInContainer.SetByContainer
                             DropShadow: =DropShadow.None
-                            Height: =Sum(BusinessDetailSection_2.Height + BusinessDetailsCorispondenceSection_2.Height + BusinessDetailAdditionalDetailsSection_2.Height) + 30
+                            Height: =Sum(LandUseSection.Height + LandUseCorispondenceSection.Height + LandUseAdditionalDetailsSection.Height) + 30
                             LayoutDirection: =LayoutDirection.Vertical
                             LayoutMinHeight: =100
                             LayoutMinWidth: =250
                             LayoutMode: =LayoutMode.Auto
                             ZIndex: =1
 
-                            BusinessDetailSection_2 As BusinessDetailSectionComponent:
-                                Height: =BusinessDetailSection_2.calcHeight
+                            LandUseSection As BusinessDetailSectionComponent:
+                                Height: =LandUseSection.calcHeight
                                 Items: |-
                                     =Table({
                                       Field: "Business Name",
@@ -557,8 +557,8 @@ MainScreen As screen:
                                 Title: ="Business contact details"
                                 Width: =Parent.Width
 
-                            BusinessDetailsCorispondenceSection_2 As BusinessDetailSectionComponent_5:
-                                Height: =BusinessDetailsCorispondenceSection_2.calcHeight
+                            LandUseCorispondenceSection As BusinessDetailSectionComponent_5:
+                                Height: =LandUseCorispondenceSection.calcHeight
                                 Items: |-
                                     =Table(
                                       { 
@@ -583,8 +583,8 @@ MainScreen As screen:
                                 Width: =Parent.Width
                                 ZIndex: =2
 
-                            BusinessDetailAdditionalDetailsSection_2 As BusinessDetailSectionComponent_6:
-                                Height: =BusinessDetailAdditionalDetailsSection_2.calcHeight
+                            LandUseAdditionalDetailsSection As BusinessDetailSectionComponent_6:
+                                Height: =LandUseAdditionalDetailsSection.calcHeight
                                 Items: |-
                                     =Table(
                                       { 
@@ -613,7 +613,7 @@ MainScreen As screen:
                                 Width: =Parent.Width
                                 ZIndex: =3
 
-                        BusinessDetailsRightSection_2 As groupContainer.horizontalAutoLayoutContainer:
+                        LandUseRightSection As groupContainer.horizontalAutoLayoutContainer:
                             AlignInContainer: =AlignInContainer.SetByContainer
                             DropShadow: =DropShadow.None
                             Height: =Sum(BusinessDetailReferenceNumbersSection_2.Height + BusinessDetailsCPHSection_2.Height)
