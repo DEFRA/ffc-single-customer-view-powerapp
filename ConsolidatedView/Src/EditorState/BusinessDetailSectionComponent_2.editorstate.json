@@ -414,7 +414,7 @@
       "MetaDataIDKey": "",
       "Name": "Label1_3",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 4,
+      "ParentIndex": 3,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -1195,7 +1195,7 @@
       "MetaDataIDKey": "",
       "Name": "Rectangle2_4",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 3,
+      "ParentIndex": 4,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {

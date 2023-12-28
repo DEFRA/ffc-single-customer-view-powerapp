@@ -1,4 +1,18 @@
 {
+  "02916c72-2cd3-4530-b1be-8d2781f331a4": {
+    "connectionRef": {
+      "displayName": "SCV GQL Dev",
+      "iconUri": "https://az787822.vo.msecnd.net/defaulticons/api-dedicated.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_scv-20gql-20dev-5f1510abe58485dba2-5fb4053f9c9e23b40e"
+    },
+    "datasets": {},
+    "dataSources": [
+      "SCVGQLDev"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "02916c72-2cd3-4530-b1be-8d2781f331a4"
+  },
   "5a1202ef-dd02-4f01-acb0-4778058b3b2a": {
     "appActions": [
       "ContactDetail",

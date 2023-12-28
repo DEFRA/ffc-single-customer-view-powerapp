@@ -1,0 +1,42 @@
+<application xmlns:xml="http://www.w3.org/XML/1998/namespace" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:service="https://europe-002.azure-apim.net/apim/scv-20gql-20dev-5f1510abe58485dba2-5fb4053f9c9e23b40e" xmlns:siena="http://schemas.microsoft.com/MicrosoftProjectSiena/WADL/2014/11" siena:serviceId="SCVGQLDev" xmlns="http://wadl.dev.java.net/2009/02">
+  <doc title="SCV GQL Dev"></doc>
+  <grammars>
+    <jsonTypes targetNamespace="https://europe-002.azure-apim.net/apim/scv-20gql-20dev-5f1510abe58485dba2-5fb4053f9c9e23b40e" xmlns="http://schemas.microsoft.com/MicrosoftProjectSiena/WADL/2014/11">
+      <string name="graphQl_param_body_def_query_def" />
+      <string name="graphQl_param_body_def_variables_def_businessId_def" />
+      <object name="graphQl_param_body_def_variables_def">
+        <property name="businessId" type="string" />
+      </object>
+      <object name="graphQl_param_body_def">
+        <property name="query" type="string" />
+        <property name="variables" typeRef="graphQl_param_body_def_variables_def" />
+      </object>
+      <untypedObject name="graphQl_responses_default_def" />
+    </jsonTypes>
+  </grammars>
+  <resources siena:authenticationProviderHref="#PowerAppAuth" base="https://europe-002.azure-apim.net/apim/scv-20gql-20dev-5f1510abe58485dba2-5fb4053f9c9e23b40e">
+    <resource path="/{connectionId}/graphql">
+      <param style="template" name="connectionId" type="xs:string" required="true" />
+      <method siena:requiresAuthentication="true" name="POST" id="graphQl" actionName="graphQl" siena:isDeprecated="false">
+        <doc title="GraphQl Query" />
+        <request>
+          <representation mediaType="application/json">
+            <param style="plain" name="query" path="/query" type="xs:string" />
+            <param style="plain" name="variables" path="/variables" type="service:graphQl_param_body_def_variables_def" />
+          </representation>
+        </request>
+        <response>
+          <representation mediaType="application/json" element="service:graphQl_responses_default_def" />
+        </response>
+      </method>
+    </resource>
+  </resources>
+  <authenticationProviders xmlns="http://schemas.microsoft.com/MicrosoftProjectSiena/WADL/2014/11">
+    <connectionProvider id="PowerAppAuth" siena:connectionProviderId="shared_scv-20gql-20dev-5f1510abe58485dba2-5fb4053f9c9e23b40e" />
+  </authenticationProviders>
+  <template xmlns="http://schemas.microsoft.com/MicrosoftProjectSiena/WADL/2014/11">
+    <variable name="connectionId">
+      <modifyParams style="template" name="connectionId" attribute="fixed" />
+    </variable>
+  </template>
+</application>

@@ -50,20 +50,14 @@ MainScreen As screen:
                 DisplayMode: =DisplayMode.Edit
                 Height: =Parent.Height
                 InputTextPlaceholder: ="Select Business"
-                Items: =contactResponse.data.customer.authorisedBusinesses
-                OnChange: |-
-                    =Set(
-                      businessDetail,
-                      CustomerRegistry.BusinessDetail({
-                        query: Concatenate("query Business { business(id: ", BusinessSelector.Selected.id, ") { id info { sbi name reference vat address { pafOrganisationName buildingNumberRange buildingName flatName street city county postalCode country uprn dependentLocality doubleDependentLocality typeId } phone { mobile landline fax } registrationNumbers { companiesHouse charityCommission } type { code type } legalStatus { code type } email { address validated doNotContact } } }}")
-                      })
-                    );
+                Items: ="200710456"
+                OnChange: =
                 Width: =320
                 X: =MainMenuTabList.Width
                 Y: =0
                 ZIndex: =2
 
-                name1 As pcfDataField.textualColumn:
+                name As pcfDataField.textualColumn:
                     FieldDisplayName: ="name"
                     FieldName: ="name"
                     FieldType: ="s"
@@ -71,7 +65,7 @@ MainScreen As screen:
                     Order: =2
                     ZIndex: =5
 
-                id4 As pcfDataField.textualColumn:
+                id As pcfDataField.textualColumn:
                     FieldDisplayName: ="id"
                     FieldName: ="id"
                     FieldType: ="s"
@@ -524,7 +518,7 @@ MainScreen As screen:
                         AlignInContainer: =AlignInContainer.SetByContainer
                         DropShadow: =DropShadow.None
                         FillPortions: =0
-                        Height: =Max(LandUseContainer.Height, LandUseRightSection.Height)
+                        Height: =LandUseContainer.Height
                         LayoutGap: =20
                         LayoutJustifyContent: =LayoutJustifyContent.SpaceBetween
                         LayoutMinHeight: =100
@@ -536,7 +530,7 @@ MainScreen As screen:
                         LandUseContainer As groupContainer.horizontalAutoLayoutContainer:
                             AlignInContainer: =AlignInContainer.SetByContainer
                             DropShadow: =DropShadow.None
-                            Height: =Sum(LandUseSection.Height + LandUseCorispondenceSection.Height + LandUseAdditionalDetailsSection.Height) + 30
+                            Height: =
                             LayoutDirection: =LayoutDirection.Vertical
                             LayoutMinHeight: =100
                             LayoutMinWidth: =250
@@ -546,7 +540,6 @@ MainScreen As screen:
                             LandUseTable As Table.pcfdataset:
                                 DisplayMode: =DisplayMode.Edit
                                 Height: =If(Self.Y + 500 > Parent.Height, Parent.Height - Self.Y, 500)
-                                Items: =CustomerRegistry
                                 LayoutMinHeight: =If(Self.Y + 500 > Parent.Height, Parent.Height - Self.Y, 500)
                                 LayoutMinWidth: =If(Self.X + 800 > Parent.Width, Parent.Width - Self.X, 800)
                                 onCellValueChange: =false
@@ -557,5 +550,5 @@ MainScreen As screen:
                                 Width: =If(Self.X + 800 > Parent.Width, Parent.Width - Self.X, 800)
                                 X: =0
                                 Y: =0
-                                ZIndex: =4
+                                ZIndex: =1
 
