@@ -50,20 +50,12 @@ MainScreen As screen:
                 DisplayMode: =DisplayMode.Edit
                 Height: =Parent.Height
                 InputTextPlaceholder: ="Select Business"
-                Items: ="200710456"
+                Items: =
                 OnChange: =
                 Width: =320
                 X: =MainMenuTabList.Width
                 Y: =0
                 ZIndex: =2
-
-                name As pcfDataField.textualColumn:
-                    FieldDisplayName: ="name"
-                    FieldName: ="name"
-                    FieldType: ="s"
-                    FieldVariantName: ="textualColumn"
-                    Order: =2
-                    ZIndex: =5
 
                 id As pcfDataField.textualColumn:
                     FieldDisplayName: ="id"
