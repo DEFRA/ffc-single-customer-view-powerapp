@@ -524,7 +524,7 @@ MainScreen As screen:
                         AlignInContainer: =AlignInContainer.SetByContainer
                         DropShadow: =DropShadow.None
                         FillPortions: =0
-                        Height: =Max(LandUseLeftSection.Height, LandUseRightSection.Height)
+                        Height: =Max(LandUseContainer.Height, LandUseRightSection.Height)
                         LayoutGap: =20
                         LayoutJustifyContent: =LayoutJustifyContent.SpaceBetween
                         LayoutMinHeight: =100
@@ -533,7 +533,7 @@ MainScreen As screen:
                         Width: =Parent.Width
                         ZIndex: =3
 
-                        LandUseLeftSection As groupContainer.horizontalAutoLayoutContainer:
+                        LandUseContainer As groupContainer.horizontalAutoLayoutContainer:
                             AlignInContainer: =AlignInContainer.SetByContainer
                             DropShadow: =DropShadow.None
                             Height: =Sum(LandUseSection.Height + LandUseCorispondenceSection.Height + LandUseAdditionalDetailsSection.Height) + 30
@@ -543,137 +543,19 @@ MainScreen As screen:
                             LayoutMode: =LayoutMode.Auto
                             ZIndex: =1
 
-                            LandUseSection As BusinessDetailSectionComponent:
-                                Height: =LandUseSection.calcHeight
-                                Items: |-
-                                    =Table({
-                                      Field: "Business Name",
-                                      Value: businessDetail.data.business.info.name
-                                    },{
-                                      Field: "Address", 
-                                      Value: Concat(Filter(Split($"{businessDetail.data.business.info.address.buildingName},{businessDetail.data.business.info.address.flatName},{businessDetail.data.business.info.address.street},{businessDetail.data.business.info.address.city},{businessDetail.data.business.info.address.county},{businessDetail.data.business.info.address.postalCode},{businessDetail.data.business.info.address.country}", ","), Len(Value) > 0), Value & "<br>")
-                                    })
-                                LayoutMinHeight: =640
-                                Title: ="Business contact details"
-                                Width: =Parent.Width
-
-                            LandUseCorispondenceSection As BusinessDetailSectionComponent_5:
-                                Height: =LandUseCorispondenceSection.calcHeight
-                                Items: |-
-                                    =Table(
-                                      { 
-                                        Field: "Email", 
-                                        Value: businessDetail.data.business.info.email.address
-                                      },
-                                      {
-                                        Field: "Address",
-                                        Value: Concat(Filter(Split($"{businessDetail.data.business.info.address.buildingName},{businessDetail.data.business.info.address.flatName},{businessDetail.data.business.info.address.street},{businessDetail.data.business.info.address.city},{businessDetail.data.business.info.address.county},{businessDetail.data.business.info.address.postalCode},{businessDetail.data.business.info.address.country}", ","), Len(Value) > 0), Value & "<br>")
-                                      },
-                                      {
-                                        Field: "Landline",
-                                        Value: businessDetail.data.business.info.phone.landline
-                                      },
-                                      {
-                                        Field: "Mobile",
-                                        Value: businessDetail.data.business.info.phone.mobile
-                                      }
-                                    )
-                                LayoutMinHeight: =640
-                                Title: ="Corrispondence contact details"
-                                Width: =Parent.Width
-                                ZIndex: =2
-
-                            LandUseAdditionalDetailsSection As BusinessDetailSectionComponent_6:
-                                Height: =LandUseAdditionalDetailsSection.calcHeight
-                                Items: |-
-                                    =Table(
-                                      { 
-                                        Field: "Legal status",
-                                        Value: businessDetail.data.business.info.legalStatus.type
-                                      },
-                                      {
-                                        Field: "Business type",
-                                        Value: businessDetail.data.business.info.type.type
-                                      },
-                                      {
-                                        Field: "Companies House registration number",
-                                        Value: businessDetail.data.business.info.registrationNumbers.companiesHouse
-                                      },
-                                      {
-                                        Field: "Charity Commission registration number",
-                                        Value: businessDetail.data.business.info.registrationNumbers.charityCommission
-                                      },
-                                      {
-                                        Field: "Date started farming",
-                                        Value: ""
-                                      }
-                                    )
-                                LayoutMinHeight: =640
-                                Title: ="Additional Details"
-                                Width: =Parent.Width
-                                ZIndex: =3
-
-                        LandUseRightSection As groupContainer.horizontalAutoLayoutContainer:
-                            AlignInContainer: =AlignInContainer.SetByContainer
-                            DropShadow: =DropShadow.None
-                            Height: =Sum(BusinessDetailReferenceNumbersSection_2.Height + BusinessDetailsCPHSection_2.Height)
-                            LayoutDirection: =LayoutDirection.Vertical
-                            LayoutMinHeight: =100
-                            LayoutMinWidth: =250
-                            LayoutMode: =LayoutMode.Auto
-                            ZIndex: =2
-
-                            BusinessDetailReferenceNumbersSection_2 As BusinessDetailSectionComponent_7:
-                                Height: =BusinessDetailReferenceNumbersSection_2.calcHeight
-                                Items: |-
-                                    =Table(
-                                      {
-                                        Field: "Single business identifier",
-                                        Value: businessDetail.data.business.info.sbi
-                                      },
-                                      {
-                                        Field: "VAT registration number",
-                                        Value: businessDetail.data.business.info.vat
-                                      },
-                                      {
-                                        Field: "Vender number",
-                                        Value: businessDetail.data.business.id
-                                      }
-                                    )
-                                LayoutMinHeight: =640
-                                Title: ="Reference Numbers"
-                                Width: =Parent.Width
-
-                            BusinessDetailsCPHSection_2 As BusinessDetailSectionComponent_8:
-                                Height: =BusinessDetailsCPHSection_2.calcHeight
-                                Items: |-
-                                    =Table(
-                                      {
-                                        Field: "CPH Number",
-                                        Value: "43/060/0025"
-                                      },
-                                      {
-                                        Field: "X & Y Co-ordinates",
-                                        Value: "429000, 236000"
-                                      },
-                                      {
-                                        Field: "Parish",
-                                        Value: "CHERINGTON"
-                                      },
-                                      {
-                                        Field: "Start date",
-                                        Value: "1210806000000"
-                                      },
-                                      {
-                                        Field: "Expiry date",
-                                        Value: "253402214400000"
-                                      },
-                                      {
-                                        Field: "Species",
-                                        Value: "Other"
-                                      })
-                                LayoutMinHeight: =400
-                                Title: ="County Parish Holiding (CPH ) information"
-                                Width: =Parent.Width
-                                ZIndex: =2
+                            LandUseTable As Table.pcfdataset:
+                                DisplayMode: =DisplayMode.Edit
+                                Height: =If(Self.Y + 500 > Parent.Height, Parent.Height - Self.Y, 500)
+                                Items: =CustomerRegistry
+                                LayoutMinHeight: =If(Self.Y + 500 > Parent.Height, Parent.Height - Self.Y, 500)
+                                LayoutMinWidth: =If(Self.X + 800 > Parent.Width, Parent.Width - Self.X, 800)
+                                onCellValueChange: =false
+                                onFilter: =false
+                                onNavigate: =false
+                                onRowSelect: =false
+                                onSave: =false
+                                Width: =If(Self.X + 800 > Parent.Width, Parent.Width - Self.X, 800)
+                                X: =0
+                                Y: =0
+                                ZIndex: =4
 

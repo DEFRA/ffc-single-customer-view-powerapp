@@ -169,5 +169,20 @@
     "OverridableProperties": {},
     "TemplateDisplayName": "Tab list",
     "Version": "2.2.10"
+  },
+  "Table": {
+    "CustomGroupControlTemplateName": "",
+    "FirstParty": true,
+    "Id": "http://microsoft.com/appmagic/powercontrol/PowerAppsOneGrid",
+    "IsComponentTemplate": false,
+    "IsCustomGroupControlTemplate": false,
+    "IsPcfControl": true,
+    "IsPremiumPcfControl": false,
+    "IsWidgetTemplate": false,
+    "LastModifiedTimestamp": "0",
+    "Name": "PowerAppsOneGrid",
+    "OverridableProperties": {},
+    "TemplateDisplayName": "Table",
+    "Version": "1.0.128"
   }
 }

@@ -14,6 +14,354 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "MainScreen.'Page Container'.'Tab Container'.LandUse.LandUseVerticalLayoutContainer.LandUseColumns.Height"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "MainScreen.'Page Container'.'Tab Container'.LandUse.LandUseVerticalLayoutContainer.LandUseColumns.Height",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 19,
+                  "charOffset": 29,
+                  "snippet": {
+                    "text": "LandUseRightSection"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Height",
+                "module": "MainScreen",
+                "type": "MainScreen.'Page Container'.'Tab Container'.LandUse.LandUseVerticalLayoutContainer.LandUseColumns"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "LandUseRightSection"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "MainScreen.'Page Container'.'Tab Container'.LandUse.LandUseVerticalLayoutContainer.LandUseColumns.Height"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "MainScreen.'Page Container'.'Tab Container'.LandUse.LandUseVerticalLayoutContainer.LandUseColumns.Height",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 7,
+                  "charOffset": 48,
+                  "snippet": {
+                    "text": ".Height"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Height",
+                "module": "MainScreen",
+                "type": "MainScreen.'Page Container'.'Tab Container'.LandUse.LandUseVerticalLayoutContainer.LandUseColumns"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "MainScreen.'Page Container'.'Tab Container'.LandUse.LandUseVerticalLayoutContainer.LandUseColumns.LandUseContainer.Height"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "MainScreen.'Page Container'.'Tab Container'.LandUse.LandUseVerticalLayoutContainer.LandUseColumns.LandUseContainer.Height",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 14,
+                  "charOffset": 4,
+                  "snippet": {
+                    "text": "LandUseSection"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Height",
+                "module": "MainScreen",
+                "type": "MainScreen.'Page Container'.'Tab Container'.LandUse.LandUseVerticalLayoutContainer.LandUseColumns.LandUseContainer"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "LandUseSection"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "MainScreen.'Page Container'.'Tab Container'.LandUse.LandUseVerticalLayoutContainer.LandUseColumns.LandUseContainer.Height"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "MainScreen.'Page Container'.'Tab Container'.LandUse.LandUseVerticalLayoutContainer.LandUseColumns.LandUseContainer.Height",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 7,
+                  "charOffset": 18,
+                  "snippet": {
+                    "text": ".Height"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Height",
+                "module": "MainScreen",
+                "type": "MainScreen.'Page Container'.'Tab Container'.LandUse.LandUseVerticalLayoutContainer.LandUseColumns.LandUseContainer"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "MainScreen.'Page Container'.'Tab Container'.LandUse.LandUseVerticalLayoutContainer.LandUseColumns.LandUseContainer.Height"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "MainScreen.'Page Container'.'Tab Container'.LandUse.LandUseVerticalLayoutContainer.LandUseColumns.LandUseContainer.Height",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 27,
+                  "charOffset": 28,
+                  "snippet": {
+                    "text": "LandUseCorispondenceSection"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Height",
+                "module": "MainScreen",
+                "type": "MainScreen.'Page Container'.'Tab Container'.LandUse.LandUseVerticalLayoutContainer.LandUseColumns.LandUseContainer"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "LandUseCorispondenceSection"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "MainScreen.'Page Container'.'Tab Container'.LandUse.LandUseVerticalLayoutContainer.LandUseColumns.LandUseContainer.Height"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "MainScreen.'Page Container'.'Tab Container'.LandUse.LandUseVerticalLayoutContainer.LandUseColumns.LandUseContainer.Height",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 7,
+                  "charOffset": 55,
+                  "snippet": {
+                    "text": ".Height"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Height",
+                "module": "MainScreen",
+                "type": "MainScreen.'Page Container'.'Tab Container'.LandUse.LandUseVerticalLayoutContainer.LandUseColumns.LandUseContainer"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "MainScreen.'Page Container'.'Tab Container'.LandUse.LandUseVerticalLayoutContainer.LandUseColumns.LandUseContainer.Height"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "MainScreen.'Page Container'.'Tab Container'.LandUse.LandUseVerticalLayoutContainer.LandUseColumns.LandUseContainer.Height",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 31,
+                  "charOffset": 65,
+                  "snippet": {
+                    "text": "LandUseAdditionalDetailsSection"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Height",
+                "module": "MainScreen",
+                "type": "MainScreen.'Page Container'.'Tab Container'.LandUse.LandUseVerticalLayoutContainer.LandUseColumns.LandUseContainer"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "LandUseAdditionalDetailsSection"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "MainScreen.'Page Container'.'Tab Container'.LandUse.LandUseVerticalLayoutContainer.LandUseColumns.LandUseContainer.Height"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "MainScreen.'Page Container'.'Tab Container'.LandUse.LandUseVerticalLayoutContainer.LandUseColumns.LandUseContainer.Height",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 7,
+                  "charOffset": 96,
+                  "snippet": {
+                    "text": ".Height"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Height",
+                "module": "MainScreen",
+                "type": "MainScreen.'Page Container'.'Tab Container'.LandUse.LandUseVerticalLayoutContainer.LandUseColumns.LandUseContainer"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "MainScreen.'Page Container'.'Tab Container'.LandUse.LandUseVerticalLayoutContainer.LandUseColumns.LandUseContainer.LandUseTable.Items"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "MainScreen.'Page Container'.'Tab Container'.LandUse.LandUseVerticalLayoutContainer.LandUseColumns.LandUseContainer.LandUseTable.Items",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 16,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "CustomerRegistry"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Items",
+                "module": "MainScreen",
+                "type": "MainScreen.'Page Container'.'Tab Container'.LandUse.LandUseVerticalLayoutContainer.LandUseColumns.LandUseContainer.LandUseTable"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "CustomerRegistry"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "BusinessDetailSectionComponent_6.Gallery2_6.AccessibleLabel"
                 }
               ],
@@ -37,7 +385,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -67,7 +415,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 1
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -97,7 +445,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -127,7 +475,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 1
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -157,7 +505,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -187,7 +535,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 1
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -217,7 +565,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -247,7 +595,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 1
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -277,7 +625,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -307,7 +655,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 1
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -337,7 +685,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -367,7 +715,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 1
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -397,7 +745,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -427,7 +775,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 1
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -457,7 +805,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -487,7 +835,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 1
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -517,7 +865,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -547,7 +895,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 1
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -577,7 +925,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -607,7 +955,37 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "MainScreen.'Page Container'.'Tab Container'.LandUse.LandUseVerticalLayoutContainer.LandUseColumns.LandUseContainer.LandUseTable.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "MainScreen.'Page Container'.'Tab Container'.LandUse.LandUseVerticalLayoutContainer.LandUseColumns.LandUseContainer.LandUseTable.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "MainScreen",
+                "type": "MainScreen.'Page Container'.'Tab Container'.LandUse.LandUseVerticalLayoutContainer.LandUseColumns.LandUseContainer.LandUseTable"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
         }
       ],
       "tool": {
@@ -615,6 +993,37 @@
           "fullName": "PowerApps app checker",
           "name": "PowerApps app checker",
           "rules": [
+            {
+              "id": "app-ErrInvalidName",
+              "messageStrings": {
+                "issue": {
+                  "text": "Name isn't valid. '{0}' isn't recognized."
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "howToFix": [
+                  "Remove or correct the reference to the name that isn't valid."
+                ],
+                "level": "High",
+                "primaryCategory": "formula",
+                "whyFix": ""
+              }
+            },
+            {
+              "id": "app-ErrInvalidDot",
+              "messageStrings": {
+                "issue": {
+                  "text": "Invalid use of '.'"
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "level": "High",
+                "primaryCategory": "formula",
+                "whyFix": ""
+              }
+            },
             {
               "id": "acc-AccessibleLabelNeeded",
               "messageStrings": {
