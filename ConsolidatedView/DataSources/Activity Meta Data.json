@@ -6,6 +6,7 @@
     "IsSampleData": false,
     "IsWritable": true,
     "LogicalName": "rpa_activitymetadata",
+    "MaxGetRowsCount": 500,
     "Name": "Activity Meta Data",
     "NativeCDSDataSourceInfoNameMapping": {
       "createdby": "Created By",
