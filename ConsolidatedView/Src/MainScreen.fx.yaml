@@ -492,7 +492,7 @@ MainScreen As screen:
                 RadiusBottomRight: =0
                 RadiusTopLeft: =0
                 RadiusTopRight: =0
-                Visible: =MainMenuTabList.Selected.Name = "Business Messages"
+                Visible: =MainMenuTabList.Selected.Name = "Land Use"
                 Width: =Parent.Width
                 Y: =
                 ZIndex: =4
