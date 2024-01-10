@@ -1,0 +1,37 @@
+<application xmlns:xml="http://www.w3.org/XML/1998/namespace" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:service="https://europe-002.azure-apim.net/apim/customer-20registry-20gql-20api-5f1510abe58485d-0474cb24e959ff5d" xmlns:siena="http://schemas.microsoft.com/MicrosoftProjectSiena/WADL/2014/11" siena:serviceId="Defaulttitle" xmlns="http://wadl.dev.java.net/2009/02">
+  <doc title="Default title"></doc>
+  <grammars>
+    <jsonTypes targetNamespace="https://europe-002.azure-apim.net/apim/customer-20registry-20gql-20api-5f1510abe58485d-0474cb24e959ff5d" xmlns="http://schemas.microsoft.com/MicrosoftProjectSiena/WADL/2014/11">
+      <string name="customerByCRN_param_body_def_query_def" />
+      <object name="customerByCRN_param_body_def">
+        <property name="query" type="string" />
+      </object>
+      <untypedObject name="customerByCRN_responses_default_def" />
+    </jsonTypes>
+  </grammars>
+  <resources siena:authenticationProviderHref="#PowerAppAuth" base="https://europe-002.azure-apim.net/apim/customer-20registry-20gql-20api-5f1510abe58485d-0474cb24e959ff5d">
+    <resource path="/{connectionId}/">
+      <param style="template" name="connectionId" type="xs:string" required="true" />
+      <method siena:requiresAuthentication="true" name="POST" id="customerByCRN" actionName="customerByCRN" siena:isDeprecated="false">
+        <doc title="Customer Query&#xA;Customer Query by CRN" />
+        <request>
+          <param style="header" name="Content-Type" type="xs:string" required="true" default="application/json" />
+          <representation mediaType="application/json">
+            <param style="plain" name="query" path="/query" type="xs:string" default="query Customer{ customer(referenceNumber: &quot;123123&quot;) { authenticationQuestions { memorableDate } }}" />
+          </representation>
+        </request>
+        <response>
+          <representation mediaType="application/json" element="service:customerByCRN_responses_default_def" />
+        </response>
+      </method>
+    </resource>
+  </resources>
+  <authenticationProviders xmlns="http://schemas.microsoft.com/MicrosoftProjectSiena/WADL/2014/11">
+    <connectionProvider id="PowerAppAuth" siena:connectionProviderId="shared_customer-20registry-20gql-20api-5f1510abe58485d-0474cb24e959ff5d" />
+  </authenticationProviders>
+  <template xmlns="http://schemas.microsoft.com/MicrosoftProjectSiena/WADL/2014/11">
+    <variable name="connectionId">
+      <modifyParams style="template" name="connectionId" attribute="fixed" />
+    </variable>
+  </template>
+</application>

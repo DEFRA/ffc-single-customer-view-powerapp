@@ -1,8 +1,0 @@
-[
-  {
-    "ApiId": "/providers/microsoft.powerapps/apis/shared_customer-20registry-20gql-20api-5f1510abe58485d-0474cb24e959ff5d",
-    "Name": "Defaulttitle",
-    "ServiceKind": "ConnectedWadl",
-    "Type": "ServiceInfo"
-  }
-]

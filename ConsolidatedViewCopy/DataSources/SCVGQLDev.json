@@ -1,0 +1,8 @@
+[
+  {
+    "ApiId": "/providers/microsoft.powerapps/apis/shared_scv-20gql-20dev-5f1510abe58485dba2-5fb4053f9c9e23b40e",
+    "Name": "SCVGQLDev",
+    "ServiceKind": "ConnectedWadl",
+    "Type": "ServiceInfo"
+  }
+]

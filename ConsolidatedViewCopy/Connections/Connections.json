@@ -1,0 +1,144 @@
+{
+  "02916c72-2cd3-4530-b1be-8d2781f331a4": {
+    "connectionRef": {
+      "displayName": "SCV GQL Dev",
+      "iconUri": "https://az787822.vo.msecnd.net/defaulticons/api-dedicated.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_scv-20gql-20dev-5f1510abe58485dba2-5fb4053f9c9e23b40e"
+    },
+    "datasets": {},
+    "dataSources": [
+      "SCVGQLDev"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "02916c72-2cd3-4530-b1be-8d2781f331a4"
+  },
+  "5a1202ef-dd02-4f01-acb0-4778058b3b2a": {
+    "appActions": [
+      "ContactDetail",
+      "BusinessDetail"
+    ],
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "CustomerRegistry",
+      "iconUri": "https://az787822.vo.msecnd.net/defaulticons/api-dedicated.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_customerregistry-5f1510abe58485dba2-5f0edb110ee270a9d1",
+      "isCustomApiConnection": true,
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {},
+    "dataSources": [
+      "CustomerRegistry"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "5a1202ef-dd02-4f01-acb0-4778058b3b2a"
+  },
+  "5b0043ea-cd24-418e-bb28-0ff67121d830": {
+    "appActions": [],
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "CustomerRegistry",
+      "iconUri": "https://az787822.vo.msecnd.net/defaulticons/api-dedicated.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_customerregistry-5f1510abe58485dba2-5f0edb110ee270a9d1",
+      "isCustomApiConnection": true,
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {},
+    "dataSources": [],
+    "dependencies": {},
+    "dependents": [
+      "b7be7d19-e9b2-4d94-a1af-9a0ca5e858c5"
+    ],
+    "id": "5b0043ea-cd24-418e-bb28-0ff67121d830"
+  },
+  "5ee917ae-26dd-4f5b-ac1e-a7f026bad5db": {
+    "appActions": [],
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "Logic flows",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1664/1.0.1664.3477/logicflows/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_logicflows",
+      "parameterHints": {
+        "workflowEntityId": {
+          "value": "dc090220-4c95-ee11-be37-002248993ab5"
+        },
+        "workflowName": {
+          "value": "a3b7c51f-3bb3-7234-664b-0d3d6f1248c9"
+        }
+      },
+      "parameterHintsV2": {
+        "workflowEntityId": {
+          "value": "dc090220-4c95-ee11-be37-002248993ab5"
+        },
+        "workflowName": {
+          "value": "a3b7c51f-3bb3-7234-664b-0d3d6f1248c9"
+        }
+      }
+    },
+    "datasets": {},
+    "dataSources": [
+      "formatAddress"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "5ee917ae-26dd-4f5b-ac1e-a7f026bad5db"
+  },
+  "675bca0e-716c-4b5f-a294-bb9304427715": {
+    "connectionRef": {
+      "authenticationType": "oauth2-auth",
+      "displayName": "Customer Registry GQL API",
+      "iconUri": "https://az787822.vo.msecnd.net/defaulticons/api-dedicated.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_customer-20registry-20gql-20api-5f1510abe58485d-0474cb24e959ff5d"
+    },
+    "datasets": {},
+    "dataSources": [
+      "Defaulttitle"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "675bca0e-716c-4b5f-a294-bb9304427715"
+  },
+  "b7be7d19-e9b2-4d94-a1af-9a0ca5e858c5": {
+    "appActions": [],
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "Logic flows",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1664/1.0.1664.3477/logicflows/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_logicflows",
+      "parameterHints": {
+        "5b0043ea-cd24-418e-bb28-0ff67121d830": {
+          "value": "shared_customerregistry-5f1510abe58485dba2-5f0edb110ee270a9d1"
+        },
+        "workflowEntityId": {
+          "value": "940b2a03-ae95-ee11-be37-0022489934cb"
+        },
+        "workflowName": {
+          "value": "80c61cf9-95e3-63c5-f0dd-1a285442e89b"
+        }
+      },
+      "parameterHintsV2": {
+        "shared_customerregistry-5f1510abe58485dba2-5f0edb110ee270a9d1": {
+          "value": "5b0043ea-cd24-418e-bb28-0ff67121d830"
+        },
+        "workflowEntityId": {
+          "value": "940b2a03-ae95-ee11-be37-0022489934cb"
+        },
+        "workflowName": {
+          "value": "80c61cf9-95e3-63c5-f0dd-1a285442e89b"
+        }
+      }
+    },
+    "datasets": {},
+    "dataSources": [
+      "PowerAppV2->ContactDetail,CreateCSVtable,RespondtoaPowerApp..."
+    ],
+    "dependencies": {
+      "shared_customerregistry-5f1510abe58485dba2-5f0edb110ee270a9d1": "5b0043ea-cd24-418e-bb28-0ff67121d830"
+    },
+    "dependents": [],
+    "id": "b7be7d19-e9b2-4d94-a1af-9a0ca5e858c5"
+  }
+}

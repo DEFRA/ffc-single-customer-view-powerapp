@@ -1,0 +1,173 @@
+<application xmlns:xml="http://www.w3.org/XML/1998/namespace" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:service="https://europe-002.azure-apim.net/apim/customerregistry-5f1510abe58485dba2-5f0edb110ee270a9d1" xmlns:siena="http://schemas.microsoft.com/MicrosoftProjectSiena/WADL/2014/11" siena:serviceId="CustomerRegistry" xmlns="http://wadl.dev.java.net/2009/02">
+  <doc title="CustomerRegistry">Customer Registry</doc>
+  <grammars>
+    <jsonTypes targetNamespace="https://europe-002.azure-apim.net/apim/customerregistry-5f1510abe58485dba2-5f0edb110ee270a9d1" xmlns="http://schemas.microsoft.com/MicrosoftProjectSiena/WADL/2014/11">
+      <string name="BusinessDetail_param_body_def_query_def" />
+      <object name="BusinessDetail_param_body_def">
+        <property name="query" type="string" />
+      </object>
+      <string name="BusinessDetail_responses_default_def_data_def_business_def_id_def" />
+      <integer name="BusinessDetail_responses_default_def_data_def_business_def_info_def_sbi_def" />
+      <string name="BusinessDetail_responses_default_def_data_def_business_def_info_def_name_def" />
+      <string name="BusinessDetail_responses_default_def_data_def_business_def_info_def_reference_def" />
+      <string name="BusinessDetail_responses_default_def_data_def_business_def_info_def_vat_def" />
+      <string name="BusinessDetail_responses_default_def_data_def_business_def_info_def_address_def_pafOrganisationName_def" />
+      <string name="BusinessDetail_responses_default_def_data_def_business_def_info_def_address_def_buildingNumberRange_def" />
+      <string name="BusinessDetail_responses_default_def_data_def_business_def_info_def_address_def_buildingName_def" />
+      <string name="BusinessDetail_responses_default_def_data_def_business_def_info_def_address_def_flatName_def" />
+      <string name="BusinessDetail_responses_default_def_data_def_business_def_info_def_address_def_street_def" />
+      <string name="BusinessDetail_responses_default_def_data_def_business_def_info_def_address_def_city_def" />
+      <string name="BusinessDetail_responses_default_def_data_def_business_def_info_def_address_def_county_def" />
+      <string name="BusinessDetail_responses_default_def_data_def_business_def_info_def_address_def_postalCode_def" />
+      <string name="BusinessDetail_responses_default_def_data_def_business_def_info_def_address_def_country_def" />
+      <string name="BusinessDetail_responses_default_def_data_def_business_def_info_def_address_def_uprn_def" />
+      <string name="BusinessDetail_responses_default_def_data_def_business_def_info_def_address_def_dependentLocality_def" />
+      <string name="BusinessDetail_responses_default_def_data_def_business_def_info_def_address_def_doubleDependentLocality_def" />
+      <string name="BusinessDetail_responses_default_def_data_def_business_def_info_def_address_def_typeId_def" />
+      <object name="BusinessDetail_responses_default_def_data_def_business_def_info_def_address_def">
+        <property name="pafOrganisationName" type="string" />
+        <property name="buildingNumberRange" type="string" />
+        <property name="buildingName" type="string" />
+        <property name="flatName" type="string" />
+        <property name="street" type="string" />
+        <property name="city" type="string" />
+        <property name="county" type="string" />
+        <property name="postalCode" type="string" />
+        <property name="country" type="string" />
+        <property name="uprn" type="string" />
+        <property name="dependentLocality" type="string" />
+        <property name="doubleDependentLocality" type="string" />
+        <property name="typeId" type="string" />
+      </object>
+      <string name="BusinessDetail_responses_default_def_data_def_business_def_info_def_phone_def_mobile_def" />
+      <string name="BusinessDetail_responses_default_def_data_def_business_def_info_def_phone_def_landline_def" />
+      <string name="BusinessDetail_responses_default_def_data_def_business_def_info_def_phone_def_fax_def" />
+      <object name="BusinessDetail_responses_default_def_data_def_business_def_info_def_phone_def">
+        <property name="mobile" type="string" />
+        <property name="landline" type="string" />
+        <property name="fax" type="string" />
+      </object>
+      <string name="BusinessDetail_responses_default_def_data_def_business_def_info_def_registrationNumbers_def_companiesHouse_def" />
+      <string name="BusinessDetail_responses_default_def_data_def_business_def_info_def_registrationNumbers_def_charityCommission_def" />
+      <object name="BusinessDetail_responses_default_def_data_def_business_def_info_def_registrationNumbers_def">
+        <property name="companiesHouse" type="string" />
+        <property name="charityCommission" type="string" />
+      </object>
+      <integer name="BusinessDetail_responses_default_def_data_def_business_def_info_def_type_def_code_def" />
+      <string name="BusinessDetail_responses_default_def_data_def_business_def_info_def_type_def_type_def" />
+      <object name="BusinessDetail_responses_default_def_data_def_business_def_info_def_type_def">
+        <property name="code" type="integer" />
+        <property name="type" type="string" />
+      </object>
+      <integer name="BusinessDetail_responses_default_def_data_def_business_def_info_def_legalStatus_def_code_def" />
+      <string name="BusinessDetail_responses_default_def_data_def_business_def_info_def_legalStatus_def_type_def" />
+      <object name="BusinessDetail_responses_default_def_data_def_business_def_info_def_legalStatus_def">
+        <property name="code" type="integer" />
+        <property name="type" type="string" />
+      </object>
+      <string name="BusinessDetail_responses_default_def_data_def_business_def_info_def_email_def_address_def" />
+      <boolean name="BusinessDetail_responses_default_def_data_def_business_def_info_def_email_def_validated_def" />
+      <boolean name="BusinessDetail_responses_default_def_data_def_business_def_info_def_email_def_doNotContact_def" />
+      <object name="BusinessDetail_responses_default_def_data_def_business_def_info_def_email_def">
+        <property name="address" type="string" />
+        <property name="validated" type="boolean" />
+        <property name="doNotContact" type="boolean" />
+      </object>
+      <object name="BusinessDetail_responses_default_def_data_def_business_def_info_def">
+        <property name="sbi" type="integer" />
+        <property name="name" type="string" />
+        <property name="reference" type="string" />
+        <property name="vat" type="string" />
+        <property name="address" typeRef="BusinessDetail_responses_default_def_data_def_business_def_info_def_address_def" />
+        <property name="phone" typeRef="BusinessDetail_responses_default_def_data_def_business_def_info_def_phone_def" />
+        <property name="registrationNumbers" typeRef="BusinessDetail_responses_default_def_data_def_business_def_info_def_registrationNumbers_def" />
+        <property name="type" typeRef="BusinessDetail_responses_default_def_data_def_business_def_info_def_type_def" />
+        <property name="legalStatus" typeRef="BusinessDetail_responses_default_def_data_def_business_def_info_def_legalStatus_def" />
+        <property name="email" typeRef="BusinessDetail_responses_default_def_data_def_business_def_info_def_email_def" />
+      </object>
+      <object name="BusinessDetail_responses_default_def_data_def_business_def">
+        <property name="id" type="string" />
+        <property name="info" typeRef="BusinessDetail_responses_default_def_data_def_business_def_info_def" />
+      </object>
+      <string name="BusinessDetail_responses_default_def_data_def_customer_def_id_def" />
+      <string name="BusinessDetail_responses_default_def_data_def_customer_def_authorisedBusinesses_def_items_def_id_def" />
+      <string name="BusinessDetail_responses_default_def_data_def_customer_def_authorisedBusinesses_def_items_def_name_def" />
+      <object name="BusinessDetail_responses_default_def_data_def_customer_def_authorisedBusinesses_def_items_def">
+        <property name="id" type="string" />
+        <property name="name" type="string" />
+      </object>
+      <array typeRef="BusinessDetail_responses_default_def_data_def_customer_def_authorisedBusinesses_def_items_def" name="BusinessDetail_responses_default_def_data_def_customer_def_authorisedBusinesses_def" />
+      <object name="BusinessDetail_responses_default_def_data_def_customer_def">
+        <property name="id" type="string" />
+        <property name="authorisedBusinesses" typeRef="BusinessDetail_responses_default_def_data_def_customer_def_authorisedBusinesses_def" />
+      </object>
+      <object name="BusinessDetail_responses_default_def_data_def">
+        <property name="business" typeRef="BusinessDetail_responses_default_def_data_def_business_def" />
+        <property name="customer" typeRef="BusinessDetail_responses_default_def_data_def_customer_def" />
+      </object>
+      <object name="BusinessDetail_responses_default_def">
+        <property name="data" typeRef="BusinessDetail_responses_default_def_data_def" />
+      </object>
+      <string name="ContactDetail_param_body_def_query_def" />
+      <object name="ContactDetail_param_body_def">
+        <property name="query" type="string" />
+      </object>
+      <string name="ContactDetail_responses_default_def_data_def_customer_def_id_def" />
+      <string name="ContactDetail_responses_default_def_data_def_customer_def_authorisedBusinesses_def_items_def_id_def" />
+      <string name="ContactDetail_responses_default_def_data_def_customer_def_authorisedBusinesses_def_items_def_name_def" />
+      <object name="ContactDetail_responses_default_def_data_def_customer_def_authorisedBusinesses_def_items_def">
+        <property name="id" type="string" />
+        <property name="name" type="string" />
+      </object>
+      <array typeRef="ContactDetail_responses_default_def_data_def_customer_def_authorisedBusinesses_def_items_def" name="ContactDetail_responses_default_def_data_def_customer_def_authorisedBusinesses_def" />
+      <object name="ContactDetail_responses_default_def_data_def_customer_def">
+        <property name="id" type="string" />
+        <property name="authorisedBusinesses" typeRef="ContactDetail_responses_default_def_data_def_customer_def_authorisedBusinesses_def" />
+      </object>
+      <object name="ContactDetail_responses_default_def_data_def">
+        <property name="customer" typeRef="ContactDetail_responses_default_def_data_def_customer_def" />
+      </object>
+      <object name="ContactDetail_responses_default_def">
+        <property name="data" typeRef="ContactDetail_responses_default_def_data_def" />
+      </object>
+    </jsonTypes>
+  </grammars>
+  <resources siena:authenticationProviderHref="#PowerAppAuth" base="https://europe-002.azure-apim.net/apim/customerregistry-5f1510abe58485dba2-5f0edb110ee270a9d1">
+    <resource path="/{connectionId}/graphql/business">
+      <param style="template" name="connectionId" type="xs:string" required="true" />
+      <method siena:requiresAuthentication="true" name="POST" id="BusinessDetail" actionName="BusinessDetail" siena:isDeprecated="false">
+        <doc title="BusinessDetail" />
+        <request>
+          <representation mediaType="application/json">
+            <param style="plain" name="query" path="/query" type="xs:string" />
+          </representation>
+        </request>
+        <response>
+          <representation mediaType="application/json" element="service:BusinessDetail_responses_default_def" />
+        </response>
+      </method>
+    </resource>
+    <resource path="/{connectionId}/graphql/contact">
+      <param style="template" name="connectionId" type="xs:string" required="true" />
+      <method siena:requiresAuthentication="true" name="POST" id="ContactDetail" actionName="ContactDetail" siena:isDeprecated="false">
+        <doc title="ContactDetail" />
+        <request>
+          <representation mediaType="application/json">
+            <param style="plain" name="query" path="/query" type="xs:string" />
+          </representation>
+        </request>
+        <response>
+          <representation mediaType="application/json" element="service:ContactDetail_responses_default_def" />
+        </response>
+      </method>
+    </resource>
+  </resources>
+  <authenticationProviders xmlns="http://schemas.microsoft.com/MicrosoftProjectSiena/WADL/2014/11">
+    <connectionProvider id="PowerAppAuth" siena:connectionProviderId="shared_customerregistry-5f1510abe58485dba2-5f0edb110ee270a9d1" />
+  </authenticationProviders>
+  <template xmlns="http://schemas.microsoft.com/MicrosoftProjectSiena/WADL/2014/11">
+    <variable name="connectionId">
+      <modifyParams style="template" name="connectionId" attribute="fixed" />
+    </variable>
+  </template>
+</application>
