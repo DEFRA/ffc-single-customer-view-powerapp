@@ -1,0 +1,21 @@
+App As appinfo:
+    BackEnabled: =true
+    OnStart: |-
+        =ClearCollect(appScreens, {Name: "Authenticate", Screen: AuthenticateQuestionsPage}, {Name: "Business Detail", Screen: BusinessDetailsPage}, {Name: "Land Parcel", Screen: LandParcelPage});
+        Set(graphQlUrl, "https://1d4b-145-224-66-97.ngrok-free.app/");
+        Set(customerId, "123");
+        Set(
+            customerBusinesses,
+            customer_businesses.Run("123", graphQlUrl).data.customer.businesses
+        );
+        Set(activeBusiness, First(customerBusinesses));
+    StartScreen: =AuthenticateQuestionsPage
+    Theme: =PowerAppsTheme
+
+    Host As hostControl.DefaultHostControlVariant:
+        OnCancel: =false
+        OnEdit: =false
+        OnNew: =false
+        OnSave: =false
+        OnView: =false
+

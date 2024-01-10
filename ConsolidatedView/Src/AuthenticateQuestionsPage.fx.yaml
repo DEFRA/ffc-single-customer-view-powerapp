@@ -1,0 +1,16 @@
+AuthenticateQuestionsPage As screen:
+
+    HomeMenu As PageMenu:
+        Height: =60
+        Width: =Parent.Width
+
+    Label1 As label:
+        Align: =Align.Center
+        FontWeight: =FontWeight.Bold
+        Height: =50
+        Text: ="Authenticate Page"
+        Width: =200
+        X: =(Parent.Width / 2) - 100
+        Y: =Parent.Height / 2
+        ZIndex: =2
+

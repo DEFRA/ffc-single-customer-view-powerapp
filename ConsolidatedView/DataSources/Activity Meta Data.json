@@ -1,0 +1,277 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "rpa_activitymetadatas",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "rpa_activitymetadata",
+    "Name": "Activity Meta Data",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "createdby": "Created By",
+      "createdon": "Created On",
+      "createdonbehalfby": "Created By (Delegate)",
+      "importsequencenumber": "Import Sequence Number",
+      "modifiedby": "Modified By",
+      "modifiedon": "Modified On",
+      "modifiedonbehalfby": "Modified By (Delegate)",
+      "organizationid": "Organization Id",
+      "overriddencreatedon": "Record Created On",
+      "rpa_activitymetadata_AsyncOperations": "System Jobs",
+      "rpa_activitymetadata_BulkDeleteFailures": "Bulk Delete Failures",
+      "rpa_activitymetadata_MailboxTrackingFolders": "Mailbox Auto Tracking Folders",
+      "rpa_activitymetadata_PrincipalObjectAttributeAccesses": "Field Sharing",
+      "rpa_activitymetadata_ProcessSession": "Process Sessions",
+      "rpa_activitymetadata_QueueItems": "Queue Items",
+      "rpa_activitymetadata_SyncErrors": "Sync Errors",
+      "rpa_activitymetadataid": "Activity Meta Data (rpa_activitymetadataid)",
+      "rpa_barcode": "Barcode",
+      "rpa_BusinessUnit": "Business Unit",
+      "rpa_contact": "Contact",
+      "rpa_contenttypesproxy": "Content Types Proxy",
+      "rpa_copiedfileurl": "Copied File URL",
+      "rpa_crmtoken": "CRM Token",
+      "rpa_crn": "CRN Number",
+      "rpa_CustomerNotificationId": "Customer Notification",
+      "rpa_direction": "Direction",
+      "rpa_doccategoryproxy": "Doc. Category Proxy",
+      "rpa_docrefproxy": "Doc. Ref Proxy",
+      "rpa_docsubcategoryproxy": "Doc. Sub Category Proxy",
+      "rpa_doctypeproxy": "Doc. Type Proxy",
+      "rpa_documentid": "Document ID",
+      "rpa_documentlocation": "Document Location",
+      "rpa_DocumentTypeMetaId": "Document Type Meta",
+      "rpa_EnvelopeGroupingId": "Envelope Grouping",
+      "rpa_envelopeid": "Envelope ID",
+      "rpa_fileabsoluteurl": "File Absolute URL",
+      "rpa_filename": "Filename",
+      "rpa_filenumber": "File Number",
+      "rpa_filesinenvelope": "Files in envelope",
+      "rpa_filesizebytes": "File Size (Bytes)",
+      "rpa_InternalNoteId": "Internal Note",
+      "rpa_mimetype": "MIME Type",
+      "rpa_name": "Name",
+      "rpa_nameoncorrespondence": "Name on Correspondence",
+      "rpa_nameonletter": "Name On Letter",
+      "rpa_organisation": "Organisation",
+      "rpa_postreceiveddate": "Post Received Date",
+      "rpa_processingstatus": "Processing Status(**To be Deleted**)",
+      "rpa_ProcessingStatusLookup": "Processing Status Lookup",
+      "rpa_RelatedCase": "Related Case",
+      "rpa_RelatedMetaDataId": "Related Email",
+      "rpa_RelatedOnlineSubmissionId": "Related Online Submission",
+      "rpa_relatedwhitemailid": "Related Scanned",
+      "rpa_rpa_activitymetadata_incident": "Cases",
+      "rpa_rpa_activitymetadata_rpa_activitymetadata": "Activity Meta Data (rpa_rpa_activitymetadata_rpa_activitymetadata)",
+      "rpa_rpa_activitymetadata_rpa_documenttypes": "Document Types",
+      "rpa_sbi": "SBI Number",
+      "rpa_scandate": "Scan Date",
+      "rpa_securitymarking": "Security Marking",
+      "rpa_sensitive": "Sensitive",
+      "rpa_sharepointfileid": "Sharepoint File ID",
+      "rpa_sitiagricaseid": "SitiAgri Case ID",
+      "rpa_sourceid": "Source ID",
+      "rpa_sourcesystem": "Source System",
+      "rpa_xmlpostdata": "XML Post Data",
+      "rpa_xmlpostreason": "XML Post Reason",
+      "rpa_xmlpostsuccess": "XML Post Success",
+      "statecode": "Status",
+      "statuscode": "Status Reason",
+      "timezoneruleversionnumber": "Time Zone Rule Version Number",
+      "utcconversiontimezonecode": "UTC Conversion Time Zone Code",
+      "versionnumber": "Version Number"
+    },
+    "PreferredName": "Activity Meta Data",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "Activity Meta Data (Views)",
+    "Name": "_rpa_activitymetadata_views",
+    "RelatedEntityName": "Activity Meta Data",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "1f2c96ea-535f-40a7-9e47-4e6bb520a22a": "Activity Meta Data Associated View",
+      "20e18bd5-2df5-eb11-94ef-000d3adc8789": "AMD for Preview",
+      "21479bb6-5f4a-41f3-b251-70448985585e": "Active Activity Meta Data",
+      "2830eac9-6886-44e9-b69e-671ea300d5a5": "Inactive Activity Meta Data",
+      "3a61f86c-019d-e611-9432-00155d9c64b0": "Envelope Grouping",
+      "42915e09-9858-e511-9417-00155d9c64b2": "All Activity Metadata Records",
+      "5d5e6840-cfa7-e911-a850-000d3ab4b02a": "Duplicate Document ID Check",
+      "6c428fd0-1359-ee11-be6f-000d3adf3558": "eRLE1 Map Files with File Discrepancy Issues",
+      "a117a7b6-03f2-4b76-847c-5298dbc29f5c": "Activity Meta Data Lookup View",
+      "ae1a6a38-179d-e611-9408-00155d9c6427": "Test",
+      "ae1bcc77-3843-ee11-bdf3-002248a28b4d": "eRLE1 Map Files Pending Transfer to Cyient",
+      "afef9101-af89-eb11-b1ac-0022489bca7e": "Email Triage Activity Metadata",
+      "b4485850-cbb0-e611-9445-00155d9c64b1": "Outgoing Documents",
+      "b75991f6-77f6-437b-bfbd-883261b24dd5": "Activity Meta Data Advanced Find View",
+      "c1fdbf51-d467-e711-8107-5065f38a4a21": "Email - SharePoint AMD",
+      "d7c2c53d-fc7c-ec11-8d21-000d3a659c50": "Housekeeping - CS Emails no Doc Type on Metadata",
+      "e8fc3f80-4e25-ee11-9cbc-000d3adbfcfd": "Activity Meta Data - Online Sub"
+    }
+  },
+  {
+    "DisplayName": "Direction (Activity Meta Data)",
+    "Name": "rpa_activitymetadata_rpa_direction",
+    "OptionSetInfoNameMapping": {
+      "0": "Incoming",
+      "1": "Outgoing"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "rpa_direction",
+        "OptionSetReferenceEntityName": "Activity Meta Data"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "rpa_direction",
+    "RelatedEntityName": "Activity Meta Data",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Processing Status(**To be Deleted**) (Activity Meta Data)",
+    "Name": "rpa_activitymetadata_rpa_processingstatus",
+    "OptionSetInfoNameMapping": {
+      "927350000": "On Hold (Awaiting Customer Action)",
+      "927350001": "In Progress",
+      "927350002": "On Hold (Specialist Input Requested)",
+      "927350003": "Not Processed - Duplicate",
+      "927350004": "Data Capture Complete",
+      "927350005": "Withdrawn",
+      "927350006": "Document Triage In Progress",
+      "927350007": "Document Triage On Hold",
+      "927350008": "Document Triage Completed",
+      "927350009": "Missing Information",
+      "927350010": "Mis-scanned",
+      "927350011": "Entitlement RLE1 - deferred for future action",
+      "927350012": "Scanning Error by External Scan Provider",
+      "927350013": "Triage complete customer response required 2015/16",
+      "927350014": "Triage complete customer response required 2015",
+      "927350015": "Triage complete customer response required 2016",
+      "927350016": "Triage complete amendment required to 2016 claim",
+      "927350017": "Triage complete supporting document",
+      "927350018": "Triage complete amendment required to 2015 claim",
+      "927350019": "Triage complete customer requires a response 2015 multiple",
+      "927350020": "Triage complete customer requires a response 2016 multiple",
+      "927350021": "Triage complete customer requires a response 2015/16 multiple",
+      "927350022": "2015 Query Cleared, 2016 Query Outstanding",
+      "927350023": "2016 Query Cleared, 2015 Query Outstanding",
+      "927350024": "Rural Payments Internal Queries",
+      "927350025": "Triaged genuine unknown customer",
+      "927350026": "Rejected Claim - After 10th June",
+      "927350027": "Action Required - Claim Impacting",
+      "927350028": "Action Required - No Impact",
+      "927350029": "On Hold (ER Response)",
+      "927350030": "On Hold (ER Request)",
+      "927350031": "PPA",
+      "927350032": "Action Required - Debt Invoice Challenge",
+      "927350033": "Action Required - 2015/2016 Inspection Challenge",
+      "927350034": "Action Required - 2017 Inspection Challenge",
+      "927350035": "Action Required - BPS Correspondence",
+      "927350036": "Triage - Awaiting Customer Comms Response",
+      "927350037": "Triage - Awaiting Service Desk Response",
+      "927350038": "Action Required - Payment Query",
+      "927350039": "Triage - On Hold"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "rpa_processingstatus",
+        "OptionSetReferenceEntityName": "Activity Meta Data"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "rpa_processingstatus",
+    "RelatedEntityName": "Activity Meta Data",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Security Marking (Activity Meta Data)",
+    "Name": "rpa_activitymetadata_rpa_securitymarking",
+    "OptionSetInfoNameMapping": {
+      "927350000": "Official",
+      "927350001": "Official - Sensitive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "rpa_securitymarking",
+        "OptionSetReferenceEntityName": "Activity Meta Data"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "rpa_securitymarking",
+    "RelatedEntityName": "Activity Meta Data",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Sensitive (Activity Meta Data)",
+    "Name": "rpa_activitymetadata_rpa_sensitive",
+    "OptionSetInfoNameMapping": {
+      "0": "No",
+      "1": "Yes"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "rpa_sensitive",
+        "OptionSetReferenceEntityName": "Activity Meta Data"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "rpa_sensitive",
+    "RelatedEntityName": "Activity Meta Data",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status (Activity Meta Data)",
+    "Name": "rpa_activitymetadata_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Active",
+      "1": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "Activity Meta Data"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "Activity Meta Data",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status Reason (Activity Meta Data)",
+    "Name": "rpa_activitymetadata_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Active",
+      "2": "No Response Required",
+      "927350000": "Deleted",
+      "927350001": "On Hold",
+      "927350002": "Partial Response Provided",
+      "927350003": "No Action Required",
+      "927350004": "Full Response Provided",
+      "927350005": "Triage Complete"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "Activity Meta Data"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "Activity Meta Data",
+    "Type": "OptionSetInfo"
+  }
+]

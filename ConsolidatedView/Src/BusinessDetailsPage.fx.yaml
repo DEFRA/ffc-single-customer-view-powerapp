@@ -1,0 +1,183 @@
+BusinessDetailsPage As screen:
+    OnVisible: |-
+        =UpdateContext({businessDetail: Blank()}); UpdateContext( { businessDetail: business_details.Run(graphQlUrl, activeBusiness.id) });
+
+    BusinessDetailsPageContainer As groupContainer.verticalAutoLayoutContainer:
+        Height: =Parent.Height
+        LayoutDirection: =LayoutDirection.Vertical
+        LayoutGap: =10
+        LayoutMode: =LayoutMode.Auto
+        LayoutOverflowY: =LayoutOverflow.Scroll
+        Width: =Parent.Width
+        ZIndex: =3
+
+        Page1Menu As PageMenu:
+            Height: =60
+            LayoutMinHeight: =640
+            Width: =Parent.Width
+
+        BusinessDetailsPageHeader_1 As PageHeader:
+            LayoutMinHeight: =640
+            LayoutMinWidth: =640
+            MainTitle: ="Business Details"
+            SubTitle: =businessDetail.data.business.info.name
+            ZIndex: =2
+
+        Container3 As groupContainer.horizontalAutoLayoutContainer:
+            DropShadow: =DropShadow.None
+            Height: =Max(Container4.Height, Container5.Height)
+            LayoutGap: =40
+            LayoutJustifyContent: =LayoutJustifyContent.SpaceBetween
+            LayoutMinHeight: =100
+            LayoutMinWidth: =250
+            LayoutMode: =LayoutMode.Auto
+            ZIndex: =3
+
+            Container4 As groupContainer.verticalAutoLayoutContainer:
+                ContentLanguage: =
+                DropShadow: =DropShadow.None
+                Height: =Sum(BusinessDetailSection_1.Height + BusinessDetailsCorispondenceSection_1.Height + BusinessDetailAdditionalDetailsSection_1.Height) + 30
+                LayoutDirection: =LayoutDirection.Vertical
+                LayoutMinHeight: =100
+                LayoutMinWidth: =250
+                LayoutMode: =LayoutMode.Auto
+                RadiusBottomLeft: =0
+                RadiusBottomRight: =0
+                RadiusTopLeft: =0
+                RadiusTopRight: =0
+                ZIndex: =1
+
+                BusinessDetailSection_1 As BusinessDetailSectionComponent:
+                    Height: =BusinessDetailSection_1.calcHeight
+                    Items: |-
+                        =Table({
+                          Field: "Business Name",
+                          Value: businessDetail.data.business.info.name
+                        },{
+                          Field: "Address", 
+                          Value: Concat(Filter(Split($"{businessDetail.data.business.info.address.buildingName},{businessDetail.data.business.info.address.flatName},{businessDetail.data.business.info.address.street},{businessDetail.data.business.info.address.city},{businessDetail.data.business.info.address.county},{businessDetail.data.business.info.address.postalCode},{businessDetail.data.business.info.address.country}", ","), Len(Value) > 0), Value & "<br>")
+                        })
+                    LayoutMinHeight: =640
+                    Title: ="Business contact details"
+                    Width: =Parent.Width
+
+                BusinessDetailsCorispondenceSection_1 As BusinessDetailSectionComponent:
+                    Height: =BusinessDetailsCorispondenceSection_1.calcHeight
+                    Items: |-
+                        =Table(
+                          { 
+                            Field: "Email", 
+                            Value: businessDetail.data.business.info.email.address
+                          },
+                          {
+                            Field: "Address",
+                            Value: Concat(Filter(Split($"{businessDetail.data.business.info.address.buildingName},{businessDetail.data.business.info.address.flatName},{businessDetail.data.business.info.address.street},{businessDetail.data.business.info.address.city},{businessDetail.data.business.info.address.county},{businessDetail.data.business.info.address.postalCode},{businessDetail.data.business.info.address.country}", ","), Len(Value) > 0), Value & "<br>")
+                          },
+                          {
+                            Field: "Landline",
+                            Value: businessDetail.data.business.info.phone.landline
+                          },
+                          {
+                            Field: "Mobile",
+                            Value: businessDetail.data.business.info.phone.mobile
+                          }
+                        )
+                    LayoutMinHeight: =640
+                    Title: ="Corrispondence contact details"
+                    Width: =Parent.Width
+                    ZIndex: =2
+
+                BusinessDetailAdditionalDetailsSection_1 As BusinessDetailSectionComponent:
+                    Height: =BusinessDetailAdditionalDetailsSection_1.calcHeight
+                    Items: |-
+                        =Table(
+                          { 
+                            Field: "Legal status",
+                            Value: businessDetail.data.business.info.legalStatus.type
+                          },
+                          {
+                            Field: "Business type",
+                            Value: businessDetail.data.business.info.type.type
+                          },
+                          {
+                            Field: "Companies House registration number",
+                            Value: businessDetail.data.business.info.registrationNumbers.companiesHouse
+                          },
+                          {
+                            Field: "Charity Commission registration number",
+                            Value: businessDetail.data.business.info.registrationNumbers.charityCommission
+                          },
+                          {
+                            Field: "Date started farming",
+                            Value: ""
+                          }
+                        )
+                    LayoutMinHeight: =640
+                    Title: ="Additional Details"
+                    Width: =Parent.Width
+                    ZIndex: =3
+
+            Container5 As groupContainer.verticalAutoLayoutContainer:
+                AlignInContainer: =AlignInContainer.SetByContainer
+                DropShadow: =DropShadow.None
+                Height: =Sum(BusinessDetailReferenceNumbersSection_1.Height + BusinessDetailsCPHSection_1.Height)
+                LayoutDirection: =LayoutDirection.Vertical
+                LayoutMinHeight: =100
+                LayoutMinWidth: =250
+                LayoutMode: =LayoutMode.Auto
+                ZIndex: =2
+
+                BusinessDetailReferenceNumbersSection_1 As BusinessDetailSectionComponent:
+                    Height: =BusinessDetailReferenceNumbersSection_1.calcHeight
+                    Items: |-
+                        =Table(
+                          {
+                            Field: "Single business identifier",
+                            Value: businessDetail.data.business.info.sbi
+                          },
+                          {
+                            Field: "VAT registration number",
+                            Value: businessDetail.data.business.info.vat
+                          },
+                          {
+                            Field: "Vender number",
+                            Value: businessDetail.data.business.id
+                          }
+                        )
+                    LayoutMinHeight: =640
+                    Title: ="Reference Numbers"
+                    Width: =Parent.Width
+
+                BusinessDetailsCPHSection_1 As BusinessDetailSectionComponent:
+                    Height: =BusinessDetailsCPHSection_1.calcHeight
+                    Items: |-
+                        =Table(
+                          {
+                            Field: "CPH Number",
+                            Value: "43/060/0025"
+                          },
+                          {
+                            Field: "X & Y Co-ordinates",
+                            Value: "429000, 236000"
+                          },
+                          {
+                            Field: "Parish",
+                            Value: "CHERINGTON"
+                          },
+                          {
+                            Field: "Start date",
+                            Value: "1210806000000"
+                          },
+                          {
+                            Field: "Expiry date",
+                            Value: "253402214400000"
+                          },
+                          {
+                            Field: "Species",
+                            Value: "Other"
+                          })
+                    LayoutMinHeight: =640
+                    Title: ="County Parish Holiding (CPH ) information"
+                    Width: =Parent.Width
+                    ZIndex: =2
+

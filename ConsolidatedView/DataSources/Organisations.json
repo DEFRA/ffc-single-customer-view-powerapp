@@ -1,0 +1,1519 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "accounts",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "account",
+    "MaxGetRowsCount": 500,
+    "Name": "Organisations",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Owner",
+      "{Attachments}": "Attachments",
+      "account_actioncard": "Action Cards",
+      "Account_ActivityPointers": "Activities",
+      "account_adx_alertsubscriptions": "Alert Subscriptions",
+      "account_adx_inviteredemptions": "Invite Redemptions",
+      "account_adx_portalcomments": "Portal Comments",
+      "Account_Annotation": "Notes",
+      "Account_Appointments": "Appointments",
+      "Account_AsyncOperations": "System Jobs",
+      "account_bookableresource_AccountId": "Bookable Resources",
+      "Account_BulkDeleteFailures": "Bulk Delete Failures",
+      "account_BulkOperations": "Quick Campaigns (account_BulkOperations)",
+      "account_CampaignActivities": "Campaign Activities (account_CampaignActivities)",
+      "account_CampaignResponses": "Campaign Responses",
+      "account_chats": "Teams chats",
+      "account_connections1": "Connections (account_connections1)",
+      "account_connections2": "Connections (account_connections2)",
+      "Account_CustomerAddress": "Addresses",
+      "Account_DuplicateBaseRecord": "Duplicate Records (Account_DuplicateBaseRecord)",
+      "Account_DuplicateMatchingRecord": "Duplicate Records (Account_DuplicateMatchingRecord)",
+      "Account_Email_EmailSender": "Email Messages (Account_Email_EmailSender)",
+      "Account_Email_SendersAccount": "Email Messages (Account_Email_SendersAccount)",
+      "Account_Emails": "Email Messages (Account_Emails)",
+      "account_entitlement_Account": "Entitlements (account_entitlement_Account)",
+      "account_entitlement_Customer": "Entitlements (account_entitlement_Customer)",
+      "Account_Faxes": "Faxes",
+      "account_IncidentResolutions": "Case Resolutions",
+      "Account_Letters": "Letters",
+      "account_li_inmails": "inMails",
+      "account_li_messages": "Messages",
+      "account_li_pointdrivepresentationvieweds": "Smart Links Content Viewed",
+      "Account_MailboxTrackingFolder": "Mailbox Auto Tracking Folders",
+      "account_master_account": "Organisations (account_master_account)",
+      "account_msdyn_bookingalerts": "Booking Alerts",
+      "account_msdyn_copilottranscripts": "Copilot Transcripts",
+      "account_msdyn_ocliveworkitems": "Conversations (account_msdyn_ocliveworkitems)",
+      "account_msdyn_ocsessions": "Sessions",
+      "account_msfp_alerts": "Customer Voice alert",
+      "account_msfp_surveyinvites": "Customer Voice survey invites",
+      "account_msfp_surveyresponses": "Customer Voice survey responses",
+      "account_OpportunityCloses": "Opportunity Close Activities",
+      "account_OrderCloses": "Order Close Activities",
+      "account_parent_account": "Organisations (account_parent_account)",
+      "Account_Phonecalls": "Phone Calls",
+      "account_PostFollows": "Follows",
+      "account_PostRegardings": "Post Regarding",
+      "account_Posts": "Posts",
+      "account_principalobjectattributeaccess": "Field Sharing",
+      "Account_ProcessSessions": "Process Sessions",
+      "account_QuoteCloses": "Quote Close Activities",
+      "Account_RecurringAppointmentMasters": "Recurring Appointments",
+      "account_rpa_caseactions": "Case Actions",
+      "account_rpa_customerdocumentrequests": "Customer Document Requests (account_rpa_customerdocumentrequests)",
+      "account_rpa_customernotifications": "Customer Notifications (account_rpa_customernotifications)",
+      "account_rpa_letters": "Scanned (account_rpa_letters)",
+      "account_rpa_memos": "Internal Notes (account_rpa_memos)",
+      "account_rpa_onlineenquiries": "Online Enquiry (account_rpa_onlineenquiries)",
+      "account_rpa_onlinesubmissions": "Online Submissions",
+      "account_rpa_qualitychecks": "Quality Checks",
+      "account_rpa_undeliverablenotifications": "Undeliverable Notifications",
+      "Account_ServiceAppointments": "Service Appointments",
+      "Account_SharepointDocumentLocation": "Document Locations",
+      "Account_SocialActivities": "Social Activities (Account_SocialActivities)",
+      "Account_SyncErrors": "Sync Errors",
+      "Account_Tasks": "Tasks",
+      "accountcategorycode": "Category",
+      "accountclassificationcode": "Classification",
+      "accountid": "Account",
+      "accountleads_association": "Leads (accountleads_association)",
+      "accountnumber": "Account Number",
+      "accountratingcode": "Account Rating",
+      "address1_addresstypecode": "Address 1: Address Type",
+      "address1_city": "Town/City",
+      "address1_composite": "Address 1",
+      "address1_country": "Country",
+      "address1_county": "County",
+      "address1_fax": "Address 1: Fax",
+      "address1_freighttermscode": "Address 1: Freight Terms",
+      "address1_latitude": "Address 1: Latitude",
+      "address1_line1": "Address Line 1",
+      "address1_line2": "Address Line 2",
+      "address1_line3": "Address Line 3",
+      "address1_longitude": "Address 1: Longitude",
+      "address1_name": "Address 1: Name",
+      "address1_postalcode": "Post Code",
+      "address1_postofficebox": "Address 1: Post Office Box",
+      "address1_primarycontactname": "Address 1: Primary Contact Name",
+      "address1_shippingmethodcode": "Address 1: Shipping Method",
+      "address1_stateorprovince": "Address 1: State/Province",
+      "address1_telephone1": "Address Phone",
+      "address1_telephone2": "Address 1: Telephone 2",
+      "address1_telephone3": "Address 1: Telephone 3",
+      "address1_upszone": "Address 1: UPS Zone",
+      "address1_utcoffset": "Address 1: UTC Offset",
+      "address2_addresstypecode": "Address 2: Address Type",
+      "address2_city": "Town/City(2)",
+      "address2_composite": "Address 2",
+      "address2_country": "Country(2)",
+      "address2_county": "County(2)",
+      "address2_fax": "Address 2: Fax",
+      "address2_freighttermscode": "Address 2: Freight Terms",
+      "address2_latitude": "Address 2: Latitude",
+      "address2_line1": "Address Line 1(2)",
+      "address2_line2": "Address Line 2(2)",
+      "address2_line3": "Address Line 3(2)",
+      "address2_longitude": "Address 2: Longitude",
+      "address2_name": "Address 2: Name",
+      "address2_postalcode": "Post Code(2)",
+      "address2_postofficebox": "Address 2: Post Office Box",
+      "address2_primarycontactname": "Address 2: Primary Contact Name",
+      "address2_shippingmethodcode": "Address 2: Shipping Method",
+      "address2_stateorprovince": "Address 2: State/Province",
+      "address2_telephone1": "Address 2: Telephone 1",
+      "address2_telephone2": "Address 2: Telephone 2",
+      "address2_telephone3": "Address 2: Telephone 3",
+      "address2_upszone": "Address 2: UPS Zone",
+      "address2_utcoffset": "Address 2: UTC Offset",
+      "adx_createdbyipaddress": "Created By (IP Address)",
+      "adx_createdbyusername": "Created By (User Name)",
+      "adx_invitation_assigntoaccount": "Invitations",
+      "adx_modifiedbyipaddress": "Modified By (IP Address)",
+      "adx_modifiedbyusername": "Modified By (User Name)",
+      "adx_webrole_account": "Web Roles",
+      "adx_website_sponsor": "Websites",
+      "aging30": "Aging 30",
+      "aging30_base": "Aging 30 (Base)",
+      "aging60": "Aging 60",
+      "aging60_base": "Aging 60 (Base)",
+      "aging90": "Aging 90",
+      "aging90_base": "Aging 90 (Base)",
+      "bpf_account_rpa_bpf_7f2e2aa48e0f48dfaae474fd7bf1bc73": "Business to Case",
+      "bpf_account_rpa_casefromorg": "Case from Org",
+      "BulkOperation_Logs_Accounts": "Quick Campaigns (BulkOperation_Logs_Accounts)",
+      "businesstypecode": "Business Type",
+      "CampaignActivity_Logs_Accounts": "Campaign Activities (CampaignActivity_Logs_Accounts)",
+      "contact_customer_accounts": "Contacts (contact_customer_accounts)",
+      "contract_billingcustomer_accounts": "Contracts (contract_billingcustomer_accounts)",
+      "contract_customer_accounts": "Contracts (contract_customer_accounts)",
+      "contractlineitem_customer_accounts": "Contract Lines",
+      "createdby": "Created By",
+      "createdon": "Created On",
+      "createdonbehalfby": "Created By (Delegate)",
+      "creditlimit": "Credit Limit",
+      "creditlimit_base": "Credit Limit (Base)",
+      "creditonhold": "Credit Hold",
+      "customersizecode": "Customer Size",
+      "customertypecode": "Relationship Type",
+      "defaultpricelevelid": "Price List",
+      "description": "Description",
+      "donotbulkemail": "Do not allow Bulk Emails",
+      "donotbulkpostalmail": "Do not allow Bulk Mails",
+      "donotemail": "Do not allow Emails",
+      "donotfax": "Do not allow Faxes",
+      "donotphone": "Do not allow Phone Calls",
+      "donotpostalmail": "Do not allow Mails",
+      "donotsendmm": "Send Marketing Materials",
+      "emailaddress1": "Email",
+      "emailaddress2": "Email Address 2",
+      "emailaddress3": "Email Address 3",
+      "entityimage": "Default Image",
+      "entityimageid": "Entity Image Id",
+      "exchangerate": "Exchange Rate",
+      "fax": "Fax",
+      "followemail": "Follow Email Activity",
+      "ftpsiteurl": "FTP Site",
+      "importsequencenumber": "Import Sequence Number",
+      "incident_customer_accounts": "Cases (incident_customer_accounts)",
+      "industrycode": "Industry",
+      "invoice_customer_accounts": "Invoices",
+      "lastonholdtime": "Last On Hold Time",
+      "lastusedincampaign": "Last Date Included in Campaign",
+      "lead_customer_accounts": "Leads (lead_customer_accounts)",
+      "lead_parent_account": "Leads (lead_parent_account)",
+      "listaccount_association": "Marketing Lists",
+      "marketcap": "Market Capitalization",
+      "marketcap_base": "Market Capitalization (Base)",
+      "marketingonly": "Marketing Only",
+      "masterid": "Master ID",
+      "merged": "Merged",
+      "modifiedby": "Modified By",
+      "modifiedon": "Modified On",
+      "modifiedonbehalfby": "Modified By (Delegate)",
+      "msa_account_managingpartner": "Organisations (msa_account_managingpartner)",
+      "msa_contact_managingpartner": "Contacts (msa_contact_managingpartner)",
+      "msa_managingpartnerid": "Managing Partner",
+      "msdyn_account_account_BillingAccount": "Organisations (msdyn_account_account_BillingAccount)",
+      "msdyn_account_dailyaccountkpiitem_entityid": "dailyaccountkpiitems",
+      "msdyn_account_msdyn_accountkpiitem_accountid": "Account KPI Items",
+      "msdyn_account_msdyn_actual_AccountCustomer": "Actuals (msdyn_account_msdyn_actual_AccountCustomer)",
+      "msdyn_account_msdyn_actual_AccountVendor": "Actuals (msdyn_account_msdyn_actual_AccountVendor)",
+      "msdyn_account_msdyn_actual_ServiceAccount": "Actuals (msdyn_account_msdyn_actual_ServiceAccount)",
+      "msdyn_account_msdyn_agreement_BillingAccount": "Agreements (msdyn_account_msdyn_agreement_BillingAccount)",
+      "msdyn_account_msdyn_agreement_ServiceAccount": "Agreements (msdyn_account_msdyn_agreement_ServiceAccount)",
+      "msdyn_account_msdyn_aicontactsuggestion_sourcerecord": "Teams Contact Suggestion by AI",
+      "msdyn_account_msdyn_customerasset_Account": "Customer Assets",
+      "msdyn_account_msdyn_entitlementapplication_serviceaccount": "Entitlement Applications",
+      "msdyn_account_msdyn_iotdevice_Account": "IoT Devices",
+      "msdyn_account_msdyn_liveconversation_Customer": "Ongoing conversations (Deprecated)",
+      "msdyn_account_msdyn_mostcontacted_regardingObjectId": "Most Contacted",
+      "msdyn_account_msdyn_mostcontactedby_regardingObjectId": "Most Contacted By",
+      "msdyn_account_msdyn_ocliveworkitem_Customer": "Conversations (msdyn_account_msdyn_ocliveworkitem_Customer)",
+      "msdyn_account_msdyn_payment_Account": "Payments",
+      "msdyn_account_msdyn_purchaseorder_Vendor": "Purchase Orders",
+      "msdyn_account_msdyn_requirementresourcepreference_Account": "Requirement Resource Preferences",
+      "msdyn_account_msdyn_rma_BillingAccount": "RMAs (msdyn_account_msdyn_rma_BillingAccount)",
+      "msdyn_account_msdyn_rma_ServiceAccount": "RMAs (msdyn_account_msdyn_rma_ServiceAccount)",
+      "msdyn_account_msdyn_rmaproduct_Changeownership": "RMA Products (msdyn_account_msdyn_rmaproduct_Changeownership)",
+      "msdyn_account_msdyn_rmaproduct_ReturntoVendor": "RMA Products (msdyn_account_msdyn_rmaproduct_ReturntoVendor)",
+      "msdyn_account_msdyn_rtv_Vendor": "RTVs",
+      "msdyn_account_msdyn_workorder_BillingAccount": "Work Orders (msdyn_account_msdyn_workorder_BillingAccount)",
+      "msdyn_account_msdyn_workorder_ServiceAccount": "Work Orders (msdyn_account_msdyn_workorder_ServiceAccount)",
+      "msdyn_account_msdyn_workorderresourcerestriction_Account": "Resource Restrictions (Deprecated)",
+      "msdyn_account_opportunityproduct_ServiceAccount": "Opportunity Products",
+      "msdyn_account_product_DefaultVendor": "Products",
+      "msdyn_account_quote_Account": "Quotes (msdyn_account_quote_Account)",
+      "msdyn_account_quotedetail_ServiceAccount": "Quote Products",
+      "msdyn_account_salesorder_Account": "Orders (msdyn_account_salesorder_Account)",
+      "msdyn_accountkpiid": "KPI",
+      "msdyn_billingaccount_account": "Billing Account",
+      "msdyn_gdproptout": "GDPR Optout",
+      "msdyn_msdyn_conversationparticipantinsights_account_msdyn_user": "Conversation Participant Insights",
+      "msdyn_msdyn_functionallocation_account": "Functional Locations",
+      "msdyn_msdyn_preferredagent_account_msdyn_recordId": "Preferred Agents",
+      "msdyn_msdyn_salescopilotinsight_account_msdyn_targetentityid": "Sales Copilot Insights",
+      "msdyn_playbookinstance_account": "Playbooks",
+      "msdyn_PreferredResource": "Preferred Resource (Deprecated)",
+      "msdyn_sabackupdiagnostic_account_msdyn_target": "sabackupdiagnostics",
+      "msdyn_salesaccelerationinsightid": "Sales Acceleration Insights ID",
+      "msdyn_salesaccelerationinsights_account": "Sales acceleration insights",
+      "msdyn_salesroutingdiagnostic_account_msdyn_target": "salesroutingdiagnostics",
+      "msdyn_salessuggestion_account": "Insights",
+      "msdyn_salestaxcode": "Sales Tax Code",
+      "msdyn_segmentid": "Segment Id",
+      "msdyn_sequencetarget_account_msdyn_target": "Sequence Targets",
+      "msdyn_serviceterritory": "Service Territory",
+      "msdyn_swarm_account": "Swarms",
+      "msdyn_taxexempt": "Tax Exempt",
+      "msdyn_taxexemptnumber": "Tax Exempt Number",
+      "msdyn_travelcharge": "Travel Charge",
+      "msdyn_travelcharge_base": "Travel Charge (Base)",
+      "msdyn_travelchargetype": "Travel Charge Type",
+      "msdyn_workhourtemplate": "Work Hour Template",
+      "msdyn_workorderinstructions": "Work Order Instructions",
+      "name": "Account Name",
+      "new_account_msdyn_orgchartnodeupdated_msdyn_parentrecordupdated": "Microsoft Orgchart node entities",
+      "new_account_new_applicant": "Applicants",
+      "numberofemployees": "Number of Employees",
+      "onholdtime": "On Hold Time (Minutes)",
+      "opendeals": "Open Deals",
+      "opendeals_date": "Open Deals (Last Updated On)",
+      "opendeals_state": "Open Deals (State)",
+      "openrevenue": "Open Revenue",
+      "openrevenue_base": "Open Revenue (Base)",
+      "openrevenue_date": "Open Revenue (Last Updated On)",
+      "openrevenue_state": "Open Revenue (State)",
+      "opportunity_customer_accounts": "Opportunities (opportunity_customer_accounts)",
+      "opportunity_parent_account": "Opportunities (opportunity_parent_account)",
+      "order_customer_accounts": "Orders (order_customer_accounts)",
+      "originatingleadid": "Originating Lead",
+      "overriddencreatedon": "Record Created On",
+      "ownershipcode": "Ownership",
+      "owningbusinessunit": "Owning Business Unit",
+      "owningteam": "Owning Team",
+      "owninguser": "Owning User",
+      "parentaccountid": "Parent Account",
+      "participatesinworkflow": "Participates in Workflow",
+      "paymenttermscode": "Payment Terms",
+      "powerpagecomponent_mspp_webrole_account": "Site Components",
+      "preferredappointmentdaycode": "Preferred Day",
+      "preferredappointmenttimecode": "Preferred Time",
+      "preferredcontactmethodcode": "Preferred Method of Contact",
+      "preferredequipmentid": "Preferred Facility/Equipment",
+      "preferredserviceid": "Preferred Service",
+      "preferredsystemuserid": "Preferred User",
+      "primarycontactid": "Primary Contact",
+      "primarysatoriid": "Primary Satori ID",
+      "primarytwitterid": "Primary Twitter ID",
+      "processid": "Process",
+      "quote_customer_accounts": "Quotes (quote_customer_accounts)",
+      "revenue": "Annual Revenue",
+      "revenue_base": "Annual Revenue (Base)",
+      "rpa_account_account_SubOrg": "Organisations (rpa_account_account_SubOrg)",
+      "rpa_account_email_organisation": "Email Messages (rpa_account_email_organisation)",
+      "rpa_account_incident_Organisation": "Cases (rpa_account_incident_Organisation)",
+      "rpa_account_lead_account": "Leads (rpa_account_lead_account)",
+      "rpa_account_rpa_activitymetadata_organisation": "Activity Meta Data",
+      "rpa_account_rpa_ahwrdata_relatedorganisation": "AHWR Data",
+      "rpa_account_rpa_appealdetail_RelatedOrganisation": "Appeal Details",
+      "rpa_account_rpa_bp5claimdata": "BP5 Claim Data",
+      "rpa_account_rpa_causecombination_RelatedOrganisation": "Cause Combinations",
+      "rpa_account_rpa_chaseup_LinkedOrganisation": "Chase Ups",
+      "rpa_account_rpa_commonsapplicationdata": "Commons Application Data",
+      "rpa_account_rpa_complaintdetail": "Complaint Details (rpa_account_rpa_complaintdetail)",
+      "rpa_account_rpa_complaintdetail_RelatedOrganisation": "Complaint Details (rpa_account_rpa_complaintdetail_RelatedOrganisation)",
+      "rpa_account_rpa_contactrole_Organisation": "Contact Role",
+      "rpa_account_rpa_csapplicationdata": "CS Application Data",
+      "rpa_account_rpa_csclaimdata_Organisation": "CS Claim Data",
+      "rpa_account_rpa_csmanagement_Organisation": "CS Management Data",
+      "rpa_account_rpa_customerdocumentrequest_organisation": "Customer Document Requests (rpa_account_rpa_customerdocumentrequest_organisation)",
+      "rpa_account_rpa_customermessage_RelatedOrganisation": "Customer Messages",
+      "rpa_account_rpa_customernotification_organisation": "Customer Notifications (rpa_account_rpa_customernotification_organisation)",
+      "rpa_account_rpa_elmqueryform_RelatedOrganisation": "E.L.M. Queries",
+      "rpa_account_rpa_environmentalstewardshipmetad": "Environmental Stewardship Metadata",
+      "rpa_account_rpa_ercmetadata_RegisteredOrganisation": "ERC Meta Data",
+      "rpa_account_rpa_legacyidentifier_parentorganisation": "Legacy Identifiers",
+      "rpa_account_rpa_letter_Organisation": "Scanned (rpa_account_rpa_letter_Organisation)",
+      "rpa_account_rpa_mailmerge_Organisation": "Mail Merges",
+      "rpa_account_rpa_memo_Organisation": "Internal Notes (rpa_account_rpa_memo_Organisation)",
+      "rpa_account_rpa_ombudsmandetail": "Ombudsman Detail",
+      "rpa_account_rpa_onlineenquiry_organisation": "Online Enquiry (rpa_account_rpa_onlineenquiry_organisation)",
+      "rpa_account_rpa_paymentbatchlines_Organisation": "Payment Batch Lines",
+      "rpa_account_rpa_ppaclaim": "Payment Query",
+      "rpa_account_rpa_remedy_RelatedOrganisation": "Remedies",
+      "rpa_account_rpa_remedyline_Organisation": "Remedy Lines",
+      "rpa_account_rpa_sfidata_RelatedOrganisation": "SFI Data",
+      "rpa_account_rpa_statementdata": "Statement Data",
+      "rpa_capfirmid": "CAP Firm Id",
+      "rpa_companynumber": "Company Number",
+      "rpa_correspondencefax": "Correspondence Fax",
+      "rpa_correspondencemobile": "Correspondence Mobile",
+      "rpa_crossborder": "Cross Border?",
+      "rpa_financial_to_business_addr": "Financial to business address",
+      "rpa_infoflash": "Info Flash",
+      "rpa_internalupdate": "Internal Update",
+      "rpa_isprotected": "Is Protected?",
+      "rpa_isstatutorybody": "Is Statutory Body",
+      "rpa_leased": "Leased?",
+      "rpa_legalstatus": "Legal Status",
+      "rpa_mdmid": "MDM ID",
+      "rpa_mhsnumber": "MHS Number",
+      "rpa_organisationlocked": "Organisation Locked",
+      "rpa_organisationtype": "Organisation Type",
+      "rpa_sbinumber": "SBI Number",
+      "rpa_sbiowner": "SBI Owner",
+      "rpa_sfibetatestphase1": "SFI Beta Test - Phase 1",
+      "rpa_sfipilotmember": "SFI Pilot Member",
+      "rpa_sharedemail": "Shared Email",
+      "rpa_statistics": "Statistics",
+      "rpa_subordinateorgcount": "Subordinate Org Count Calculation",
+      "rpa_subordinateorgcountrollup": "Subordinate Org Count Rollup",
+      "rpa_subordinateorgcountrollup_date": "Subordinate Org Count Rollup (Last Updated On)",
+      "rpa_subordinateorgcountrollup_state": "Subordinate Org Count Rollup (State)",
+      "rpa_SubOrg": "SubOrg",
+      "rpa_taxregistrationnumber": "Tax Registration Number",
+      "rpa_traderregistrationnumber": "Trader Registration Number",
+      "rpa_vendornumber": "Vendor Number",
+      "rpa_warningflash": "Warning Flash",
+      "sharesoutstanding": "Shares Outstanding",
+      "shippingmethodcode": "Shipping Method",
+      "sic": "SIC Code",
+      "sla_account_sla": "SLA",
+      "slainvokedid_account_sla": "Last SLA applied",
+      "slakpiinstance_account": "SLA KPI Instances",
+      "SocialActivity_PostAuthor_accounts": "Social Activities (SocialActivity_PostAuthor_accounts)",
+      "SocialActivity_PostAuthorAccount_accounts": "Social Activities (SocialActivity_PostAuthorAccount_accounts)",
+      "Socialprofile_customer_accounts": "Social Profiles",
+      "stageid": "(Deprecated) Process Stage",
+      "statecode": "Status",
+      "statuscode": "Status Reason",
+      "stockexchange": "Stock Exchange",
+      "teamsfollowed": "TeamsFollowed",
+      "telephone1": "Main Phone",
+      "telephone2": "Other Phone",
+      "telephone3": "Telephone 3",
+      "territorycode": "Territory Code",
+      "territoryid": "Territory",
+      "tickersymbol": "Ticker Symbol",
+      "timespentbymeonemailandmeetings": "Time Spent by me",
+      "timezoneruleversionnumber": "Time Zone Rule Version Number",
+      "transactioncurrencyid": "Currency",
+      "traversedpath": "(Deprecated) Traversed Path",
+      "utcconversiontimezonecode": "UTC Conversion Time Zone Code",
+      "versionnumber": "Version Number",
+      "websiteurl": "Website",
+      "yominame": "Yomi Account Name"
+    },
+    "PreferredName": "Organisations",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "Organisations (Views)",
+    "Name": "_account_views",
+    "RelatedEntityName": "Organisations",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "00000000-0000-0000-00aa-000000666000": "Account Advanced Find View",
+      "00000000-0000-0000-00aa-000010001001": "My Active Accounts",
+      "00000000-0000-0000-00aa-000010001002": "Active Organisations",
+      "00000000-0000-0000-00aa-000010001031": "Inactive Accounts",
+      "00000000-0000-0000-00aa-000010001200": "Account Associated View",
+      "0f928982-20d3-e811-815b-000d3afd1036": "Service Account",
+      "15c63745-0a6e-4322-8416-a62c84d90279": "Accounts: Influenced Deals That We Won",
+      "1ac240d6-5778-e811-a837-000d3ab4b68a": "Accounts - Active",
+      "38a21ffb-4e32-4038-beb9-03172a0dd034": "Account List Member View",
+      "49fb9771-09e1-4e70-b193-198752493577": "Accounts: Responded to Campaigns in Last 6 Months",
+      "4bfea08c-9a4d-e611-80fc-0024e84720c6": "My Active Accounts by Relationship",
+      "4f8a5b99-31fc-eb11-94ef-0022489cc2af": "SFI Pilot Members",
+      "591f952c-8fb3-e411-9408-00155d9c6459": "Org Test",
+      "61273827-328e-e011-95ae-00155d9cfa02": "Organisations I Follow",
+      "61273827-328e-e011-95ae-00155d9cfa03": "Organisations Being Followed",
+      "65ffaf9a-e8c5-432d-860b-32f841b00d87": "All Accounts",
+      "7de498c2-508f-49a4-b2e8-d550d5b1b9ee": "Excluded Accounts Campaigns",
+      "a9af0ab8-861d-4cfa-92a5-c6281fed7fab": "Account Lookup View",
+      "cfbcd7af-aee5-4e45-8ecc-c040d4020581": "Accounts: No Campaign Activities in Last 3 Months",
+      "d15e48f6-e8fe-e811-8165-000d3af92c6e": "Selected Accounts Campaigns",
+      "d234426e-1f37-4944-9255-50e19b541c4c": "My Connections",
+      "fababbbb-60d0-ec11-a7b5-000d3ab7e368": "SFI Beta Members"
+    }
+  },
+  {
+    "DisplayName": "Category (Organisations)",
+    "Name": "account_accountcategorycode",
+    "OptionSetInfoNameMapping": {
+      "1": "Preferred Customer",
+      "2": "Standard"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "accountcategorycode",
+        "OptionSetReferenceEntityName": "Organisations"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "accountcategorycode",
+    "RelatedEntityName": "Organisations",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Classification (Organisations)",
+    "Name": "account_accountclassificationcode",
+    "OptionSetInfoNameMapping": {
+      "1": "Default Value"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "accountclassificationcode",
+        "OptionSetReferenceEntityName": "Organisations"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "accountclassificationcode",
+    "RelatedEntityName": "Organisations",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Account Rating (Organisations)",
+    "Name": "account_accountratingcode",
+    "OptionSetInfoNameMapping": {
+      "1": "Default Value"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "accountratingcode",
+        "OptionSetReferenceEntityName": "Organisations"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "accountratingcode",
+    "RelatedEntityName": "Organisations",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Address 1: Address Type (Organisations)",
+    "Name": "account_address1_addresstypecode",
+    "OptionSetInfoNameMapping": {
+      "1": "Bill To",
+      "2": "Ship To",
+      "3": "Primary",
+      "4": "Other"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "address1_addresstypecode",
+        "OptionSetReferenceEntityName": "Organisations"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "address1_addresstypecode",
+    "RelatedEntityName": "Organisations",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Address 1: Freight Terms (Organisations)",
+    "Name": "account_address1_freighttermscode",
+    "OptionSetInfoNameMapping": {
+      "1": "FOB",
+      "2": "No Charge"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "address1_freighttermscode",
+        "OptionSetReferenceEntityName": "Organisations"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "address1_freighttermscode",
+    "RelatedEntityName": "Organisations",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Address 1: Shipping Method (Organisations)",
+    "Name": "account_address1_shippingmethodcode",
+    "OptionSetInfoNameMapping": {
+      "1": "Airborne",
+      "2": "DHL",
+      "3": "FedEx",
+      "4": "UPS",
+      "5": "Postal Mail",
+      "6": "Full Load",
+      "7": "Will Call"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "address1_shippingmethodcode",
+        "OptionSetReferenceEntityName": "Organisations"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "address1_shippingmethodcode",
+    "RelatedEntityName": "Organisations",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Address 2: Address Type (Organisations)",
+    "Name": "account_address2_addresstypecode",
+    "OptionSetInfoNameMapping": {
+      "1": "Default Value"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "address2_addresstypecode",
+        "OptionSetReferenceEntityName": "Organisations"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "address2_addresstypecode",
+    "RelatedEntityName": "Organisations",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Address 2: Freight Terms (Organisations)",
+    "Name": "account_address2_freighttermscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Default Value"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "address2_freighttermscode",
+        "OptionSetReferenceEntityName": "Organisations"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "address2_freighttermscode",
+    "RelatedEntityName": "Organisations",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Address 2: Shipping Method (Organisations)",
+    "Name": "account_address2_shippingmethodcode",
+    "OptionSetInfoNameMapping": {
+      "1": "Default Value"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "address2_shippingmethodcode",
+        "OptionSetReferenceEntityName": "Organisations"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "address2_shippingmethodcode",
+    "RelatedEntityName": "Organisations",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Business Type (Organisations)",
+    "Name": "account_businesstypecode",
+    "OptionSetInfoNameMapping": {
+      "1": "Default Value"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "businesstypecode",
+        "OptionSetReferenceEntityName": "Organisations"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "businesstypecode",
+    "RelatedEntityName": "Organisations",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Credit Hold (Organisations)",
+    "Name": "account_creditonhold",
+    "OptionSetInfoNameMapping": {
+      "0": "No",
+      "1": "Yes"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "creditonhold",
+        "OptionSetReferenceEntityName": "Organisations"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "creditonhold",
+    "RelatedEntityName": "Organisations",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Customer Size (Organisations)",
+    "Name": "account_customersizecode",
+    "OptionSetInfoNameMapping": {
+      "1": "Default Value"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "customersizecode",
+        "OptionSetReferenceEntityName": "Organisations"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "customersizecode",
+    "RelatedEntityName": "Organisations",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Relationship Type (Organisations)",
+    "Name": "account_customertypecode",
+    "OptionSetInfoNameMapping": {
+      "1": "Competitor",
+      "10": "Supplier",
+      "11": "Vendor",
+      "12": "Other",
+      "2": "Consultant",
+      "3": "Customer",
+      "4": "Investor",
+      "5": "Partner",
+      "6": "Influencer",
+      "7": "Press",
+      "8": "Prospect",
+      "9": "Reseller"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "customertypecode",
+        "OptionSetReferenceEntityName": "Organisations"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "customertypecode",
+    "RelatedEntityName": "Organisations",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Do not allow Bulk Emails (Organisations)",
+    "Name": "account_donotbulkemail",
+    "OptionSetInfoNameMapping": {
+      "0": "Allow",
+      "1": "Do Not Allow"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "donotbulkemail",
+        "OptionSetReferenceEntityName": "Organisations"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "donotbulkemail",
+    "RelatedEntityName": "Organisations",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Do not allow Bulk Mails (Organisations)",
+    "Name": "account_donotbulkpostalmail",
+    "OptionSetInfoNameMapping": {
+      "0": "No",
+      "1": "Yes"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "donotbulkpostalmail",
+        "OptionSetReferenceEntityName": "Organisations"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "donotbulkpostalmail",
+    "RelatedEntityName": "Organisations",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Do not allow Emails (Organisations)",
+    "Name": "account_donotemail",
+    "OptionSetInfoNameMapping": {
+      "0": "Allow",
+      "1": "Do Not Allow"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "donotemail",
+        "OptionSetReferenceEntityName": "Organisations"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "donotemail",
+    "RelatedEntityName": "Organisations",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Do not allow Faxes (Organisations)",
+    "Name": "account_donotfax",
+    "OptionSetInfoNameMapping": {
+      "0": "Allow",
+      "1": "Do Not Allow"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "donotfax",
+        "OptionSetReferenceEntityName": "Organisations"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "donotfax",
+    "RelatedEntityName": "Organisations",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Do not allow Phone Calls (Organisations)",
+    "Name": "account_donotphone",
+    "OptionSetInfoNameMapping": {
+      "0": "Allow",
+      "1": "Do Not Allow"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "donotphone",
+        "OptionSetReferenceEntityName": "Organisations"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "donotphone",
+    "RelatedEntityName": "Organisations",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Do not allow Mails (Organisations)",
+    "Name": "account_donotpostalmail",
+    "OptionSetInfoNameMapping": {
+      "0": "Allow",
+      "1": "Do Not Allow"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "donotpostalmail",
+        "OptionSetReferenceEntityName": "Organisations"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "donotpostalmail",
+    "RelatedEntityName": "Organisations",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Send Marketing Materials (Organisations)",
+    "Name": "account_donotsendmm",
+    "OptionSetInfoNameMapping": {
+      "0": "Send",
+      "1": "Do Not Send"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "donotsendmm",
+        "OptionSetReferenceEntityName": "Organisations"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "donotsendmm",
+    "RelatedEntityName": "Organisations",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Follow Email Activity (Organisations)",
+    "Name": "account_followemail",
+    "OptionSetInfoNameMapping": {
+      "0": "Do Not Allow",
+      "1": "Allow"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "followemail",
+        "OptionSetReferenceEntityName": "Organisations"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "followemail",
+    "RelatedEntityName": "Organisations",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Industry (Organisations)",
+    "Name": "account_industrycode",
+    "OptionSetInfoNameMapping": {
+      "1": "Accounting",
+      "10": "Distributors, Dispatchers and Processors",
+      "11": "Doctor's Offices and Clinics",
+      "12": "Durable Manufacturing",
+      "13": "Eating and Drinking Places",
+      "14": "Entertainment Retail",
+      "15": "Equipment Rental and Leasing",
+      "16": "Financial",
+      "17": "Food and Tobacco Processing",
+      "18": "Inbound Capital Intensive Processing",
+      "19": "Inbound Repair and Services",
+      "2": "Agriculture and Non-petrol Natural Resource Extraction",
+      "20": "Insurance",
+      "21": "Legal Services",
+      "22": "Non-Durable Merchandise Retail",
+      "23": "Outbound Consumer Service",
+      "24": "Petrochemical Extraction and Distribution",
+      "25": "Service Retail",
+      "26": "SIG Affiliations",
+      "27": "Social Services",
+      "28": "Special Outbound Trade Contractors",
+      "29": "Specialty Realty",
+      "3": "Broadcasting Printing and Publishing",
+      "30": "Transportation",
+      "31": "Utility Creation and Distribution",
+      "32": "Vehicle Retail",
+      "33": "Wholesale",
+      "4": "Brokers",
+      "5": "Building Supply Retail",
+      "6": "Business Services",
+      "7": "Consulting",
+      "8": "Consumer Services",
+      "9": "Design, Direction and Creative Management"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "industrycode",
+        "OptionSetReferenceEntityName": "Organisations"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "industrycode",
+    "RelatedEntityName": "Organisations",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "IsPrivate (Organisations)",
+    "Name": "account_isprivate",
+    "OptionSetInfoNameMapping": {
+      "0": "No",
+      "1": "Yes"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "isprivate",
+        "OptionSetReferenceEntityName": "Organisations"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "isprivate",
+    "RelatedEntityName": "Organisations",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Marketing Only (Organisations)",
+    "Name": "account_marketingonly",
+    "OptionSetInfoNameMapping": {
+      "0": "No",
+      "1": "Yes"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "marketingonly",
+        "OptionSetReferenceEntityName": "Organisations"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "marketingonly",
+    "RelatedEntityName": "Organisations",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Merged (Organisations)",
+    "Name": "account_merged",
+    "OptionSetInfoNameMapping": {
+      "0": "No",
+      "1": "Yes"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "merged",
+        "OptionSetReferenceEntityName": "Organisations"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "merged",
+    "RelatedEntityName": "Organisations",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Ownership (Organisations)",
+    "Name": "account_ownershipcode",
+    "OptionSetInfoNameMapping": {
+      "1": "Public",
+      "2": "Private",
+      "3": "Subsidiary",
+      "4": "Other"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "ownershipcode",
+        "OptionSetReferenceEntityName": "Organisations"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "ownershipcode",
+    "RelatedEntityName": "Organisations",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Participates in Workflow (Organisations)",
+    "Name": "account_participatesinworkflow",
+    "OptionSetInfoNameMapping": {
+      "0": "No",
+      "1": "Yes"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "participatesinworkflow",
+        "OptionSetReferenceEntityName": "Organisations"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "participatesinworkflow",
+    "RelatedEntityName": "Organisations",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Payment Terms (Organisations)",
+    "Name": "account_paymenttermscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Net 30",
+      "2": "2% 10, Net 30",
+      "3": "Net 45",
+      "4": "Net 60"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "paymenttermscode",
+        "OptionSetReferenceEntityName": "Organisations"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "paymenttermscode",
+    "RelatedEntityName": "Organisations",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Preferred Day (Organisations)",
+    "Name": "account_preferredappointmentdaycode",
+    "OptionSetInfoNameMapping": {
+      "0": "Sunday",
+      "1": "Monday",
+      "2": "Tuesday",
+      "3": "Wednesday",
+      "4": "Thursday",
+      "5": "Friday",
+      "6": "Saturday"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "preferredappointmentdaycode",
+        "OptionSetReferenceEntityName": "Organisations"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "preferredappointmentdaycode",
+    "RelatedEntityName": "Organisations",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Preferred Time (Organisations)",
+    "Name": "account_preferredappointmenttimecode",
+    "OptionSetInfoNameMapping": {
+      "1": "Morning",
+      "2": "Afternoon",
+      "3": "Evening"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "preferredappointmenttimecode",
+        "OptionSetReferenceEntityName": "Organisations"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "preferredappointmenttimecode",
+    "RelatedEntityName": "Organisations",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Preferred Method of Contact (Organisations)",
+    "Name": "account_preferredcontactmethodcode",
+    "OptionSetInfoNameMapping": {
+      "1": "Any",
+      "2": "Email",
+      "3": "Phone",
+      "4": "Fax",
+      "5": "Mail"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "preferredcontactmethodcode",
+        "OptionSetReferenceEntityName": "Organisations"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "preferredcontactmethodcode",
+    "RelatedEntityName": "Organisations",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Shipping Method (Organisations)",
+    "Name": "account_shippingmethodcode",
+    "OptionSetInfoNameMapping": {
+      "1": "Default Value"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "shippingmethodcode",
+        "OptionSetReferenceEntityName": "Organisations"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "shippingmethodcode",
+    "RelatedEntityName": "Organisations",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status (Organisations)",
+    "Name": "account_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Active",
+      "1": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "Organisations"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "Organisations",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status Reason (Organisations)",
+    "Name": "account_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Active",
+      "2": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "Organisations"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "Organisations",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Territory Code (Organisations)",
+    "Name": "account_territorycode",
+    "OptionSetInfoNameMapping": {
+      "1": "Default Value"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "territorycode",
+        "OptionSetReferenceEntityName": "Organisations"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "territorycode",
+    "RelatedEntityName": "Organisations",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "GDPR Optout (Organisations)",
+    "Name": "msdyn_account_msdyn_gdproptout",
+    "OptionSetInfoNameMapping": {
+      "0": "No",
+      "1": "Yes"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "msdyn_gdproptout",
+        "OptionSetReferenceEntityName": "Organisations"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "msdyn_gdproptout",
+    "RelatedEntityName": "Organisations",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Tax Exempt (Organisations)",
+    "Name": "msdyn_account_msdyn_taxexempt",
+    "OptionSetInfoNameMapping": {
+      "0": "No",
+      "1": "Yes"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "msdyn_taxexempt",
+        "OptionSetReferenceEntityName": "Organisations"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "msdyn_taxexempt",
+    "RelatedEntityName": "Organisations",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Travel Charge Type",
+    "Name": "msdyn_travelchargetype",
+    "OptionSetInfoNameMapping": {
+      "690970000": "Hourly",
+      "690970001": "Mileage",
+      "690970002": "Fixed",
+      "690970003": "None"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": true,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "msdyn_travelchargetype",
+        "OptionSetReferenceEntityName": "Organisations"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "msdyn_travelchargetype",
+    "RelatedEntityName": "Organisations",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Cross Border? (Organisations)",
+    "Name": "rpa_account_rpa_crossborder",
+    "OptionSetInfoNameMapping": {
+      "0": "No",
+      "1": "Yes"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "rpa_crossborder",
+        "OptionSetReferenceEntityName": "Organisations"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "rpa_crossborder",
+    "RelatedEntityName": "Organisations",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Financial to business address (Organisations)",
+    "Name": "rpa_account_rpa_financial_to_business_addr",
+    "OptionSetInfoNameMapping": {
+      "0": "No",
+      "1": "Yes"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "rpa_financial_to_business_addr",
+        "OptionSetReferenceEntityName": "Organisations"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "rpa_financial_to_business_addr",
+    "RelatedEntityName": "Organisations",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Internal Update (Organisations)",
+    "Name": "rpa_account_rpa_internalupdate",
+    "OptionSetInfoNameMapping": {
+      "0": "No",
+      "1": "Yes"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "rpa_internalupdate",
+        "OptionSetReferenceEntityName": "Organisations"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "rpa_internalupdate",
+    "RelatedEntityName": "Organisations",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Is Protected? (Organisations)",
+    "Name": "rpa_account_rpa_isprotected",
+    "OptionSetInfoNameMapping": {
+      "0": "No",
+      "1": "Yes"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "rpa_isprotected",
+        "OptionSetReferenceEntityName": "Organisations"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "rpa_isprotected",
+    "RelatedEntityName": "Organisations",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Is Statutory Body (Organisations)",
+    "Name": "rpa_account_rpa_isstatutorybody",
+    "OptionSetInfoNameMapping": {
+      "0": "No",
+      "1": "Yes"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "rpa_isstatutorybody",
+        "OptionSetReferenceEntityName": "Organisations"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "rpa_isstatutorybody",
+    "RelatedEntityName": "Organisations",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Leased? (Organisations)",
+    "Name": "rpa_account_rpa_leased",
+    "OptionSetInfoNameMapping": {
+      "0": "No",
+      "1": "Yes"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "rpa_leased",
+        "OptionSetReferenceEntityName": "Organisations"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "rpa_leased",
+    "RelatedEntityName": "Organisations",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Legal Status (Organisations)",
+    "Name": "rpa_account_rpa_legalstatus",
+    "OptionSetInfoNameMapping": {
+      "927350000": "Charitable Interest Organisation (CIO)",
+      "927350001": "Community Interest Company (CIC)",
+      "927350002": "Government (Central)",
+      "927350003": "Government (Local)",
+      "927350004": "Limited Liability Partnership (LLP)",
+      "927350005": "Limited Partnership (LP)",
+      "927350006": "Non-UK Company",
+      "927350007": "Private Limited Company (Ltd)",
+      "927350008": "Public Limited Company (PLC)",
+      "927350009": "Sole Proprietorship",
+      "927350010": "Trust",
+      "927350011": "The Crown",
+      "927350012": "Unlimited Company (Ultd)",
+      "927350013": "Partnership"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "rpa_legalstatus",
+        "OptionSetReferenceEntityName": "Organisations"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "rpa_legalstatus",
+    "RelatedEntityName": "Organisations",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Organisation Locked (Organisations)",
+    "Name": "rpa_account_rpa_organisationlocked",
+    "OptionSetInfoNameMapping": {
+      "0": "No",
+      "1": "Yes"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "rpa_organisationlocked",
+        "OptionSetReferenceEntityName": "Organisations"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "rpa_organisationlocked",
+    "RelatedEntityName": "Organisations",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Organisation Type (Organisations)",
+    "Name": "rpa_account_rpa_organisationtype",
+    "OptionSetInfoNameMapping": {
+      "100000000": "Not Specified",
+      "100000001": "Agency/Agent",
+      "100000002": "Farmer",
+      "100000003": "Trader only organisation",
+      "100000004": "Central/Local Government",
+      "100000005": "Land Manager",
+      "100000006": "Rural Community/Voluntary/Third sector organisation",
+      "100000007": "Meat Industry",
+      "100000008": "Hobby livestock keeper",
+      "100000009": "Professional livestock keeper",
+      "927350000": "Abattoir/Slaughterhouse",
+      "927350001": "Agency",
+      "927350002": "Agent",
+      "927350003": "Agricultural Production",
+      "927350004": "Airport",
+      "927350005": "Auction",
+      "927350006": "Catering Butcher",
+      "927350007": "Charity (Non Profit Organisation)",
+      "927350008": "Cold Store",
+      "927350009": "Commons or Graziers Association",
+      "927350010": "Contractor",
+      "927350011": "Cutting Plant",
+      "927350012": "Education Provider/Training",
+      "927350014": "Farmer controlled business",
+      "927350015": "Financial Services",
+      "927350016": "Forestry/Woodland Owner",
+      "927350017": "Government Department",
+      "927350018": "Horticultural business",
+      "927350019": "Importer",
+      "927350020": "Intervention/Private Storage",
+      "927350021": "Land Owner or Management",
+      "927350022": "Leader Group",
+      "927350023": "Local Authority",
+      "927350024": "Marketing Company",
+      "927350025": "Official Receiver/Administrator",
+      "927350026": "Permanent Sports ground/facility",
+      "927350027": "Processor / Catering",
+      "927350028": "Producer Organisation",
+      "927350029": "Producer Organisation Member",
+      "927350030": "Promotion or Marketing of UK Agricultural P",
+      "927350031": "Public Sector Organisation",
+      "927350032": "Publicly Funded Organisation",
+      "927350033": "Railway services",
+      "927350034": "Real estate services (landlords)",
+      "927350035": "Recreational grounds/recreation",
+      "927350036": "Rural community or third sector organisation",
+      "927350037": "Supplier",
+      "927350038": "Tourism",
+      "927350039": "Trader (other)",
+      "927350040": "Transport or Distributor",
+      "927350041": "Waterworks",
+      "927350042": "Other"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "rpa_organisationtype",
+        "OptionSetReferenceEntityName": "Organisations"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "rpa_organisationtype",
+    "RelatedEntityName": "Organisations",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "SFI Beta Test - Phase 1 (Organisations)",
+    "Name": "rpa_account_rpa_sfibetatestphase1",
+    "OptionSetInfoNameMapping": {
+      "0": "No",
+      "1": "Yes"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "rpa_sfibetatestphase1",
+        "OptionSetReferenceEntityName": "Organisations"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "rpa_sfibetatestphase1",
+    "RelatedEntityName": "Organisations",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "SFI Pilot Member (Organisations)",
+    "Name": "rpa_account_rpa_sfipilotmember",
+    "OptionSetInfoNameMapping": {
+      "0": "No",
+      "1": "Yes"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "rpa_sfipilotmember",
+        "OptionSetReferenceEntityName": "Organisations"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "rpa_sfipilotmember",
+    "RelatedEntityName": "Organisations",
+    "Type": "OptionSetInfo"
+  }
+]

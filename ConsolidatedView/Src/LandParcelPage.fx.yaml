@@ -1,0 +1,107 @@
+LandParcelPage As screen:
+    OnVisible: |-
+        =UpdateContext({landParcels: Blank()}); UpdateContext( { landParcels: land_parcels.Run(activeBusiness.id, graphQlUrl) });
+
+    Container2 As groupContainer.verticalAutoLayoutContainer:
+        Height: =Parent.Height
+        LayoutDirection: =LayoutDirection.Vertical
+        LayoutGap: =10
+        LayoutMode: =LayoutMode.Auto
+        LayoutOverflowY: =LayoutOverflow.Scroll
+        Width: =Parent.Width
+        ZIndex: =2
+
+        Page2Menu As PageMenu:
+            Height: =60
+            LayoutMinHeight: =640
+            Width: =Parent.Width
+
+        LandParcelsPageHeader_1 As PageHeader:
+            LayoutMinHeight: =640
+            LayoutMinWidth: =640
+            MainTitle: ="Land parcel details"
+            SubTitle: =activeBusiness.name
+            ZIndex: =2
+
+        Container6 As groupContainer.horizontalAutoLayoutContainer:
+            DropShadow: =DropShadow.None
+            FillPortions: =0
+            Height: =Max(LandParcelSummarySection_1.Height, Map1_1.Height)
+            LayoutMinHeight: =100
+            LayoutMinWidth: =250
+            LayoutMode: =LayoutMode.Auto
+            ZIndex: =3
+
+            LandParcelSummarySection_1 As BusinessDetailSectionComponent:
+                Height: =LandParcelSummarySection_1.calcHeight
+                Items: |-
+                    =Table({
+                      Field: "Number of parcels",
+                      Value: landParcels.summary.totalParcels
+                    },{
+                      Field: "Total area (ha)", 
+                      Value: landParcels.summary.totalArea
+                    },{
+                      Field: "Arable land (ha)", 
+                      Value: landParcels.summary.arableLandArea
+                    },{
+                      Field: "Permanent grassland (ha)", 
+                      Value: landParcels.summary.permanentGrasslandArea
+                    })
+                LayoutMinHeight: =640
+                Title: ="Summary"
+
+            "Map1_1 As 'Map (preview)'.pcfdataset":
+                BorderColor: =RGBA(0, 18, 107, 1)
+                Clustering: =false
+                Compass: =true
+                CurrentLocation: =false
+                DefaultLocation: =true
+                DisplayMode: =DisplayMode.Edit
+                Height: =400
+                InfoCards: ='Map.InfoCards'.OnClick
+                Items: |-
+                    =Table({'Shape label':"tst", ShapeGeoJSONObjects:"{ 'type': 'FeatureCollection', 'features': [ { 'id': 3163733, 'geometry': { 'type': 'Polygon', 'coordinates': [ [ [ 359631.25, 517869.04 ], [ 359595.66, 517942.15 ], [ 359567.48, 517999.32 ], [ 359567.15, 518000 ], [ 359524.25, 518088.83 ], [ 359521.79, 518087.91 ], [ 359514.41, 518084.94 ], [ 359508.59, 518079.54 ], [ 359506.46, 518077.67 ], [ 359499.612, 518072.424 ], [ 359498.478, 518071.475 ], [ 359499.41, 518069.59 ], [ 359499.419, 518069.573 ], [ 359501.26, 518066.35 ], [ 359503.41, 518063.32 ], [ 359505.17, 518061.19 ], [ 359506.84, 518059.06 ], [ 359508.2, 518056.64 ], [ 359509.36, 518054.12 ], [ 359510.41, 518051.51 ], [ 359511.36, 518048.82 ], [ 359515.63, 518035.89 ], [ 359520.55, 518020.88 ], [ 359522.69, 518012.15 ], [ 359524.81, 518002.85 ], [ 359525.46, 518000 ], [ 359525.61, 517999.37 ], [ 359526.23, 517998.08 ], [ 359527.19, 517995.81 ], [ 359528.25, 517993.83 ], [ 359528.85, 517992.98 ], [ 359529.33, 517992.23 ], [ 359530.23, 517990.99 ], [ 359530.41, 517990.74 ], [ 359546.69, 517974.38 ], [ 359548.41, 517972.95 ], [ 359550.02, 517971.33 ], [ 359551.33, 517969.61 ], [ 359552.43, 517967.69 ], [ 359553.52, 517965.68 ], [ 359554.94, 517963.44 ], [ 359556.51, 517960.28 ], [ 359557.43, 517958.47 ], [ 359559.5, 517957.47 ], [ 359561, 517956.17 ], [ 359562.49, 517954.75 ], [ 359565.85, 517950.89 ], [ 359557.89, 517947.2 ], [ 359557.04, 517946.8 ], [ 359557.42, 517945.6 ], [ 359557.8, 517944.3 ], [ 359558.29, 517935.8 ], [ 359558.39, 517932.87 ], [ 359558.39, 517929.87 ], [ 359559.23, 517923.12 ], [ 359570.46, 517874.55 ], [ 359574.9, 517854.46 ], [ 359575.79, 517854.78 ], [ 359631.25, 517869.04 ] ] ] }, 'properties': { 'area': '8905.65', 'code': '131', 'name': 'Permanent Grassland', 'isBpsEligible': 'true' }, 'type': 'Feature' } ] }"})
+                LayoutMinHeight: =400
+                LayoutMinWidth: =400
+                MapStyle: ='Map.MapStyle'.Satellite
+                OnItemsChange: =false
+                OnLoad: =false
+                OnMapClick: =false
+                OnRouteDirectionChange: =false
+                OnShapeCreated: =false
+                OnShapeDeleted: =false
+                OnShapeEdited: =false
+                OnShapeSelected: =false
+                PinColor: =RGBA(29, 114, 169, 1)
+                Pitch: =false
+                SatelliteView: =false
+                Width: =400
+                X: =0
+                Y: =0
+                ZIndex: =2
+                Zoom: =false
+
+                "'Shape label1_1' As pcfDataField.textualColumn":
+                    FieldDisplayName: ="Shape label"
+                    FieldName: ="Shape label"
+                    FieldType: ="s"
+                    FieldVariantName: ="textualColumn"
+                    Order: =1
+                    ZIndex: =7
+
+                ShapeGeoJSONObjects1_1 As pcfDataField.textualColumn:
+                    FieldDisplayName: ="ShapeGeoJSONObjects"
+                    FieldName: ="ShapeGeoJSONObjects"
+                    FieldType: ="s"
+                    FieldVariantName: ="textualColumn"
+                    Order: =2
+                    ZIndex: =8
+
+        Table_2 As Table:
+            Data: =landParcels.parcels
+            Fields: |-
+                =Table({Value: "id", Name: "ID"},{Value: "sheetId", Name: "Sheet ID"},{Value: "area", Name: "Area"})
+            Width: =Parent.Width
+            ZIndex: =4
+

@@ -1,0 +1,10 @@
+[
+  {
+    "ApiId": "/providers/microsoft.powerapps/apis/shared_logicflows",
+    "FlowNameId": "a980e4a9-4c78-43f3-a28c-2bf3b42a504a",
+    "Name": "land_parcels",
+    "ServiceKind": "ConnectedWadl",
+    "Type": "ServiceInfo",
+    "WorkflowEntityId": "b22ce73b-d6a5-ee11-be37-002248993ab5"
+  }
+]
