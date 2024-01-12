@@ -1,0 +1,144 @@
+AuthenticateQuestionsPage_1 As screen:
+
+    Container8_1 As groupContainer.verticalAutoLayoutContainer:
+        Height: =Parent.Height
+        LayoutDirection: =LayoutDirection.Vertical
+        LayoutMode: =LayoutMode.Auto
+        LayoutOverflowY: =LayoutOverflow.Scroll
+        Visible: =false
+        Width: =Parent.Width
+        ZIndex: =1
+
+        Button1_2 As button:
+            OnSelect: =Set(showContainer1, !showContainer1)
+            Text: ="Button"
+            X: =40
+            Y: =40
+            ZIndex: =1
+
+        Container7_2 As groupContainer.verticalAutoLayoutContainer:
+            BorderThickness: =1
+            LayoutDirection: =LayoutDirection.Vertical
+            LayoutMinHeight: =100
+            LayoutMinWidth: =250
+            LayoutMode: =LayoutMode.Auto
+            Visible: =showContainer
+            X: =10
+            Y: =160
+            ZIndex: =2
+
+            Label2_2 As label:
+                Text: ="Text"
+                ZIndex: =1
+
+            Label3_2 As label:
+                Text: ="Text"
+                ZIndex: =2
+
+            Label4_2 As label:
+                Text: ="Text"
+                ZIndex: =3
+
+        Button1_3 As button:
+            OnSelect: =Set(showContainer, !showContainer)
+            Text: ="Button"
+            X: =30
+            Y: =40
+            ZIndex: =3
+
+        Container7_3 As groupContainer.verticalAutoLayoutContainer:
+            BorderThickness: =1
+            LayoutDirection: =LayoutDirection.Vertical
+            LayoutMinHeight: =100
+            LayoutMinWidth: =250
+            LayoutMode: =LayoutMode.Auto
+            Visible: =showContainer
+            X: =10
+            Y: =120
+            ZIndex: =4
+
+            Label2_3 As label:
+                Text: ="Text"
+                ZIndex: =1
+
+            Label3_3 As label:
+                Text: ="Text"
+                ZIndex: =2
+
+            Label4_3 As label:
+                Text: ="Text"
+                ZIndex: =3
+
+    Accordian As gallery.galleryVertical:
+        DelayItemLoading: =true
+        Height: |-
+            =Sum(
+                Self.AllItems,
+                AccordianHeightCalc.Text
+            )
+        Items: =CustomGallerySample
+        Layout: =Layout.Vertical
+        LoadingSpinner: =LoadingSpinner.Data
+        TemplateSize: =If(Self.Layout = Layout.Horizontal, Self.Width, AccordianHeightCalc.Text)
+        Width: =Parent.Width
+        ZIndex: =2
+
+        AccordianContainer As groupContainer.verticalAutoLayoutContainer:
+            Height: =400
+            LayoutDirection: =LayoutDirection.Vertical
+            LayoutMode: =LayoutMode.Auto
+            X: =60
+            Y: =100
+            ZIndex: =2
+
+            AccordianButton As button:
+                Text: ="Button"
+                ZIndex: =1
+
+            AccordianBody As gallery.galleryHorizontal:
+                AlignInContainer: =AlignInContainer.SetByContainer
+                DelayItemLoading: =true
+                Items: =CustomGallerySample
+                LayoutMinHeight: =287
+                LayoutMinWidth: =320
+                LoadingSpinner: =LoadingSpinner.Data
+                TemplateSize: =If(Self.Layout = Layout.Horizontal, Min(320, Self.Width - 60), Min(320, Self.Height - 60))
+                ZIndex: =3
+
+                Container11 As groupContainer.verticalAutoLayoutContainer:
+                    LayoutDirection: =LayoutDirection.Vertical
+                    LayoutMode: =LayoutMode.Auto
+                    Width: =320
+                    Y: =80
+                    ZIndex: =3
+
+                    Label8 As label:
+                        OnSelect: =Select(Parent)
+                        Text: =ThisItem.SampleHeading
+                        X: =40
+                        Y: =40
+                        ZIndex: =1
+
+                    Label9 As label:
+                        OnSelect: =Select(Parent)
+                        Text: =ThisItem.SampleText
+                        X: =20
+                        Y: =20
+                        ZIndex: =2
+
+        AccordianHeightCalc As label:
+            Height: =1
+            OnSelect: =Select(Parent)
+            Text: =AccordianButton.Height+AccordianBody.Height
+            Visible: =false
+            Width: =0
+            ZIndex: =3
+
+    Container9 As groupContainer.verticalAutoLayoutContainer:
+        LayoutDirection: =LayoutDirection.Vertical
+        LayoutMode: =LayoutMode.Auto
+        Visible: =false
+        X: =60
+        Y: =60
+        ZIndex: =3
+
