@@ -54,73 +54,39 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "AuthenticateQuestionsPage_1.Accordian.AccordianContainer.AccordianBody.Container11.Label9.OnSelect"
+                  "fullyQualifiedName": "AuthenticateQuestionsPage_1.Container9.Accordian.AccordianContainer.AccordianBody.Visible"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "AuthenticateQuestionsPage_1.Accordian.AccordianContainer.AccordianBody.Container11.Label9.OnSelect",
+                  "fullyQualifiedName": "AuthenticateQuestionsPage_1.Container9.Accordian.AccordianContainer.AccordianBody.Visible",
                   "relativeAddress": 0
                 },
                 "region": {
-                  "charLength": 6,
-                  "charOffset": 7,
+                  "charLength": 8,
+                  "charOffset": 8,
                   "snippet": {
-                    "text": "Parent"
+                    "text": ".Visible"
                   }
                 }
               },
               "properties": {
-                "member": "OnSelect",
+                "member": "Visible",
                 "module": "AuthenticateQuestionsPage_1",
-                "type": "AuthenticateQuestionsPage_1.Accordian.AccordianContainer.AccordianBody.Container11.Label9"
+                "type": "AuthenticateQuestionsPage_1.Container9.Accordian.AccordianContainer.AccordianBody"
               }
             }
           ],
           "message": {
+            "arguments": [
+              "Visible"
+            ],
             "id": "issue"
           },
           "properties": {
             "level": "High"
           },
-          "ruleId": "app-ErrFunctionExpectsSelectableControl",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "AuthenticateQuestionsPage_1.Accordian.AccordianContainer.AccordianBody.Container11.Label8.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "AuthenticateQuestionsPage_1.Accordian.AccordianContainer.AccordianBody.Container11.Label8.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 6,
-                  "charOffset": 7,
-                  "snippet": {
-                    "text": "Parent"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "AuthenticateQuestionsPage_1",
-                "type": "AuthenticateQuestionsPage_1.Accordian.AccordianContainer.AccordianBody.Container11.Label8"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrFunctionExpectsSelectableControl",
+          "ruleId": "app-ErrInvalidName",
           "ruleIndex": 1
         },
         {
@@ -728,49 +694,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "AuthenticateQuestionsPage_1.Accordian.AccordianContainer.AccordianBody.AccessibleLabel"
+                  "fullyQualifiedName": "AuthenticateQuestionsPage_1.Container9.Accordian.AccordianContainer.AccordianBody.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "AuthenticateQuestionsPage_1.Accordian.AccordianContainer.AccordianBody.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "AuthenticateQuestionsPage_1",
-                "type": "AuthenticateQuestionsPage_1.Accordian.AccordianContainer.AccordianBody"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "AuthenticateQuestionsPage_1.Accordian.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "AuthenticateQuestionsPage_1.Accordian.TabIndex",
+                  "fullyQualifiedName": "AuthenticateQuestionsPage_1.Container9.Accordian.AccordianContainer.AccordianBody.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
                 "module": "AuthenticateQuestionsPage_1",
-                "type": "AuthenticateQuestionsPage_1.Accordian"
+                "type": "AuthenticateQuestionsPage_1.Container9.Accordian.AccordianContainer.AccordianBody"
               }
             }
           ],
@@ -788,19 +724,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "AuthenticateQuestionsPage_1.Accordian.AccessibleLabel"
+                  "fullyQualifiedName": "AuthenticateQuestionsPage_1.Container9.Accordian.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "AuthenticateQuestionsPage_1.Accordian.AccessibleLabel",
+                  "fullyQualifiedName": "AuthenticateQuestionsPage_1.Container9.Accordian.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "AuthenticateQuestionsPage_1",
-                "type": "AuthenticateQuestionsPage_1.Accordian"
+                "type": "AuthenticateQuestionsPage_1.Container9.Accordian"
               }
             }
           ],
@@ -818,19 +754,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "AuthenticateQuestionsPage_1.Accordian.AccordianContainer.AccordianBody.TabIndex"
+                  "fullyQualifiedName": "AuthenticateQuestionsPage_1.Container9.Accordian.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "AuthenticateQuestionsPage_1.Accordian.AccordianContainer.AccordianBody.TabIndex",
+                  "fullyQualifiedName": "AuthenticateQuestionsPage_1.Container9.Accordian.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
                 "module": "AuthenticateQuestionsPage_1",
-                "type": "AuthenticateQuestionsPage_1.Accordian.AccordianContainer.AccordianBody"
+                "type": "AuthenticateQuestionsPage_1.Container9.Accordian"
               }
             }
           ],
@@ -842,6 +778,36 @@
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
           "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "AuthenticateQuestionsPage_1.Container9.Accordian.AccordianContainer.AccordianBody.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "AuthenticateQuestionsPage_1.Container9.Accordian.AccordianContainer.AccordianBody.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "AuthenticateQuestionsPage_1",
+                "type": "AuthenticateQuestionsPage_1.Container9.Accordian.AccordianContainer.AccordianBody"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -898,14 +864,17 @@
               }
             },
             {
-              "id": "app-ErrFunctionExpectsSelectableControl",
+              "id": "app-ErrInvalidName",
               "messageStrings": {
                 "issue": {
-                  "text": "Select of a control that doesn’t have an OnSelect property"
+                  "text": "Name isn't valid. '{0}' isn't recognized."
                 }
               },
               "properties": {
                 "componentType": "app",
+                "howToFix": [
+                  "Remove or correct the reference to the name that isn't valid."
+                ],
                 "level": "High",
                 "primaryCategory": "formula",
                 "whyFix": ""
