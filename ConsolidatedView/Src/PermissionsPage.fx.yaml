@@ -21,7 +21,8 @@ PermissionsPage As screen:
                     Self.AllItems,
                     AccordianHeightCalc.Text
                 )
-            Items: =CustomGallerySample
+            Items: |-
+                =Table({ Visible: false, name: "Jo" })
             Layout: =Layout.Vertical
             LayoutMinHeight: =287
             LayoutMinWidth: =320
@@ -40,7 +41,7 @@ PermissionsPage As screen:
                 ZIndex: =2
 
                 AccordianButton As button:
-                    OnSelect: =
+                    OnSelect: =ThisItem.Visible = !ThisItem.Visible
                     Text: ="Button"
                     ZIndex: =1
 
