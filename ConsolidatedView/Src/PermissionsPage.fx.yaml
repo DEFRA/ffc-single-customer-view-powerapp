@@ -1,4 +1,4 @@
-AuthenticateQuestionsPage_1 As screen:
+PermissionsPage As screen:
 
     Container9 As groupContainer.verticalAutoLayoutContainer:
         DropShadow: =DropShadow.None
