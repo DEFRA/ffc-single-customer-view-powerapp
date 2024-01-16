@@ -18,7 +18,11 @@ PermissionsPage As screen:
 
         Accordian As gallery.variableTemplateHeightGallery:
             DelayItemLoading: =true
-            Height: =Parent.Height - PermissionPageMenu.Height
+            Height: |-
+                =Sum(
+                    Self.AllItems,
+                    AccordianItemHeight.Text
+                )+10
             Items: |-
                 =Table({
                   id: 1,
@@ -29,17 +33,22 @@ PermissionsPage As screen:
                     permissions: ["View business details", "View people associated with the business"]
                   },{
                     title: "Amend",
-                    permissions: ["...", "..."]
+                    permissions: ["...", "..."],
+                    selected: true
                   })
                 },{
                   id: 2,
                   title: "Some details",
-                  subTitle: "Permission level is Full permission",
+                  subTitle: "Permission level is Half permission",
                   levels: Table({
                     title: "View",
-                    permissions: ["View business details", "View people associated with the business"]
+                    permissions: ["Permission 1", "Permission 2"]
                   },{
                     title: "Amend",
+                    permissions: ["...", "..."],
+                    selected: true
+                  },{
+                    title: "Make Legal changes",
                     permissions: ["...", "..."]
                   })
                 })
@@ -104,6 +113,12 @@ PermissionsPage As screen:
                     Fill: =RGBA(214, 221, 224, 1)
                     Height: =1
                     Width: =Parent.Width
+                    ZIndex: =2
+
+                AccordianBodySubTitleLabel As label:
+                    Text: =ThisItem.subTitle
+                    Visible: =ThisItem.id = activeAccordian
+                    Width: =Parent.Width
                     ZIndex: =3
 
                 AccordianBody As gallery.galleryHorizontal:
@@ -118,7 +133,7 @@ PermissionsPage As screen:
 
                     AccordianBodyContainer As groupContainer.verticalAutoLayoutContainer:
                         DropShadow: =DropShadow.None
-                        Fill: =RGBA(235, 235, 235, 1)
+                        Fill: =If(ThisItem.Selected = true, RGBA(235, 235, 235, 1), RGBA(235, 235, 235, 1))
                         Height: =Parent.Height
                         LayoutDirection: =LayoutDirection.Vertical
                         LayoutGap: =10
@@ -157,4 +172,9 @@ PermissionsPage As screen:
                             X: =20
                             Y: =20
                             ZIndex: =3
+
+            AccordianItemHeight As label:
+                Text: =AccordianContainer.Height
+                Visible: =false
+                ZIndex: =3
 
