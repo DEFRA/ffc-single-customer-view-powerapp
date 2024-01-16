@@ -66,6 +66,7 @@ PermissionsPage As screen:
                     DropShadow: =DropShadow.None
                     FillPortions: =0
                     Height: =40
+                    LayoutGap: =10
                     LayoutMinHeight: =100
                     LayoutMinWidth: =40
                     LayoutMode: =LayoutMode.Auto
@@ -75,14 +76,14 @@ PermissionsPage As screen:
                         Height: =40
                         Icon: =Icon.ChevronUp
                         Visible: =If(ThisItem.id = activeAccordian, true, false)
-                        Width: =30
+                        Width: =20
                         ZIndex: =1
 
                     OpenIcon As icon.ChevronDown:
                         Height: =40
                         Icon: =Icon.ChevronDown
                         Visible: =If(ThisItem.id = activeAccordian, false, true)
-                        Width: =30
+                        Width: =20
                         ZIndex: =2
 
                     AccordianButton As button:
