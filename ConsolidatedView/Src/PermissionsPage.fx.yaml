@@ -16,24 +16,17 @@ PermissionsPage As screen:
             LayoutMinHeight: =640
             Width: =Parent.Width
 
-        Accordian As gallery.galleryVertical:
+        Accordian As gallery.variableTemplateHeightGallery:
             DelayItemLoading: =true
-            FillPortions: =0
-            Height: |-
-                =Sum(
-                    Self.AllItems,
-                    AccordianHeightCalc.Text
-                )
+            Height: =300
             Items: |-
                 =Table({ id: 1, name: "Jo" },{ id: 2, name: "Ben" })
             Layout: =Layout.Vertical
-            LayoutMinHeight: =287
+            LayoutMinHeight: =250
             LayoutMinWidth: =320
             LoadingSpinner: =LoadingSpinner.Data
-            TemplatePadding: =0
-            TemplateSize: =Self.Height
-            Width: =Parent.Width
-            ZIndex: =2
+            TemplateSize: =280
+            ZIndex: =4
 
             AccordianContainer As groupContainer.verticalAutoLayoutContainer:
                 DropShadow: =DropShadow.None
@@ -73,7 +66,7 @@ PermissionsPage As screen:
                         Width: =200
                         ZIndex: =3
 
-                        Label8 As label:
+                        Label8_2 As label:
                             AutoHeight: =true
                             OnSelect: =
                             Text: =ThisItem.SampleHeading
@@ -82,85 +75,7 @@ PermissionsPage As screen:
                             Y: =40
                             ZIndex: =1
 
-                        Label9 As label:
-                            AutoHeight: =true
-                            OnSelect: =
-                            Text: =ThisItem.SampleText
-                            Width: =Parent.Width
-                            X: =20
-                            Y: =20
-                            ZIndex: =2
-
-            AccordianHeightCalc As label:
-                Height: =1
-                OnSelect: =Select(Parent)
-                Text: =AccordianContainer.Height
-                Visible: =false
-                Width: =0
-                ZIndex: =3
-
-        "Gallery1 As gallery.'BrowseLayout_Flexible_SocialFeed_ver5.0'":
-            DelayItemLoading: =true
-            Items: |-
-                =Table({ id: 1, name: "Jo" },{ id: 2, name: "Jo" })
-            Layout: =Layout.Vertical
-            LayoutMinHeight: =287
-            LayoutMinWidth: =320
-            LoadingSpinner: =LoadingSpinner.Data
-            TemplatePadding: =4
-            TemplateSize: =Min(870, Self.Height - 60)
-            Visible: =false
-            ZIndex: =3
-
-            AccordianContainer_1 As groupContainer.verticalAutoLayoutContainer:
-                DropShadow: =DropShadow.None
-                Height: =If(ThisItem.id = activeAccordian, 250, 40)
-                LayoutDirection: =LayoutDirection.Vertical
-                LayoutMode: =LayoutMode.Auto
-                Width: =1358
-                Y: =40
-                ZIndex: =1
-
-                AccordianButton_1 As button:
-                    OnSelect: |-
-                        =UpdateContext({activeAccordian: ThisItem.id});
-                    Text: ="Button"
-                    ZIndex: =1
-
-                AccordianBody_1 As gallery.galleryHorizontal:
-                    AlignInContainer: =AlignInContainer.SetByContainer
-                    DelayItemLoading: =true
-                    FillPortions: =0
-                    Height: =Parent.Height - AccordianButton_1.Height
-                    Items: =CustomGallerySample
-                    LayoutMinHeight: =287
-                    LayoutMinWidth: =320
-                    LoadingSpinner: =LoadingSpinner.Data
-                    TemplatePadding: =0
-                    TemplateSize: =If(Self.Layout = Layout.Horizontal, 200, Parent.Height)
-                    Visible: =ThisItem.id = activeAccordian
-                    Width: =Parent.Width
-                    ZIndex: =3
-
-                    AccordianBodyContainre_1 As groupContainer.verticalAutoLayoutContainer:
-                        DropShadow: =DropShadow.None
-                        Height: =Parent.Height
-                        LayoutDirection: =LayoutDirection.Vertical
-                        LayoutGap: =10
-                        LayoutMode: =LayoutMode.Auto
-                        Width: =200
-                        ZIndex: =3
-
-                        Label8_1 As label:
-                            AutoHeight: =true
-                            OnSelect: =
-                            Text: =ThisItem.SampleHeading
-                            Width: =Parent.Width
-                            X: =40
-                            Y: =40
-                            ZIndex: =1
-
-                        Label9_1 As label:
+                        Label9_2 As label:
                             AutoHeight: =true
                             OnSelect: =
                             Text: =ThisItem.SampleText
