@@ -1,6 +1,6 @@
 PermissionsPage As screen:
     OnVisible: |-
-        =UpdateContext({activeAccordian: 1});
+        =UpdateContext({activeAccordian: -1});
 
     Container9 As groupContainer.verticalAutoLayoutContainer:
         DropShadow: =DropShadow.None
