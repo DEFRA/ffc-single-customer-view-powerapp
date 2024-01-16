@@ -50,6 +50,8 @@ PermissionsPage As screen:
             LoadingSpinner: =LoadingSpinner.Data
             TemplatePadding: =10
             TemplateSize: =280
+            Width: |
+                =Parent.Width
             ZIndex: =4
 
             AccordianContainer As groupContainer.verticalAutoLayoutContainer:
@@ -92,6 +94,8 @@ PermissionsPage As screen:
                         DisabledFill: =RGBA(255, 255, 255, 0)
                         Fill: =RGBA(255, 255, 255, 0)
                         FocusedBorderThickness: =0
+                        HoverColor: =RGBA(255, 255, 255, 0)
+                        HoverFill: =RGBA(255, 255, 255, 0)
                         OnSelect: |-
                             =If(activeAccordian = ThisItem.id, UpdateContext({activeAccordian: -1}), UpdateContext({activeAccordian: ThisItem.id}))
                         PressedFill: =RGBA(255, 255, 255, 0)
