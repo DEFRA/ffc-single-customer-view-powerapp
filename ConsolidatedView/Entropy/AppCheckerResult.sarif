@@ -14,12 +14,12 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "LandParcelPage.Container2.Table_2.Data"
+                  "fullyQualifiedName": "LandParcelPage.LandParcelPageContainer.LandParcelPageParcelsTable.Data"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "LandParcelPage.Container2.Table_2.Data",
+                  "fullyQualifiedName": "LandParcelPage.LandParcelPageContainer.LandParcelPageParcelsTable.Data",
                   "relativeAddress": 0
                 },
                 "region": {
@@ -33,7 +33,7 @@
               "properties": {
                 "member": "Data",
                 "module": "LandParcelPage",
-                "type": "LandParcelPage.Container2.Table_2"
+                "type": "LandParcelPage.LandParcelPageContainer.LandParcelPageParcelsTable"
               }
             }
           ],
@@ -654,19 +654,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "PermissionsPage.PermissionPageContainer.Accordian.AccordianContainer.Container10.AccordianButton.FocusedBorderThickness"
+                  "fullyQualifiedName": "PermissionsPage.PermissionPageContainer.Accordian.AccordianContainer.AccordianButtonContainer.AccordianButton.FocusedBorderThickness"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "PermissionsPage.PermissionPageContainer.Accordian.AccordianContainer.Container10.AccordianButton.FocusedBorderThickness",
+                  "fullyQualifiedName": "PermissionsPage.PermissionPageContainer.Accordian.AccordianContainer.AccordianButtonContainer.AccordianButton.FocusedBorderThickness",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "FocusedBorderThickness",
                 "module": "PermissionsPage",
-                "type": "PermissionsPage.PermissionPageContainer.Accordian.AccordianContainer.Container10.AccordianButton"
+                "type": "PermissionsPage.PermissionPageContainer.Accordian.AccordianContainer.AccordianButtonContainer.AccordianButton"
               }
             }
           ],

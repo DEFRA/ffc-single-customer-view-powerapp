@@ -11,21 +11,21 @@ BusinessDetailsPage As screen:
         Width: =Parent.Width
         ZIndex: =3
 
-        Page1Menu As PageMenu:
+        BusinessDetailsMenu As PageMenu:
             Height: =60
             LayoutMinHeight: =640
             Width: =Parent.Width
 
-        BusinessDetailsPageHeader_1 As PageHeader:
+        BusinessDetailsHeader As PageHeader:
             LayoutMinHeight: =640
             LayoutMinWidth: =640
             MainTitle: ="Business Details"
             SubTitle: =businessDetail.data.business.info.name
             ZIndex: =2
 
-        Container3 As groupContainer.horizontalAutoLayoutContainer:
+        BusinessDetailsBodyContainer As groupContainer.horizontalAutoLayoutContainer:
             DropShadow: =DropShadow.None
-            Height: =Max(Container4.Height, Container5.Height)
+            Height: =Max(BusinessDetailsBodyLeftContainer.Height, BusinessDetailsBodyRightContainer.Height)
             LayoutGap: =40
             LayoutJustifyContent: =LayoutJustifyContent.SpaceBetween
             LayoutMinHeight: =100
@@ -33,10 +33,11 @@ BusinessDetailsPage As screen:
             LayoutMode: =LayoutMode.Auto
             ZIndex: =3
 
-            Container4 As groupContainer.verticalAutoLayoutContainer:
+            BusinessDetailsBodyLeftContainer As groupContainer.verticalAutoLayoutContainer:
+                AlignInContainer: =AlignInContainer.SetByContainer
                 ContentLanguage: =
                 DropShadow: =DropShadow.None
-                Height: =Sum(BusinessDetailSection_1.Height + BusinessDetailsCorispondenceSection_1.Height + BusinessDetailAdditionalDetailsSection_1.Height) + 30
+                Height: =Sum(BusinessDetailContactDetailsSection.Height + BusinessDetailCorispondenceSection.Height + BusinessDetailAdditionalDetailsSection.Height) + 30
                 LayoutDirection: =LayoutDirection.Vertical
                 LayoutMinHeight: =100
                 LayoutMinWidth: =250
@@ -47,8 +48,8 @@ BusinessDetailsPage As screen:
                 RadiusTopRight: =0
                 ZIndex: =1
 
-                BusinessDetailSection_1 As BusinessDetailSectionComponent:
-                    Height: =BusinessDetailSection_1.calcHeight
+                BusinessDetailContactDetailsSection As BusinessDetailSectionComponent:
+                    Height: =BusinessDetailContactDetailsSection.calcHeight
                     Items: |-
                         =Table({
                           Field: "Business Name",
@@ -61,8 +62,8 @@ BusinessDetailsPage As screen:
                     Title: ="Business contact details"
                     Width: =Parent.Width
 
-                BusinessDetailsCorispondenceSection_1 As BusinessDetailSectionComponent:
-                    Height: =BusinessDetailsCorispondenceSection_1.calcHeight
+                BusinessDetailCorispondenceSection As BusinessDetailSectionComponent:
+                    Height: =BusinessDetailCorispondenceSection.calcHeight
                     Items: |-
                         =Table(
                           { 
@@ -87,8 +88,8 @@ BusinessDetailsPage As screen:
                     Width: =Parent.Width
                     ZIndex: =2
 
-                BusinessDetailAdditionalDetailsSection_1 As BusinessDetailSectionComponent:
-                    Height: =BusinessDetailAdditionalDetailsSection_1.calcHeight
+                BusinessDetailAdditionalDetailsSection As BusinessDetailSectionComponent:
+                    Height: =BusinessDetailAdditionalDetailsSection.calcHeight
                     Items: |-
                         =Table(
                           { 
@@ -117,18 +118,18 @@ BusinessDetailsPage As screen:
                     Width: =Parent.Width
                     ZIndex: =3
 
-            Container5 As groupContainer.verticalAutoLayoutContainer:
+            BusinessDetailsBodyRightContainer As groupContainer.verticalAutoLayoutContainer:
                 AlignInContainer: =AlignInContainer.SetByContainer
                 DropShadow: =DropShadow.None
-                Height: =Sum(BusinessDetailReferenceNumbersSection_1.Height + BusinessDetailsCPHSection_1.Height)
+                Height: =Sum(BusinessDetailReferenceNumbersSection.Height + BusinessDetailsCPHSection.Height)
                 LayoutDirection: =LayoutDirection.Vertical
                 LayoutMinHeight: =100
                 LayoutMinWidth: =250
                 LayoutMode: =LayoutMode.Auto
                 ZIndex: =2
 
-                BusinessDetailReferenceNumbersSection_1 As BusinessDetailSectionComponent:
-                    Height: =BusinessDetailReferenceNumbersSection_1.calcHeight
+                BusinessDetailReferenceNumbersSection As BusinessDetailSectionComponent:
+                    Height: =BusinessDetailReferenceNumbersSection.calcHeight
                     Items: |-
                         =Table(
                           {
@@ -148,8 +149,8 @@ BusinessDetailsPage As screen:
                     Title: ="Reference Numbers"
                     Width: =Parent.Width
 
-                BusinessDetailsCPHSection_1 As BusinessDetailSectionComponent:
-                    Height: =BusinessDetailsCPHSection_1.calcHeight
+                BusinessDetailsCPHSection As BusinessDetailSectionComponent:
+                    Height: =BusinessDetailsCPHSection.calcHeight
                     Items: |-
                         =Table(
                           {

@@ -1,10 +1,10 @@
 AuthenticateQuestionsPage As screen:
 
-    HomeMenu As PageMenu:
+    AuthenticateQuestionsMenu As PageMenu:
         Height: =60
         Width: =Parent.Width
 
-    Label1 As label:
+    AuthenticateQuestionsTitle As label:
         Align: =Align.Center
         FontWeight: =FontWeight.Bold
         Height: =50

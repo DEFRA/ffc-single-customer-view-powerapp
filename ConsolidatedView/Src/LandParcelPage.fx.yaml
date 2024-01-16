@@ -2,7 +2,7 @@ LandParcelPage As screen:
     OnVisible: |-
         =UpdateContext({landParcels: Blank()}); UpdateContext( { landParcels: land_parcels.Run(activeBusiness.id, graphQlUrl) });
 
-    Container2 As groupContainer.verticalAutoLayoutContainer:
+    LandParcelPageContainer As groupContainer.verticalAutoLayoutContainer:
         Height: =Parent.Height
         LayoutDirection: =LayoutDirection.Vertical
         LayoutGap: =10
@@ -11,29 +11,30 @@ LandParcelPage As screen:
         Width: =Parent.Width
         ZIndex: =2
 
-        Page2Menu As PageMenu:
+        LandParcelPageMenu As PageMenu:
             Height: =60
             LayoutMinHeight: =640
             Width: =Parent.Width
 
-        LandParcelsPageHeader_1 As PageHeader:
+        LandParcelPageHeader As PageHeader:
             LayoutMinHeight: =640
             LayoutMinWidth: =640
             MainTitle: ="Land parcel details"
             SubTitle: =activeBusiness.name
             ZIndex: =2
 
-        Container6 As groupContainer.horizontalAutoLayoutContainer:
+        LandParcelPageSummaryContainer As groupContainer.horizontalAutoLayoutContainer:
+            AlignInContainer: =AlignInContainer.SetByContainer
             DropShadow: =DropShadow.None
             FillPortions: =0
-            Height: =Max(LandParcelSummarySection_1.Height, Map1_1.Height)
+            Height: =Max(LandParcelPageSummaryContent.Height, LandParcelPageSummaryMap.Height)
             LayoutMinHeight: =100
             LayoutMinWidth: =250
             LayoutMode: =LayoutMode.Auto
             ZIndex: =3
 
-            LandParcelSummarySection_1 As BusinessDetailSectionComponent:
-                Height: =LandParcelSummarySection_1.calcHeight
+            LandParcelPageSummaryContent As BusinessDetailSectionComponent:
+                Height: =LandParcelPageSummaryContent.calcHeight
                 Items: |-
                     =Table({
                       Field: "Number of parcels",
@@ -51,7 +52,7 @@ LandParcelPage As screen:
                 LayoutMinHeight: =640
                 Title: ="Summary"
 
-            "Map1_1 As 'Map (preview)'.pcfdataset":
+            "LandParcelPageSummaryMap As 'Map (preview)'.pcfdataset":
                 BorderColor: =RGBA(0, 18, 107, 1)
                 Clustering: =false
                 Compass: =true
@@ -98,7 +99,7 @@ LandParcelPage As screen:
                     Order: =2
                     ZIndex: =8
 
-        Table_2 As Table:
+        LandParcelPageParcelsTable As Table:
             Data: =landParcels.parcels
             Fields: |-
                 =Table({Value: "id", Name: "ID"},{Value: "sheetId", Name: "Sheet ID"},{Value: "area", Name: "Area"})
