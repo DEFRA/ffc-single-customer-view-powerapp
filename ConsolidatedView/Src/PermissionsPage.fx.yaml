@@ -2,7 +2,7 @@ PermissionsPage As screen:
     OnVisible: |-
         =UpdateContext({activeAccordian: -1});
 
-    Container9 As groupContainer.verticalAutoLayoutContainer:
+    PermissionPageContainer As groupContainer.verticalAutoLayoutContainer:
         DropShadow: =DropShadow.None
         Height: =Parent.Height
         LayoutDirection: =LayoutDirection.Vertical
@@ -11,12 +11,13 @@ PermissionsPage As screen:
         Width: =Parent.Width
         ZIndex: =3
 
-        HomeMenu_1 As PageMenu:
+        PermissionPageMenu As PageMenu:
             Height: =60
             LayoutMinHeight: =640
             Width: =Parent.Width
 
         Accordian As gallery.variableTemplateHeightGallery:
+            AlignInContainer: =AlignInContainer.SetByContainer
             DelayItemLoading: =true
             Height: =300
             Items: |-

@@ -654,19 +654,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "PermissionsPage.Container9.Accordian.AccordianContainer.Container10.AccordianButton.FocusedBorderThickness"
+                  "fullyQualifiedName": "PermissionsPage.PermissionPageContainer.Accordian.AccordianContainer.Container10.AccordianButton.FocusedBorderThickness"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "PermissionsPage.Container9.Accordian.AccordianContainer.Container10.AccordianButton.FocusedBorderThickness",
+                  "fullyQualifiedName": "PermissionsPage.PermissionPageContainer.Accordian.AccordianContainer.Container10.AccordianButton.FocusedBorderThickness",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "FocusedBorderThickness",
                 "module": "PermissionsPage",
-                "type": "PermissionsPage.Container9.Accordian.AccordianContainer.Container10.AccordianButton"
+                "type": "PermissionsPage.PermissionPageContainer.Accordian.AccordianContainer.Container10.AccordianButton"
               }
             }
           ],
@@ -684,19 +684,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "PermissionsPage.Container9.Accordian.AccessibleLabel"
+                  "fullyQualifiedName": "PermissionsPage.PermissionPageContainer.Accordian.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "PermissionsPage.Container9.Accordian.AccessibleLabel",
+                  "fullyQualifiedName": "PermissionsPage.PermissionPageContainer.Accordian.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "PermissionsPage",
-                "type": "PermissionsPage.Container9.Accordian"
+                "type": "PermissionsPage.PermissionPageContainer.Accordian"
               }
             }
           ],
@@ -714,19 +714,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "PermissionsPage.Container9.Accordian.TabIndex"
+                  "fullyQualifiedName": "PermissionsPage.PermissionPageContainer.Accordian.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "PermissionsPage.Container9.Accordian.TabIndex",
+                  "fullyQualifiedName": "PermissionsPage.PermissionPageContainer.Accordian.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
                 "module": "PermissionsPage",
-                "type": "PermissionsPage.Container9.Accordian"
+                "type": "PermissionsPage.PermissionPageContainer.Accordian"
               }
             }
           ],
@@ -744,19 +744,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "PermissionsPage.Container9.Accordian.AccordianContainer.AccordianBody.AccessibleLabel"
+                  "fullyQualifiedName": "PermissionsPage.PermissionPageContainer.Accordian.AccordianContainer.AccordianBody.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "PermissionsPage.Container9.Accordian.AccordianContainer.AccordianBody.AccessibleLabel",
+                  "fullyQualifiedName": "PermissionsPage.PermissionPageContainer.Accordian.AccordianContainer.AccordianBody.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "PermissionsPage",
-                "type": "PermissionsPage.Container9.Accordian.AccordianContainer.AccordianBody"
+                "type": "PermissionsPage.PermissionPageContainer.Accordian.AccordianContainer.AccordianBody"
               }
             }
           ],
@@ -774,19 +774,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "PermissionsPage.Container9.Accordian.AccordianContainer.AccordianBody.TabIndex"
+                  "fullyQualifiedName": "PermissionsPage.PermissionPageContainer.Accordian.AccordianContainer.AccordianBody.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "PermissionsPage.Container9.Accordian.AccordianContainer.AccordianBody.TabIndex",
+                  "fullyQualifiedName": "PermissionsPage.PermissionPageContainer.Accordian.AccordianContainer.AccordianBody.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
                 "module": "PermissionsPage",
-                "type": "PermissionsPage.Container9.Accordian.AccordianContainer.AccordianBody"
+                "type": "PermissionsPage.PermissionPageContainer.Accordian.AccordianContainer.AccordianBody"
               }
             }
           ],
