@@ -17,9 +17,8 @@ PermissionsPage As screen:
             Width: =Parent.Width
 
         Accordian As gallery.variableTemplateHeightGallery:
-            AlignInContainer: =AlignInContainer.SetByContainer
             DelayItemLoading: =true
-            Height: =300
+            Height: =Parent.Height - PermissionPageMenu.Height
             Items: |-
                 =Table({
                   id: 1,
@@ -45,8 +44,6 @@ PermissionsPage As screen:
                   })
                 })
             Layout: =Layout.Vertical
-            LayoutMinHeight: =250
-            LayoutMinWidth: =320
             LoadingSpinner: =LoadingSpinner.Data
             TemplatePadding: =10
             TemplateSize: =280
@@ -64,12 +61,9 @@ PermissionsPage As screen:
 
                 AccordianButtonContainer As groupContainer.horizontalAutoLayoutContainer:
                     DropShadow: =DropShadow.None
-                    FillPortions: =0
                     Height: =40
-                    LayoutGap: =10
-                    LayoutMinHeight: =100
-                    LayoutMinWidth: =40
                     LayoutMode: =LayoutMode.Auto
+                    PaddingLeft: =10
                     ZIndex: =1
 
                     CloseIcon As icon.ChevronUp:
@@ -90,16 +84,18 @@ PermissionsPage As screen:
                         Align: =Align.Left
                         BorderThickness: =0
                         Color: =RGBA(0, 0, 0, 1)
-                        DisabledBorderColor: =RGBA(255, 255, 255, 0)
-                        DisabledColor: =RGBA(255, 255, 255, 0)
-                        DisabledFill: =RGBA(255, 255, 255, 0)
+                        DisabledBorderColor: =Self.Color
+                        DisabledColor: =Self.Color
+                        DisabledFill: =
                         Fill: =RGBA(255, 255, 255, 0)
                         FocusedBorderThickness: =0
-                        HoverColor: =RGBA(0, 0, 0, 1)
-                        HoverFill: =RGBA(255, 255, 255, 0)
+                        HoverColor: =Self.Color
+                        HoverFill: =Self.Fill
                         OnSelect: |-
                             =If(activeAccordian = ThisItem.id, UpdateContext({activeAccordian: -1}), UpdateContext({activeAccordian: ThisItem.id}))
-                        PressedFill: =RGBA(255, 255, 255, 0)
+                        PaddingLeft: =15
+                        PressedColor: =Self.Color
+                        PressedFill: =Self.Fill
                         Text: =ThisItem.title
                         Width: =Parent.Width - OpenIcon.Width
                         ZIndex: =3
@@ -111,13 +107,9 @@ PermissionsPage As screen:
                     ZIndex: =3
 
                 AccordianBody As gallery.galleryHorizontal:
-                    AlignInContainer: =AlignInContainer.SetByContainer
                     DelayItemLoading: =true
-                    FillPortions: =0
                     Height: =Parent.Height - AccordianButton.Height - 50
                     Items: =ThisItem.levels
-                    LayoutMinHeight: =287
-                    LayoutMinWidth: =320
                     LoadingSpinner: =LoadingSpinner.Data
                     TemplateSize: =AccordianBodyContainer.Width
                     Visible: =ThisItem.id = activeAccordian
