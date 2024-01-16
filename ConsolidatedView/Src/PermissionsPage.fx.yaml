@@ -25,7 +25,7 @@ PermissionsPage As screen:
                     AccordianHeightCalc.Text
                 )
             Items: |-
-                =Table({ id: 1, name: "Jo" },{ id: 2, name: "Jo" })
+                =Table({ id: 1, name: "Jo" },{ id: 2, name: "Ben" })
             Layout: =Layout.Vertical
             LayoutMinHeight: =287
             LayoutMinWidth: =320
@@ -94,7 +94,7 @@ PermissionsPage As screen:
             AccordianHeightCalc As label:
                 Height: =1
                 OnSelect: =Select(Parent)
-                Text: =AccordianButton.Height+AccordianBody.Height
+                Text: =AccordianContainer.Height
                 Visible: =false
                 Width: =0
                 ZIndex: =3
