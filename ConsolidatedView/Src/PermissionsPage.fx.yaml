@@ -45,11 +45,11 @@ PermissionsPage As screen:
                     permissions: ["Permission 1", "Permission 2"]
                   },{
                     title: "Amend",
-                    permissions: ["...", "..."],
-                    selected: true
+                    permissions: ["...", "..."]
                   },{
                     title: "Make Legal changes",
-                    permissions: ["...", "..."]
+                    permissions: ["...", "..."],
+                    selected: true
                   })
                 })
             Layout: =Layout.Vertical
@@ -133,7 +133,7 @@ PermissionsPage As screen:
 
                     AccordianBodyContainer As groupContainer.verticalAutoLayoutContainer:
                         DropShadow: =DropShadow.None
-                        Fill: =If(ThisItem.Selected = true, RGBA(235, 235, 235, 1), RGBA(235, 235, 235, 1))
+                        Fill: =If(ThisItem.selected = true, RGBA(217, 242, 179, 1), RGBA(235, 235, 235, 1))
                         Height: =Parent.Height
                         LayoutDirection: =LayoutDirection.Vertical
                         LayoutGap: =10
