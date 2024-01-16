@@ -47,12 +47,13 @@ PermissionsPage As screen:
             LayoutMinHeight: =250
             LayoutMinWidth: =320
             LoadingSpinner: =LoadingSpinner.Data
+            TemplatePadding: =0
             TemplateSize: =280
             ZIndex: =4
 
             AccordianContainer As groupContainer.verticalAutoLayoutContainer:
                 DropShadow: =DropShadow.None
-                Height: =If(ThisItem.id = activeAccordian, 250, 40)
+                Height: =If(ThisItem.id = activeAccordian, 350, 40)
                 LayoutDirection: =LayoutDirection.Vertical
                 LayoutMode: =LayoutMode.Auto
                 Width: =Parent.Width
@@ -69,41 +70,55 @@ PermissionsPage As screen:
                     AlignInContainer: =AlignInContainer.SetByContainer
                     DelayItemLoading: =true
                     FillPortions: =0
-                    Height: =Parent.Height - AccordianButton.Height
-                    Items: =CustomGallerySample
+                    Height: =Parent.Height - AccordianButton.Height - 50
+                    Items: =ThisItem.levels
                     LayoutMinHeight: =287
                     LayoutMinWidth: =320
                     LoadingSpinner: =LoadingSpinner.Data
-                    TemplatePadding: =0
-                    TemplateSize: =If(Self.Layout = Layout.Horizontal, 200, Parent.Height)
+                    TemplateSize: =AccordianBodyContainer.Width
                     Visible: =ThisItem.id = activeAccordian
                     Width: =Parent.Width
                     ZIndex: =3
 
-                    AccordianBodyContainre As groupContainer.verticalAutoLayoutContainer:
+                    AccordianBodyContainer As groupContainer.verticalAutoLayoutContainer:
                         DropShadow: =DropShadow.None
+                        Fill: =RGBA(235, 235, 235, 1)
                         Height: =Parent.Height
                         LayoutDirection: =LayoutDirection.Vertical
                         LayoutGap: =10
                         LayoutMode: =LayoutMode.Auto
-                        Width: =200
+                        PaddingBottom: =10
+                        PaddingLeft: =20
+                        PaddingRight: =20
+                        PaddingTop: =10
+                        Width: =300
                         ZIndex: =3
 
-                        Label8_2 As label:
+                        AccordianBodyTitle As label:
                             AutoHeight: =true
                             OnSelect: =
-                            Text: =ThisItem.SampleHeading
+                            PaddingLeft: =0
+                            PaddingRight: =0
+                            Text: =ThisItem.title
                             Width: =Parent.Width
                             X: =40
                             Y: =40
                             ZIndex: =1
 
-                        Label9_2 As label:
+                        AccordianBodySeperator As rectangle:
+                            Fill: =RGBA(199, 199, 199, 1)
+                            Height: =1
+                            Width: =Parent.Width - AccordianBodyContainer.PaddingLeft - AccordianBodyContainer.PaddingRight
+                            ZIndex: =2
+
+                        AccordianBodyContent As label:
                             AutoHeight: =true
                             OnSelect: =
-                            Text: =ThisItem.SampleText
-                            Width: =Parent.Width
+                            PaddingLeft: =0
+                            PaddingTop: =20
+                            Text: =Concat(ThisItem.permissions, Value & Char(13) & Char(13))
+                            Width: =Parent.Width - AccordianBodyContainer.PaddingRight
                             X: =20
                             Y: =20
-                            ZIndex: =2
+                            ZIndex: =3
 
