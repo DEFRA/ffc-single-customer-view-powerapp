@@ -2,7 +2,7 @@ App As appinfo:
     BackEnabled: =true
     OnStart: |-
         =ClearCollect(appScreens, {Name: "Authenticate", Screen: AuthenticateQuestionsPage}, {Name: "Business Detail", Screen: BusinessDetailsPage}, {Name: "Land Parcel", Screen: LandParcelPage});
-        Set(graphQlUrl, "https://e055-145-224-66-97.ngrok-free.app/");
+        Set(graphQlUrl, "https://ffc-cr-api-dev.azure.defra.cloud/");
         Set(customerId, "123");
         Set(
             customerBusinesses,

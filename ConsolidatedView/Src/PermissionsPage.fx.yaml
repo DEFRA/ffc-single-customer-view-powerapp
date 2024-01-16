@@ -41,8 +41,8 @@ PermissionsPage As screen:
                 ZIndex: =2
 
                 AccordianButton As button:
-                    OnSelect: =ThisItem.Visible = !ThisItem.Visible
-                    Text: ="Button"
+                    OnSelect: =Set(ThisItem.Visible, true)
+                    Text: =Concatenate( "Button", ", ", ThisItem.Visible )
                     ZIndex: =1
 
                 AccordianBody As gallery.galleryHorizontal:
