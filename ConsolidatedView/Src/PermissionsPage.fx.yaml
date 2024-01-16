@@ -47,24 +47,63 @@ PermissionsPage As screen:
             LayoutMinHeight: =250
             LayoutMinWidth: =320
             LoadingSpinner: =LoadingSpinner.Data
-            TemplatePadding: =0
+            TemplatePadding: =10
             TemplateSize: =280
             ZIndex: =4
 
             AccordianContainer As groupContainer.verticalAutoLayoutContainer:
                 DropShadow: =DropShadow.None
-                Height: =If(ThisItem.id = activeAccordian, 350, 40)
+                Height: =If(ThisItem.id = activeAccordian, 450, 41)
                 LayoutDirection: =LayoutDirection.Vertical
                 LayoutMode: =LayoutMode.Auto
-                Width: =Parent.Width
+                Width: =Parent.Width - (Accordian.TemplatePadding * 2)
                 ZIndex: =2
 
-                AccordianButton As button:
-                    OnSelect: |-
-                        =UpdateContext({activeAccordian: ThisItem.id});
-                    Text: =ThisItem.title
-                    Width: =200
+                Container10 As groupContainer.horizontalAutoLayoutContainer:
+                    DropShadow: =DropShadow.None
+                    FillPortions: =0
+                    Height: =40
+                    LayoutMinHeight: =100
+                    LayoutMinWidth: =40
+                    LayoutMode: =LayoutMode.Auto
                     ZIndex: =1
+
+                    CloseIcon As icon.ChevronUp:
+                        Height: =40
+                        Icon: =Icon.ChevronUp
+                        Visible: =If(ThisItem.id = activeAccordian, true, false)
+                        Width: =30
+                        ZIndex: =1
+
+                    OpenIcon As icon.ChevronDown:
+                        Height: =40
+                        Icon: =Icon.ChevronDown
+                        Visible: =If(ThisItem.id = activeAccordian, false, true)
+                        Width: =30
+                        ZIndex: =2
+
+                    AccordianButton As button:
+                        Align: =Align.Left
+                        AlignInContainer: =AlignInContainer.Start
+                        BorderThickness: =0
+                        Color: =RGBA(0, 0, 0, 1)
+                        DisabledBorderColor: =RGBA(255, 255, 255, 0)
+                        DisabledColor: =RGBA(255, 255, 255, 0)
+                        DisabledFill: =RGBA(255, 255, 255, 0)
+                        Fill: =RGBA(255, 255, 255, 0)
+                        FocusedBorderThickness: =0
+                        OnSelect: |-
+                            =If(activeAccordian = ThisItem.id, UpdateContext({activeAccordian: -1}), UpdateContext({activeAccordian: ThisItem.id}))
+                        PressedFill: =RGBA(255, 255, 255, 0)
+                        Text: =ThisItem.title
+                        Width: =Parent.Width - OpenIcon.Width
+                        ZIndex: =3
+
+                Rectangle3 As rectangle:
+                    Fill: =RGBA(214, 221, 224, 1)
+                    Height: =1
+                    Width: =Parent.Width
+                    ZIndex: =3
 
                 AccordianBody As gallery.galleryHorizontal:
                     AlignInContainer: =AlignInContainer.SetByContainer
@@ -78,7 +117,7 @@ PermissionsPage As screen:
                     TemplateSize: =AccordianBodyContainer.Width
                     Visible: =ThisItem.id = activeAccordian
                     Width: =Parent.Width
-                    ZIndex: =3
+                    ZIndex: =4
 
                     AccordianBodyContainer As groupContainer.verticalAutoLayoutContainer:
                         DropShadow: =DropShadow.None

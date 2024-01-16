@@ -654,6 +654,36 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "PermissionsPage.Container9.Accordian.AccordianContainer.Container10.AccordianButton.FocusedBorderThickness"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "PermissionsPage.Container9.Accordian.AccordianContainer.Container10.AccordianButton.FocusedBorderThickness",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "FocusedBorderThickness",
+                "module": "PermissionsPage",
+                "type": "PermissionsPage.Container9.Accordian.AccordianContainer.Container10.AccordianButton"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-FocusBorderShouldBeVisible",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "PermissionsPage.Container9.Accordian.AccessibleLabel"
                 }
               ],
