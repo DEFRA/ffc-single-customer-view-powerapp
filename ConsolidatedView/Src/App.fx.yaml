@@ -1,7 +1,7 @@
 App As appinfo:
     BackEnabled: =true
     OnStart: |-
-        =ClearCollect(appScreens, {Name: "Authenticate", Screen: AuthenticateQuestionsPage}, {Name: "Business Detail", Screen: BusinessDetailsPage}, {Name: "Land Parcel", Screen: LandParcelPage});
+        =ClearCollect(appScreens, {Name: "Permissions", Screen: PermissionsPage}, {Name: "Authenticate", Screen: AuthenticateQuestionsPage}, {Name: "Business Detail", Screen: BusinessDetailsPage}, {Name: "Land Parcel", Screen: LandParcelPage});
         Set(graphQlUrl, "https://f311-145-224-66-97.ngrok-free.app/");
         Set(customerId, "123");
         Set(
