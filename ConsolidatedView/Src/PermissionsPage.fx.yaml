@@ -35,7 +35,7 @@ PermissionsPage As screen:
                   },{
                     title: "Amend",
                     permissions: ["...", "..."],
-                    selected1: true
+                    selected: true
                   })
                 },{
                   id: 2,
@@ -50,7 +50,7 @@ PermissionsPage As screen:
                   },{
                     title: "Make Legal changes",
                     permissions: ["...", "..."],
-                    selected1: true
+                    selected: true
                   })
                 })
             Layout: =Layout.Vertical
