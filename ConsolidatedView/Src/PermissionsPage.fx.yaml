@@ -17,6 +17,7 @@ PermissionsPage As screen:
             Width: =Parent.Width
 
         Accordian As gallery.variableTemplateHeightGallery:
+            AlignInContainer: =AlignInContainer.SetByContainer
             DelayItemLoading: =true
             Height: |-
                 =Sum(
@@ -53,6 +54,8 @@ PermissionsPage As screen:
                   })
                 })
             Layout: =Layout.Vertical
+            LayoutMinHeight: =287
+            LayoutMinWidth: =320
             LoadingSpinner: =LoadingSpinner.Data
             TemplatePadding: =10
             TemplateSize: =280
@@ -69,8 +72,11 @@ PermissionsPage As screen:
                 ZIndex: =2
 
                 AccordianButtonContainer As groupContainer.horizontalAutoLayoutContainer:
+                    AlignInContainer: =AlignInContainer.SetByContainer
                     DropShadow: =DropShadow.None
                     Height: =40
+                    LayoutMinHeight: =100
+                    LayoutMinWidth: =250
                     LayoutMode: =LayoutMode.Auto
                     PaddingLeft: =10
                     ZIndex: =1
@@ -122,9 +128,12 @@ PermissionsPage As screen:
                     ZIndex: =3
 
                 AccordianBody As gallery.galleryHorizontal:
+                    AlignInContainer: =AlignInContainer.SetByContainer
                     DelayItemLoading: =true
                     Height: =Parent.Height - AccordianButton.Height - 50
                     Items: =ThisItem.levels
+                    LayoutMinHeight: =287
+                    LayoutMinWidth: =320
                     LoadingSpinner: =LoadingSpinner.Data
                     TemplateSize: =AccordianBodyContainer.Width
                     Visible: =ThisItem.id = activeAccordian

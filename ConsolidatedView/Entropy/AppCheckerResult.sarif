@@ -735,19 +735,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "PermissionsPage.PermissionPageContainer.Accordian.AccordianContainer.AccordianButtonContainer.AccordianButton.FocusedBorderThickness"
+                  "fullyQualifiedName": "PermissionsPage.PermissionPageContainer.Accordian.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "PermissionsPage.PermissionPageContainer.Accordian.AccordianContainer.AccordianButtonContainer.AccordianButton.FocusedBorderThickness",
+                  "fullyQualifiedName": "PermissionsPage.PermissionPageContainer.Accordian.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
-                "member": "FocusedBorderThickness",
+                "member": "AccessibleLabel",
                 "module": "PermissionsPage",
-                "type": "PermissionsPage.PermissionPageContainer.Accordian.AccordianContainer.AccordianButtonContainer.AccordianButton"
+                "type": "PermissionsPage.PermissionPageContainer.Accordian"
               }
             }
           ],
@@ -757,8 +757,8 @@
           "properties": {
             "level": "Medium"
           },
-          "ruleId": "acc-FocusBorderShouldBeVisible",
-          "ruleIndex": 4
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -795,19 +795,49 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "PermissionsPage.PermissionPageContainer.Accordian.AccessibleLabel"
+                  "fullyQualifiedName": "PermissionsPage.PermissionPageContainer.Accordian.AccordianContainer.AccordianButtonContainer.AccordianButton.FocusedBorderThickness"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "PermissionsPage.PermissionPageContainer.Accordian.AccessibleLabel",
+                  "fullyQualifiedName": "PermissionsPage.PermissionPageContainer.Accordian.AccordianContainer.AccordianButtonContainer.AccordianButton.FocusedBorderThickness",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "FocusedBorderThickness",
+                "module": "PermissionsPage",
+                "type": "PermissionsPage.PermissionPageContainer.Accordian.AccordianContainer.AccordianButtonContainer.AccordianButton"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-FocusBorderShouldBeVisible",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "PermissionsPage.PermissionPageContainer.Accordian.AccordianContainer.AccordianBody.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "PermissionsPage.PermissionPageContainer.Accordian.AccordianContainer.AccordianBody.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "PermissionsPage",
-                "type": "PermissionsPage.PermissionPageContainer.Accordian"
+                "type": "PermissionsPage.PermissionPageContainer.Accordian.AccordianContainer.AccordianBody"
               }
             }
           ],
@@ -849,36 +879,6 @@
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
           "ruleIndex": 5
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "PermissionsPage.PermissionPageContainer.Accordian.AccordianContainer.AccordianBody.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "PermissionsPage.PermissionPageContainer.Accordian.AccordianContainer.AccordianBody.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "PermissionsPage",
-                "type": "PermissionsPage.PermissionPageContainer.Accordian.AccordianContainer.AccordianBody"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 3
         },
         {
           "locations": [
