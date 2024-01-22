@@ -26,35 +26,7 @@ PermissionsPage As screen:
                     Self.AllItems,
                     AccordianItemHeight.Text
                 )+10
-            Items: |-
-                =Table({
-                  id: 1,
-                  title: "Business details",
-                  subTitle: "Permission level is Full permission",
-                  levels: Table({
-                    title: "View",
-                    permissions: ["View business details", "View people associated with the business"]
-                  },{
-                    title: "Amend",
-                    permissions: ["...", "..."],
-                    selected: true
-                  })
-                },{
-                  id: 2,
-                  title: "Some details",
-                  subTitle: "Permission level is Half permission",
-                  levels: Table({
-                    title: "View",
-                    permissions: ["Permission 1", "Permission 2"]
-                  },{
-                    title: "Amend",
-                    permissions: ["...", "..."]
-                  },{
-                    title: "Make Legal changes",
-                    permissions: ["...", "..."],
-                    selected: true
-                  })
-                })
+            Items: =Table(permissionItems.permissions)
             Layout: =Layout.Vertical
             LayoutMinHeight: =287
             LayoutMinWidth: =320
