@@ -1,6 +1,6 @@
 PermissionsPage As screen:
     OnVisible: |-
-        =UpdateContext({permissionItems: Blank()}); 
+        =UpdateContext({permissionItems: Blank(), activeAccordian: ""}); 
         UpdateContext({permissionItems: permissions.Run()});
 
     PermissionPageContainer As groupContainer.verticalAutoLayoutContainer:
@@ -80,7 +80,7 @@ PermissionsPage As screen:
                         HoverColor: =Self.Color
                         HoverFill: =Self.Fill
                         OnSelect: |-
-                            =If(activeAccordian = ThisItem.id, UpdateContext({activeAccordian: -1}), UpdateContext({activeAccordian: ThisItem.id}))
+                            =If(activeAccordian = ThisItem.id, UpdateContext({activeAccordian: ""}), UpdateContext({activeAccordian: ThisItem.id}))
                         PaddingLeft: =15
                         PressedColor: =Self.Color
                         PressedFill: =Self.Fill
@@ -95,7 +95,7 @@ PermissionsPage As screen:
                     ZIndex: =2
 
                 AccordianBodySubTitleLabel As label:
-                    Text: =ThisItem.subTitle
+                    Text: =ThisItem.name
                     Visible: =ThisItem.id = activeAccordian
                     Width: =Parent.Width
                     ZIndex: =3
@@ -115,7 +115,7 @@ PermissionsPage As screen:
 
                     AccordianBodyContainer As groupContainer.verticalAutoLayoutContainer:
                         DropShadow: =DropShadow.None
-                        Fill: =If(ThisItem.selected = true, RGBA(217, 242, 179, 1), RGBA(235, 235, 235, 1))
+                        Fill: =If(ThisItem.level = "test", RGBA(217, 242, 179, 1), RGBA(235, 235, 235, 1))
                         Height: =Parent.Height
                         LayoutDirection: =LayoutDirection.Vertical
                         LayoutGap: =10
