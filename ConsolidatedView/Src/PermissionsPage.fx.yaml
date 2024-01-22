@@ -117,7 +117,7 @@ PermissionsPage As screen:
 
                     AccordianBodyContainer As groupContainer.verticalAutoLayoutContainer:
                         DropShadow: =DropShadow.None
-                        Fill: =If(ThisItem.active = true, RGBA(217, 242, 179, 1), RGBA(235, 235, 235, 1))
+                        Fill: =If(ThisItem.IsSelected = true, RGBA(217, 242, 179, 1), RGBA(235, 235, 235, 1))
                         Height: =Parent.Height
                         LayoutDirection: =LayoutDirection.Vertical
                         LayoutGap: =10
