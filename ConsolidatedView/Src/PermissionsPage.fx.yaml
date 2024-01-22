@@ -104,7 +104,7 @@ PermissionsPage As screen:
                     AlignInContainer: =AlignInContainer.SetByContainer
                     DelayItemLoading: =true
                     Height: =Parent.Height - AccordianButton.Height - 50
-                    Items: =ThisItem.levels
+                    Items: =ThisItem.permissions
                     LayoutMinHeight: =287
                     LayoutMinWidth: =320
                     LoadingSpinner: =LoadingSpinner.Data
@@ -132,7 +132,7 @@ PermissionsPage As screen:
                             OnSelect: =
                             PaddingLeft: =0
                             PaddingRight: =0
-                            Text: =ThisItem.title
+                            Text: =ThisItem.level
                             Width: =Parent.Width
                             X: =40
                             Y: =40
@@ -149,7 +149,7 @@ PermissionsPage As screen:
                             OnSelect: =
                             PaddingLeft: =0
                             PaddingTop: =20
-                            Text: =Concat(ThisItem.permissions, Value & Char(13) & Char(13))
+                            Text: =Concat(ThisItem.functions, Value & Char(13) & Char(13))
                             Width: =Parent.Width - AccordianBodyContainer.PaddingRight
                             X: =20
                             Y: =20
