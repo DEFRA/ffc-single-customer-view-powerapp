@@ -25,7 +25,7 @@ PermissionsPage As screen:
                     Self.AllItems,
                     AccordianItemHeight.Text
                 )+10
-            Items: =Table(permissionItems.permissions)
+            Items: =permissionItems.permissions
             Layout: =Layout.Vertical
             LayoutMinHeight: =287
             LayoutMinWidth: =320
