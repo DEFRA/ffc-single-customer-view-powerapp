@@ -113,9 +113,8 @@
     "FileID": "0e762c2e-3dbd-406d-80b1-1b5c979ffada",
     "Id": "3cf2e9a6-83b6-467e-bea5-baa9fc47592a",
     "InstrumentationKey": "",
-    "LocalDatabaseReferences": "{}",
     "ManualOfflineProfileId": "",
-    "Name": "ConsolidatedViewApp.msapp",
+    "Name": "ConsolidatedViewApp",
     "OriginatingVersion": "1.336",
     "ParserErrorCount": 0,
     "ShowStatusBar": false

@@ -84,7 +84,7 @@ PermissionsPage As screen:
                         PaddingLeft: =15
                         PressedColor: =Self.Color
                         PressedFill: =Self.Fill
-                        Text: =ThisItem.title
+                        Text: =ThisItem.name
                         Width: =Parent.Width - OpenIcon.Width
                         ZIndex: =3
 
