@@ -1,8 +1,8 @@
 PermissionsPage As screen:
     OnVisible: |-
-        =UpdateContext({activeAccordian: -1});
-        UpdateContext({permissionItems: Blank()}); 
-        UpdateContext({permissionItems: permissions.Run() });
+        =UpdateContext({permissionItems: Blank()}); 
+        UpdateContext({permissionItems: permissions.Run()});
+        UpdateContext({activeAccordian: -1});
 
     PermissionPageContainer As groupContainer.verticalAutoLayoutContainer:
         DropShadow: =DropShadow.None
