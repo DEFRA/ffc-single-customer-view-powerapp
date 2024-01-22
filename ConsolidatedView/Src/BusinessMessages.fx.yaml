@@ -1,0 +1,11 @@
+BusinessMessages As screen:
+
+    BusinessMessagesTitle As label:
+        Align: =Align.Center
+        FontWeight: =FontWeight.Bold
+        Height: =50
+        Text: ="Business Messages"
+        Width: =200
+        Y: =60
+        ZIndex: =2
+
