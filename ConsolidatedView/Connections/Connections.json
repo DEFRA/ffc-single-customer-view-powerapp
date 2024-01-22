@@ -97,25 +97,6 @@
     "dependents": [],
     "id": "52e335ad-cd47-4240-8f38-989d0fbb4729"
   },
-  "5a1202ef-dd02-4f01-acb0-4778058b3b2a": {
-    "appActions": [],
-    "connectionRef": {
-      "apiTier": "Standard",
-      "displayName": "CustomerRegistry",
-      "iconUri": "https://az787822.vo.msecnd.net/defaulticons/api-dedicated.png",
-      "id": "/providers/microsoft.powerapps/apis/shared_customerregistry-5f1510abe58485dba2-5f0edb110ee270a9d1",
-      "isCustomApiConnection": true,
-      "parameterHints": {},
-      "parameterHintsV2": {}
-    },
-    "datasets": {},
-    "dataSources": [
-      "CustomerRegistry"
-    ],
-    "dependencies": {},
-    "dependents": [],
-    "id": "5a1202ef-dd02-4f01-acb0-4778058b3b2a"
-  },
   "c4cc0eab-746f-4da5-95f5-a2dfaae936f8": {
     "connectionRef": {
       "displayName": "Logic flows",

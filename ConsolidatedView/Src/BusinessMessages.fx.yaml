@@ -1,0 +1,14 @@
+BusinessMessages As screen:
+    OnVisible: |-
+        =UpdateContext({permissionItems: Blank(), activeAccordian: ""}); 
+        UpdateContext({permissionItems: permissions.Run()});
+
+    BusinessMessagesContainer As groupContainer.verticalAutoLayoutContainer:
+        DropShadow: =DropShadow.None
+        Height: =Parent.Height
+        LayoutDirection: =LayoutDirection.Vertical
+        LayoutMode: =LayoutMode.Auto
+        LayoutOverflowY: =LayoutOverflow.Scroll
+        Width: =Parent.Width
+        ZIndex: =3
+
