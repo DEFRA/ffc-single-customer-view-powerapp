@@ -1,5 +1,9 @@
 BusinessMessages As screen:
 
+    BusinessMessagesMenu As PageMenu:
+        Height: =60
+        Width: =Parent.Width
+
     BusinessMessagesTitle As label:
         Align: =Align.Center
         FontWeight: =FontWeight.Bold
