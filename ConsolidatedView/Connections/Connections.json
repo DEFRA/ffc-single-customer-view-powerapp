@@ -33,36 +33,6 @@
     "dependents": [],
     "id": "3a72cfe8-4829-444f-9dd8-92995ea5218d"
   },
-  "3bd4884f-5e1c-4f66-916f-20253441e0bc": {
-    "connectionRef": {
-      "displayName": "Logic flows",
-      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1664/1.0.1664.3477/logicflows/icon.png",
-      "id": "/providers/microsoft.powerapps/apis/shared_logicflows",
-      "parameterHints": {
-        "workflowEntityId": {
-          "value": "ad852744-f8b5-ee11-a569-0022489934cb"
-        },
-        "workflowName": {
-          "value": "a6308e33-061a-9f76-ccb1-c60d93a68ab8"
-        }
-      },
-      "parameterHintsV2": {
-        "workflowEntityId": {
-          "value": "ad852744-f8b5-ee11-a569-0022489934cb"
-        },
-        "workflowName": {
-          "value": "a6308e33-061a-9f76-ccb1-c60d93a68ab8"
-        }
-      }
-    },
-    "datasets": {},
-    "dataSources": [
-      "permissions"
-    ],
-    "dependencies": {},
-    "dependents": [],
-    "id": "3bd4884f-5e1c-4f66-916f-20253441e0bc"
-  },
   "52e335ad-cd47-4240-8f38-989d0fbb4729": {
     "appActions": [
       "Run"
@@ -115,6 +85,36 @@
     "dependencies": {},
     "dependents": [],
     "id": "5a1202ef-dd02-4f01-acb0-4778058b3b2a"
+  },
+  "b92f60ea-c576-487e-8b76-3c74cb839dcb": {
+    "connectionRef": {
+      "displayName": "Logic flows",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1664/1.0.1664.3477/logicflows/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_logicflows",
+      "parameterHints": {
+        "workflowEntityId": {
+          "value": "ad852744-f8b5-ee11-a569-0022489934cb"
+        },
+        "workflowName": {
+          "value": "a6308e33-061a-9f76-ccb1-c60d93a68ab8"
+        }
+      },
+      "parameterHintsV2": {
+        "workflowEntityId": {
+          "value": "ad852744-f8b5-ee11-a569-0022489934cb"
+        },
+        "workflowName": {
+          "value": "a6308e33-061a-9f76-ccb1-c60d93a68ab8"
+        }
+      }
+    },
+    "datasets": {},
+    "dataSources": [
+      "permissions"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "b92f60ea-c576-487e-8b76-3c74cb839dcb"
   },
   "c4cc0eab-746f-4da5-95f5-a2dfaae936f8": {
     "connectionRef": {

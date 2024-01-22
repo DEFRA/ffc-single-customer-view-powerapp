@@ -5,6 +5,7 @@
       <object name="ManualTriggerInput" />
       <string name="ResponseActionOutput_permissions_def_items_def_id_def" />
       <string name="ResponseActionOutput_permissions_def_items_def_name_def" />
+      <boolean name="ResponseActionOutput_permissions_def_items_def_active_def" />
       <string name="ResponseActionOutput_permissions_def_items_def_permissions_def_items_def_functions_def_items_def" />
       <array type="string" name="ResponseActionOutput_permissions_def_items_def_permissions_def_items_def_functions_def" />
       <string name="ResponseActionOutput_permissions_def_items_def_permissions_def_items_def_level_def" />
@@ -16,6 +17,7 @@
       <object name="ResponseActionOutput_permissions_def_items_def">
         <property name="id" type="string" />
         <property name="name" type="string" />
+        <property name="active" type="boolean" />
         <property name="permissions" typeRef="ResponseActionOutput_permissions_def_items_def_permissions_def" />
       </object>
       <array typeRef="ResponseActionOutput_permissions_def_items_def" name="ResponseActionOutput_permissions_def" />
