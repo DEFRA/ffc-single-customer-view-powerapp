@@ -47,11 +47,13 @@ PermissionsPage As screen:
                 AccordianButtonContainer As groupContainer.horizontalAutoLayoutContainer:
                     AlignInContainer: =AlignInContainer.SetByContainer
                     DropShadow: =DropShadow.None
+                    FillPortions: =0
                     Height: =40
-                    LayoutMinHeight: =100
+                    LayoutMinHeight: =41
                     LayoutMinWidth: =250
                     LayoutMode: =LayoutMode.Auto
                     PaddingLeft: =10
+                    Width: =Parent.Width
                     ZIndex: =1
 
                     CloseIcon As icon.ChevronUp:
