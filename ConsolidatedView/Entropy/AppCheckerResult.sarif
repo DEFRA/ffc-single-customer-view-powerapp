@@ -828,66 +828,6 @@
           },
           "ruleId": "app-UnusedVariables",
           "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "BusinessMessages.activeAccordian"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "BusinessMessages.activeAccordian",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "activeAccordian",
-                "module": "BusinessMessages",
-                "type": "BusinessMessages"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "app-UnusedVariables",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "BusinessMessages.permissionItems"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "BusinessMessages.permissionItems",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "permissionItems",
-                "module": "BusinessMessages",
-                "type": "BusinessMessages"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "app-UnusedVariables",
-          "ruleIndex": 4
         }
       ],
       "tool": {

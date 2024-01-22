@@ -134,7 +134,6 @@
     "BusinessDetailsPage",
     "LandParcelPage",
     "AuthenticateQuestionsPage",
-    "PermissionsPage",
-    "BusinessMessages"
+    "PermissionsPage"
   ]
 }
