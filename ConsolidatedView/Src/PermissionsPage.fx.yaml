@@ -38,7 +38,7 @@ PermissionsPage As screen:
 
             AccordianContainer As groupContainer.verticalAutoLayoutContainer:
                 DropShadow: =DropShadow.None
-                Height: =If(ThisItem.id = activeAccordian, 450, 41)
+                Height: =If(ThisItem.id = activeAccordian, AccordianBody.Height + 41, 41)
                 LayoutDirection: =LayoutDirection.Vertical
                 LayoutMode: =LayoutMode.Auto
                 Width: =Parent.Width - (Accordian.TemplatePadding * 2)
@@ -105,14 +105,22 @@ PermissionsPage As screen:
                 AccordianBody As gallery.galleryHorizontal:
                     AlignInContainer: =AlignInContainer.SetByContainer
                     DelayItemLoading: =true
-                    Height: =Parent.Height - AccordianButton.Height - 50
+                    Height: |-
+                        =Max(
+                            Self.AllItems,
+                            AccordianItemBodyHeight.Text
+                        )+10
                     Items: =ThisItem.permissions
                     LayoutMinHeight: =287
                     LayoutMinWidth: =320
                     LoadingSpinner: =LoadingSpinner.Data
                     TemplateSize: =AccordianBodyContainer.Width
                     Visible: =ThisItem.id = activeAccordian
-                    Width: =Parent.Width
+                    Width: |-
+                        =Sum(
+                            Self.AllItems,
+                            AccordianItemHeight.Text
+                        )+10
                     ZIndex: =4
 
                     AccordianBodyContainer As groupContainer.verticalAutoLayoutContainer:
@@ -156,6 +164,10 @@ PermissionsPage As screen:
                             X: =20
                             Y: =20
                             ZIndex: =3
+
+                        AccordianItemBodyHeight As label:
+                            Text: =AccordianBodyTitle.Height + AccordianBodyContent.Height + 250
+                            ZIndex: =4
 
             AccordianItemHeight As label:
                 Text: =AccordianContainer.Height

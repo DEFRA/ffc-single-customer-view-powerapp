@@ -111,7 +111,7 @@
         "OptimizeForDevices": "Off",
         "Parent": "BusinessDetailSectionComponent",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 40,
+        "PublishOrderIndex": 41,
         "Rules": [
           {
             "Category": "Data",
@@ -387,7 +387,7 @@
             "OptimizeForDevices": "Off",
             "Parent": "Gallery2",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 42,
+            "PublishOrderIndex": 43,
             "Rules": [
               {
                 "Category": "Design",
@@ -491,7 +491,7 @@
             "OptimizeForDevices": "Off",
             "Parent": "Gallery2",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 43,
+            "PublishOrderIndex": 44,
             "Rules": [
               {
                 "Category": "Data",
@@ -704,7 +704,7 @@
             "OptimizeForDevices": "Off",
             "Parent": "Gallery2",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 44,
+            "PublishOrderIndex": 45,
             "Rules": [
               {
                 "Category": "Data",
@@ -905,7 +905,7 @@
             "OptimizeForDevices": "Off",
             "Parent": "Gallery2",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 45,
+            "PublishOrderIndex": 46,
             "Rules": [
               {
                 "Category": "Data",
@@ -1247,7 +1247,7 @@
             "OptimizeForDevices": "Off",
             "Parent": "Gallery2",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 46,
+            "PublishOrderIndex": 47,
             "Rules": [
               {
                 "Category": "Design",
@@ -1448,7 +1448,7 @@
         "OptimizeForDevices": "Off",
         "Parent": "BusinessDetailSectionComponent",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 41,
+        "PublishOrderIndex": 42,
         "Rules": [
           {
             "Category": "Data",
