@@ -1,0 +1,72 @@
+BusinessDetailSectionComponent_3 As CanvasComponent:
+    calcHeight: ='Title Label_3'.Height + Gallery2_3.Height
+    Fill: =RGBA(0, 0, 0, 0)
+    Height: =
+    Items: |-
+        =Table({Field: "Buiness Name Buiness Name Buiness Name Buiness Name Buiness Name", Value: ""},{Field: "Address", Value: "1 maggie lane<br>Street name<br>village name<br>city<br>POST CODE"},{Field: "Address", Value: "1 maggie lane<br>Street name<br>village name<br>city<br>POST CODE"},{Field: "Buiness Name", Value: "Mr business"},{Field: "Address", Value: "1 maggie lane<br>Street name<br>village name<br>city<br>POST CODE"},{Field: "Buiness Name", Value: "Mr business"})
+    Title: ="The Title"
+    Width: =640
+    X: =0
+    Y: =0
+    ZIndex: =1
+
+    Gallery2_3 As gallery.variableTemplateHeightGallery:
+        DelayItemLoading: =true
+        Height: |-
+            =Sum(
+                Self.AllItems,
+                HeightCalc_3.Text
+            )+10
+        Items: =BusinessDetailSectionComponent_3.Items
+        Layout: =Layout.Vertical
+        LoadingSpinner: =LoadingSpinner.Data
+        ShowScrollbar: =false
+        TemplatePadding: =0
+        TemplateSize: =34
+        Width: =Parent.Width
+        Y: ='Title Label_3'.Height
+        ZIndex: =2
+
+        Seperator_3 As rectangle:
+            BorderColor: =RGBA(242, 242, 242, 1)
+            Fill: =RGBA(199, 199, 199, 1)
+            Height: =1
+            OnSelect: =Select(Parent)
+            Width: =Parent.Width
+            Y: =Max(ValueLabel_3.Height, KeyLabel_3.Height)
+            ZIndex: =6
+
+        ValueLabel_3 As htmlViewer:
+            AutoHeight: =true
+            DisplayMode: =DisplayMode.View
+            Height: =60
+            HtmlText: =If( Len(ThisItem.Value) > 0, ThisItem.Value, "-" )
+            OnSelect: =Select(Parent)
+            Width: =Parent.Width / 2
+            X: =Parent.Width / 2
+            ZIndex: =7
+
+        HeightCalc_3 As label:
+            OnSelect: =Select(Parent)
+            Text: =Max(KeyLabel_3.Y, ValueLabel_3.Y) + Max(KeyLabel_3.Height, ValueLabel_3.Height)
+            Visible: =false
+            X: =490
+            Y: =34
+            ZIndex: =8
+
+        KeyLabel_3 As htmlViewer:
+            AutoHeight: =true
+            DisplayMode: =DisplayMode.View
+            HtmlText: =ThisItem.Field
+            OnSelect: =Select(Parent)
+            Width: =Parent.Width / 2
+            ZIndex: =9
+
+    "'Title Label_3' As label":
+        FontWeight: =FontWeight.Bold
+        Height: =50
+        Size: =16
+        Text: =BusinessDetailSectionComponent_3.Title
+        Width: =Parent.Width
+        ZIndex: =3
+

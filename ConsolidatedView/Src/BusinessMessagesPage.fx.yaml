@@ -1,15 +1,38 @@
 BusinessMessagesPage As screen:
 
-    BusinessMessagesMenu As PageMenu:
-        Height: =60
+    BusinessMessagesContainer As groupContainer.verticalAutoLayoutContainer:
+        Height: =Parent.Height
+        LayoutDirection: =LayoutDirection.Vertical
+        LayoutGap: =10
+        LayoutMode: =LayoutMode.Auto
+        LayoutOverflowY: =LayoutOverflow.Scroll
         Width: =Parent.Width
+        ZIndex: =1
 
-    BusinessMessagesTitle As label:
-        Align: =Align.Center
-        FontWeight: =FontWeight.Bold
-        Height: =50
-        Text: ="Business Messages"
-        Width: =200
-        Y: =60
-        ZIndex: =2
+        BusinessMessagesMenu As PageMenu:
+            Height: =60
+            LayoutMinHeight: =640
+            Width: =Parent.Width
+
+        BusinessMessagesHeader As PageHeader:
+            LayoutMinHeight: =640
+            LayoutMinWidth: =640
+            MainTitle: ="Business Messages"
+            SubTitle: =businessDetail.data.business.info.name
+            ZIndex: =2
+
+        BusinessMessagesBodyContainer As groupContainer.verticalAutoLayoutContainer:
+            LayoutDirection: =LayoutDirection.Vertical
+            LayoutMinHeight: =100
+            LayoutMinWidth: =250
+            LayoutMode: =LayoutMode.Auto
+            ZIndex: =3
+
+            BusinessMessagesTable As Table:
+                Data: =Table(business_messages.Run({}))
+                Height: =App.Height
+                LayoutMinHeight: =
+                LayoutMinWidth: =
+                OnReset: =Set(sortFieldDirection, "asc"); Set(sortFieldKey, First(BusinessMessagesTable.Fields).Value); ClearCollect( SortedData, SortByColumns( BusinessMessagesTable.Data, sortFieldKey, SortOrder.Ascending ) );
+                Width: =App.Width
 

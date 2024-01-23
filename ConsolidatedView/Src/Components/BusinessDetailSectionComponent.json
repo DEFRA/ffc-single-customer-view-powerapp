@@ -1655,7 +1655,7 @@
       },
       "calcHeight"
     ],
-    "LastModifiedTimestamp": "638416232817853198",
+    "LastModifiedTimestamp": "638416234965915486",
     "Name": "BusinessDetailSectionComponent",
     "Rules": [
       {
@@ -1761,7 +1761,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638416232817853198",
+  "LastModifiedTimestamp": "638416234965915486",
   "Name": "53df8bd02e8449e3bb4dc0cda6262d93",
   "OverridableProperties": {},
   "Version": "1.0"

@@ -13,6 +13,7 @@ App As appinfo:
     Theme: =PowerAppsTheme
 
     Host As hostControl.DefaultHostControlVariant:
+        DataSource: ='Context variables'
         OnCancel: =false
         OnEdit: =false
         OnNew: =false
