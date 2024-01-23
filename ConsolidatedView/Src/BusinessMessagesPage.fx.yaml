@@ -1,4 +1,6 @@
 BusinessMessagesPage As screen:
+    OnVisible: |-
+        =UpdateContext({businessMessages: Blank()}); UpdateContext( { businessMessages: business_messages.Run(activeBusiness.id, "customer id") });
 
     BusinessMessagesContainer As groupContainer.verticalAutoLayoutContainer:
         Height: =Parent.Height

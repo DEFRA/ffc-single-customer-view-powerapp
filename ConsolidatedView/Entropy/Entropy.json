@@ -167,7 +167,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "01/23/2024 16:34:44",
+  "HeaderLastSavedDateTimeUTC": "01/23/2024 16:38:45",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "19c91e65-b9c0-4c9a-99ff-4619cf1bbfb7": "\"/providers/microsoft.powerapps/apis/shared_logicflows/connections/a6308e33061a9f76ccb1c60d93a68ab8-f697b8c2bd20e326\"",
@@ -202,23 +202,12 @@
     "e76f41057346458d9a11a1ca92d0db56": 2
   },
   "OrderDataSource": {
-    "7.K3Mf9I2ZSkCceYWHGMs9oQ==.SortedData": 18,
-    "appScreens": 17,
+    "7.K3Mf9I2ZSkCceYWHGMs9oQ==.SortedData": 7,
+    "appScreens": 6,
     "business_details": 2,
     "business_messages": 4,
-    "Context variables": 16,
-    "Context variables\\componentstate": 10,
-    "Context variables\\default.cds_msdyn_ocliveworkstreamcontextvariable_views": 14,
-    "Context variables\\ismanaged": 5,
-    "Context variables\\msdyn_ocliveworkstreamcontextvariable_msdyn_datatype": 11,
-    "Context variables\\msdyn_ocliveworkstreamcontextvariable_msdyn_isdisplayable": 6,
-    "Context variables\\msdyn_ocliveworkstreamcontextvariable_msdyn_islist": 7,
-    "Context variables\\msdyn_ocliveworkstreamcontextvariable_msdyn_ismodifiable": 8,
-    "Context variables\\msdyn_ocliveworkstreamcontextvariable_msdyn_issystemdefined": 9,
-    "Context variables\\msdyn_ocliveworkstreamcontextvariable_statecode": 12,
-    "Context variables\\msdyn_ocliveworkstreamcontextvariable_statuscode": 13,
     "customer_businesses": 0,
-    "CustomGallerySample": 15,
+    "CustomGallerySample": 5,
     "land_parcels": 1,
     "permissions": 3
   },
@@ -1326,5 +1315,5 @@
     },
     "DeserializationLoadTime": 2.1816038
   },
-  "WasLocalDatabaseReferencesEmpty": false
+  "WasLocalDatabaseReferencesEmpty": true
 }
