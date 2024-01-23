@@ -1,6 +1,6 @@
 BusinessDetailsPage As screen:
     OnVisible: |-
-        =UpdateContext({businessDetail: Blank()}); UpdateContext( { businessDetail: business_details.Run(graphQlUrl, activeBusiness.id) });
+        =UpdateContext({businessDetail: Blank()}); UpdateContext( { businessDetail: business_details.Run(activeBusiness.id) });
 
     BusinessDetailsPageContainer As groupContainer.verticalAutoLayoutContainer:
         Height: =Parent.Height
