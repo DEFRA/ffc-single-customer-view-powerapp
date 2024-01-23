@@ -31,7 +31,7 @@ BusinessMessagesPage As screen:
             ZIndex: =3
 
             BusinessMessagesTable As Table:
-                Data: =businessMessages.messages
+                Data: =Table(ParseJSON(businessMessages.messages))
                 Fields: |-
                     =Table(
                         {Value: "id", Name: "ID"},   
