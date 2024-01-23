@@ -63,10 +63,10 @@
                   "relativeAddress": 0
                 },
                 "region": {
-                  "charLength": 23,
+                  "charLength": 40,
                   "charOffset": 0,
                   "snippet": {
-                    "text": "business_messages.Run()"
+                    "text": "business_messages.Run(\"12312\", \"123123\")"
                   }
                 }
               },
@@ -78,12 +78,16 @@
             }
           ],
           "message": {
+            "arguments": [
+              "2",
+              "0"
+            ],
             "id": "issue"
           },
           "properties": {
             "level": "High"
           },
-          "ruleId": "app-ErrBehaviorPropertyExpected",
+          "ruleId": "app-ErrBadArity",
           "ruleIndex": 1
         },
         {
@@ -1359,17 +1363,14 @@
               }
             },
             {
-              "id": "app-ErrBehaviorPropertyExpected",
+              "id": "app-ErrBadArity",
               "messageStrings": {
                 "issue": {
-                  "text": "Behavior function in a non-behavior property. You can't use this property to change values elsewhere in the app."
+                  "text": "Invalid number of arguments: received {0}, expected {1}."
                 }
               },
               "properties": {
                 "componentType": "app",
-                "howToFix": [
-                  "Move the behavior function to a behavior-based property."
-                ],
                 "level": "High",
                 "primaryCategory": "formula",
                 "whyFix": ""
