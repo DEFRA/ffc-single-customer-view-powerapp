@@ -29,12 +29,8 @@
     "dependents": [],
     "id": "19c91e65-b9c0-4c9a-99ff-4619cf1bbfb7"
   },
-  "52e335ad-cd47-4240-8f38-989d0fbb4729": {
-    "appActions": [
-      "Run"
-    ],
+  "26b062d8-a5cb-4747-9bbb-5f3aa1ff9a32": {
     "connectionRef": {
-      "apiTier": "Standard",
       "displayName": "Logic flows",
       "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1664/1.0.1664.3477/logicflows/icon.png",
       "id": "/providers/microsoft.powerapps/apis/shared_logicflows",
@@ -61,7 +57,7 @@
     ],
     "dependencies": {},
     "dependents": [],
-    "id": "52e335ad-cd47-4240-8f38-989d0fbb4729"
+    "id": "26b062d8-a5cb-4747-9bbb-5f3aa1ff9a32"
   },
   "566bcfa6-836e-4f41-b307-804ff3f96a5d": {
     "connectionRef": {

@@ -1,6 +1,6 @@
 LandParcelPage As screen:
     OnVisible: |-
-        =UpdateContext({landParcels: Blank()}); UpdateContext( { landParcels: land_parcels.Run(activeBusiness.id, graphQlUrl) });
+        =UpdateContext({landParcels: Blank()}); UpdateContext( { landParcels: land_parcels.Run(activeBusiness.id) });
 
     LandParcelPageContainer As groupContainer.verticalAutoLayoutContainer:
         Height: =Parent.Height
