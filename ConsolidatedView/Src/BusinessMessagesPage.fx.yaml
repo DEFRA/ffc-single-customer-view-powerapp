@@ -29,7 +29,7 @@ BusinessMessagesPage As screen:
             ZIndex: =3
 
             BusinessMessagesTable As Table:
-                Data: =Table(business_messages.Run({}))
+                Data: =Table({})
                 Height: =App.Height
                 LayoutMinHeight: =
                 LayoutMinWidth: =
