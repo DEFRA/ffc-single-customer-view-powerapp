@@ -98,7 +98,7 @@
       "zeroalltabindexes": false
     },
     "Author": "",
-    "BindingErrorCount": 11,
+    "BindingErrorCount": 13,
     "ContainsThirdPartyPcfControls": false,
     "DefaultConnectedDataSourceMaxGetRowsCount": 500,
     "DocumentAppType": "DesktopOrTablet",
@@ -113,10 +113,11 @@
     "FileID": "0e762c2e-3dbd-406d-80b1-1b5c979ffada",
     "Id": "3cf2e9a6-83b6-467e-bea5-baa9fc47592a",
     "InstrumentationKey": "",
+    "LocalDatabaseReferences": "{}",
     "ManualOfflineProfileId": "",
     "Name": "ConsolidatedViewApp",
     "OriginatingVersion": "1.336",
-    "ParserErrorCount": 0,
+    "ParserErrorCount": 7,
     "ShowStatusBar": false
   },
   "PublishInfo": {

@@ -1,6 +1,99 @@
 BusinessMessagesPage As screen:
     OnVisible: |-
-        =UpdateContext({businessMessages: Blank()}); UpdateContext({ businessMessages: business_messages.Run(activeBusiness.id, customerId)});
+        =UpdateContext({businessMessages: Blank()}); UpdateContext({ businessMessages: {
+          "messages": [
+            {
+              "id": "2742200",
+              "fields": [
+                {
+                  "name": "date",
+                  "date": 7797822258172
+                },
+                {
+                  "name": "id",
+                  "id": "2742200"
+                },
+                {
+                  "name": "body",
+                  "body": "<p>Usitas crapula demens voluptates veritas qui.</p>"
+                },
+                {
+                  "name": "title",
+                  "title": "Damnatio usitas tenus patruus vestigium voro unde vitium."
+                },
+                {
+                  "name": "read",
+                  "read": false
+                }
+              ],
+              "search": "2742200Damnatio usitas tenus patruus vestigium voro unde vitium.<p>Usitas crapula demens voluptates veritas qui.</p>False7797822258172",
+              "title": "Damnatio usitas tenus patruus vestigium voro unde vitium.",
+              "body": "<p>Usitas crapula demens voluptates veritas qui.</p>",
+              "read": false,
+              "date": 7797822258172
+            },
+            {
+              "id": "1354353",
+              "fields": [
+                {
+                  "name": "date",
+                  "date": 7797822258145
+                },
+                {
+                  "name": "id",
+                  "id": "1354353"
+                },
+                {
+                  "name": "body",
+                  "body": "<p>Usitas crapula demens voluptates veritas qui.</p>"
+                },
+                {
+                  "name": "title",
+                  "title": "Damnatio usitas tenus patruus vestigium voro unde vitium."
+                },
+                {
+                  "name": "read",
+                  "read": false
+                }
+              ],
+              "search": "1354353Damnatio usitas tenus patruus vestigium voro unde vitium.<p>Usitas crapula demens voluptates veritas qui.</p>False7797822258145",
+              "title": "Damnatio usitas tenus patruus vestigium voro unde vitium.",
+              "body": "<p>Usitas crapula demens voluptates veritas qui.</p>",
+              "read": false,
+              "date": 7797822258145
+            },
+            {
+              "id": "123123",
+              "fields": [
+                {
+                  "name": "date",
+                  "date": 7797822243658
+                },
+                {
+                  "name": "id",
+                  "id": "123123"
+                },
+                {
+                  "name": "body",
+                  "body": "<p>Usitas crapula demens voluptates veritas qui.</p>"
+                },
+                {
+                  "name": "title",
+                  "title": "Damnatio usitas tenus patruus vestigium voro unde vitium."
+                },
+                {
+                  "name": "read",
+                  "read": false
+                }
+              ],
+              "search": "123123Damnatio usitas tenus patruus vestigium voro unde vitium.<p>Usitas crapula demens voluptates veritas qui.</p>False7797822243658",
+              "title": "Damnatio usitas tenus patruus vestigium voro unde vitium.",
+              "body": "<p>Usitas crapula demens voluptates veritas qui.</p>",
+              "read": false,
+              "date": 7797822243658
+            }
+          ]
+        }});
 
     BusinessMessagesContainer As groupContainer.verticalAutoLayoutContainer:
         Height: =Parent.Height
@@ -31,8 +124,15 @@ BusinessMessagesPage As screen:
             ZIndex: =3
 
             BusinessMessagesTable As Table:
-                Data: =
-                Fields: =
+                Data: =businessMessages.messages
+                Fields: |-
+                    =Table(
+                        {Value: "id", Name: "ID"},   
+                        {Value: "date", Name: "Date"},
+                        {Value: "title", Name: "Title"},
+                        {Value: "body", Name: "Body"},
+                        {Value: "read", Name: "Read"}
+                    )
                 Height: =App.Height
                 LayoutMinHeight: =
                 LayoutMinWidth: =

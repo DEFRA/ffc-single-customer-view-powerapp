@@ -59,36 +59,6 @@
     "dependents": [],
     "id": "26b062d8-a5cb-4747-9bbb-5f3aa1ff9a32"
   },
-  "40e247a1-92fe-4495-b1cb-3240a152b344": {
-    "connectionRef": {
-      "displayName": "Logic flows",
-      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1664/1.0.1664.3477/logicflows/icon.png",
-      "id": "/providers/microsoft.powerapps/apis/shared_logicflows",
-      "parameterHints": {
-        "workflowEntityId": {
-          "value": "76bcf21b-5ab9-ee11-a569-0022489934cb"
-        },
-        "workflowName": {
-          "value": "2a99e9b4-1faa-9a23-eb00-134f79fa8af7"
-        }
-      },
-      "parameterHintsV2": {
-        "workflowEntityId": {
-          "value": "76bcf21b-5ab9-ee11-a569-0022489934cb"
-        },
-        "workflowName": {
-          "value": "2a99e9b4-1faa-9a23-eb00-134f79fa8af7"
-        }
-      }
-    },
-    "datasets": {},
-    "dataSources": [
-      "business_messages"
-    ],
-    "dependencies": {},
-    "dependents": [],
-    "id": "40e247a1-92fe-4495-b1cb-3240a152b344"
-  },
   "87d14b38-3fc4-4ff3-86f8-a3db518d9e9a": {
     "connectionRef": {
       "displayName": "Logic flows",
@@ -148,5 +118,35 @@
     "dependencies": {},
     "dependents": [],
     "id": "b16a82c0-86f1-44bc-98a2-147327adeb38"
+  },
+  "d5e9739e-c5fa-486d-bc63-b98d37f96bfb": {
+    "connectionRef": {
+      "displayName": "Logic flows",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1664/1.0.1664.3477/logicflows/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_logicflows",
+      "parameterHints": {
+        "workflowEntityId": {
+          "value": "76bcf21b-5ab9-ee11-a569-0022489934cb"
+        },
+        "workflowName": {
+          "value": "2a99e9b4-1faa-9a23-eb00-134f79fa8af7"
+        }
+      },
+      "parameterHintsV2": {
+        "workflowEntityId": {
+          "value": "76bcf21b-5ab9-ee11-a569-0022489934cb"
+        },
+        "workflowName": {
+          "value": "2a99e9b4-1faa-9a23-eb00-134f79fa8af7"
+        }
+      }
+    },
+    "datasets": {},
+    "dataSources": [
+      "business_messages"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "d5e9739e-c5fa-486d-bc63-b98d37f96bfb"
   }
 }
