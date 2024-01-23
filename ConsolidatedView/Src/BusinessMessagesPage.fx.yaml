@@ -1,4 +1,4 @@
-BusinessMessages As screen:
+BusinessMessagesPage As screen:
 
     BusinessMessagesMenu As PageMenu:
         Height: =60
