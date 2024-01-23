@@ -59,6 +59,36 @@
     "dependents": [],
     "id": "26b062d8-a5cb-4747-9bbb-5f3aa1ff9a32"
   },
+  "87d14b38-3fc4-4ff3-86f8-a3db518d9e9a": {
+    "connectionRef": {
+      "displayName": "Logic flows",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1664/1.0.1664.3477/logicflows/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_logicflows",
+      "parameterHints": {
+        "workflowEntityId": {
+          "value": "d3b6a19f-feae-ee11-a569-002248993ab5"
+        },
+        "workflowName": {
+          "value": "0d0a3e56-5395-a4fa-cd81-bd9baa7094d2"
+        }
+      },
+      "parameterHintsV2": {
+        "workflowEntityId": {
+          "value": "d3b6a19f-feae-ee11-a569-002248993ab5"
+        },
+        "workflowName": {
+          "value": "0d0a3e56-5395-a4fa-cd81-bd9baa7094d2"
+        }
+      }
+    },
+    "datasets": {},
+    "dataSources": [
+      "business_details"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "87d14b38-3fc4-4ff3-86f8-a3db518d9e9a"
+  },
   "c4cc0eab-746f-4da5-95f5-a2dfaae936f8": {
     "connectionRef": {
       "displayName": "Logic flows",
@@ -89,37 +119,7 @@
     "dependents": [],
     "id": "c4cc0eab-746f-4da5-95f5-a2dfaae936f8"
   },
-  "d0f675ed-b9bb-4cb0-a2fe-92508cc9b78d": {
-    "connectionRef": {
-      "displayName": "Logic flows",
-      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1664/1.0.1664.3477/logicflows/icon.png",
-      "id": "/providers/microsoft.powerapps/apis/shared_logicflows",
-      "parameterHints": {
-        "workflowEntityId": {
-          "value": "d3b6a19f-feae-ee11-a569-002248993ab5"
-        },
-        "workflowName": {
-          "value": "0d0a3e56-5395-a4fa-cd81-bd9baa7094d2"
-        }
-      },
-      "parameterHintsV2": {
-        "workflowEntityId": {
-          "value": "d3b6a19f-feae-ee11-a569-002248993ab5"
-        },
-        "workflowName": {
-          "value": "0d0a3e56-5395-a4fa-cd81-bd9baa7094d2"
-        }
-      }
-    },
-    "datasets": {},
-    "dataSources": [
-      "business_details"
-    ],
-    "dependencies": {},
-    "dependents": [],
-    "id": "d0f675ed-b9bb-4cb0-a2fe-92508cc9b78d"
-  },
-  "fa48fbea-db34-4e77-8daf-b368dfd5f33c": {
+  "e7178153-300a-49c9-a5a3-0ce0f8a4d1d4": {
     "connectionRef": {
       "displayName": "Logic flows",
       "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1664/1.0.1664.3477/logicflows/icon.png",
@@ -147,6 +147,6 @@
     ],
     "dependencies": {},
     "dependents": [],
-    "id": "fa48fbea-db34-4e77-8daf-b368dfd5f33c"
+    "id": "e7178153-300a-49c9-a5a3-0ce0f8a4d1d4"
   }
 }
