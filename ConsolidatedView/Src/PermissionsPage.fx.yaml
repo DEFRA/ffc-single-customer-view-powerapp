@@ -17,6 +17,13 @@ PermissionsPage As screen:
             LayoutMinHeight: =640
             Width: =Parent.Width
 
+        PermissionPageTitle As PageHeader:
+            LayoutMinHeight: =640
+            LayoutMinWidth: =640
+            MainTitle: ="Permissions"
+            SubTitle: =businessDetail.data.business.info.name
+            ZIndex: =2
+
         Accordian As gallery.variableTemplateHeightGallery:
             AlignInContainer: =AlignInContainer.SetByContainer
             DelayItemLoading: =true
@@ -34,7 +41,7 @@ PermissionsPage As screen:
             TemplateSize: =280
             Width: |
                 =Parent.Width
-            ZIndex: =4
+            ZIndex: =3
 
             AccordianContainer As groupContainer.verticalAutoLayoutContainer:
                 DropShadow: =DropShadow.None
@@ -151,7 +158,8 @@ PermissionsPage As screen:
                             OnSelect: =
                             PaddingLeft: =0
                             PaddingTop: =20
-                            Text: =Concat(ThisItem.functions, Value & Char(13) & Char(13))
+                            Size: =11
+                            Text: =Concat(ThisItem.functions, "- " & Value & Char(13))
                             Width: =Parent.Width - AccordianBodyContainer.PaddingRight
                             X: =20
                             Y: =20
