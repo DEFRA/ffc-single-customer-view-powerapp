@@ -152,7 +152,7 @@ PermissionsPage As screen:
                             PaddingLeft: =0
                             PaddingTop: =20
                             Size: =11
-                            Text: =Concat(ThisItem.functions, Value & Char(13))
+                            Text: =Concat(ThisItem.functions, "- " & Value & Char(13))
                             Width: =Parent.Width - AccordianBodyContainer.PaddingRight
                             X: =20
                             Y: =20
