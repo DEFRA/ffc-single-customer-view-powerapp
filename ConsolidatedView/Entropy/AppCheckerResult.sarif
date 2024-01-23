@@ -242,6 +242,46 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "BusinessMessagesPage.BusinessMessagesContainer.BusinessMessagesBodyContainer.BusinessMessagesTable.Fields"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "BusinessMessagesPage.BusinessMessagesContainer.BusinessMessagesBodyContainer.BusinessMessagesTable.Fields",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 9,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "Table({})"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Fields",
+                "module": "BusinessMessagesPage",
+                "type": "BusinessMessagesPage.BusinessMessagesContainer.BusinessMessagesBodyContainer.BusinessMessagesTable"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Name, Value"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-InvalidTable",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "BusinessMessagesPage.BusinessMessagesContainer.BusinessMessagesBodyContainer.BusinessMessagesTable.Data"
                 }
               ],

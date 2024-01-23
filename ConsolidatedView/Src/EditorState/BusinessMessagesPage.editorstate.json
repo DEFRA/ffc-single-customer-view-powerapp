@@ -768,7 +768,14 @@
           "IsLockable": false,
           "NameMapSourceSchema": "?"
         },
-        "Fields",
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "Table({Value: \"SampleStringField\", Name: \"Sample String Field\"},{Value: \"SampleNumberField\", Name: \"Sample Number Field\"},{Value: \"SampleBooleanField\", Name: \"Sample Boolean Field\"})",
+          "InvariantPropertyName": "Fields",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
         {
           "AFDDataSourceName": "",
           "AutoRuleBindingEnabled": false,

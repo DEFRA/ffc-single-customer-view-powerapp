@@ -30,6 +30,7 @@ BusinessMessagesPage As screen:
 
             BusinessMessagesTable As Table:
                 Data: =Table({})
+                Fields: =Table({})
                 Height: =App.Height
                 LayoutMinHeight: =
                 LayoutMinWidth: =
