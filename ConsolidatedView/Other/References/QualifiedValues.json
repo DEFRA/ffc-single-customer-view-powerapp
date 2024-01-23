@@ -1,6 +1,13 @@
 {
   "QualifiedValues": [
     {
+      "Kind": "default.cds_msdyn_ocliveworkstreamcontextvariable_forms",
+      "Namespace": "Context variables (Forms)",
+      "Values": {
+        "Information": "c8194bab-3269-4f8b-9ede-d1a5d203afb6"
+      }
+    },
+    {
       "Kind": "default.cds_rpa_activitymetadata_forms",
       "Namespace": "Activity Meta Data (Forms)",
       "Values": {
@@ -78,13 +85,6 @@
       "Namespace": "Main Menu (Forms)",
       "Values": {
         "Information": "37dcb38a-9d25-4a0a-804b-b7a03d7d0256"
-      }
-    },
-    {
-      "Kind": "default.cds_msdyn_ocliveworkstreamcontextvariable_forms",
-      "Namespace": "Context variables (Forms)",
-      "Values": {
-        "Information": "c8194bab-3269-4f8b-9ede-d1a5d203afb6"
       }
     }
   ]

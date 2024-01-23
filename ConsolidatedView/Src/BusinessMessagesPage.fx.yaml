@@ -29,11 +29,10 @@ BusinessMessagesPage As screen:
             ZIndex: =3
 
             BusinessMessagesTable As Table:
-                Data: =Table({})
+                Data: =business_messages.Run()
                 Fields: =Table({})
                 Height: =App.Height
                 LayoutMinHeight: =
                 LayoutMinWidth: =
-                OnReset: =Set(sortFieldDirection, "asc"); Set(sortFieldKey, First(BusinessMessagesTable.Fields).Value); ClearCollect( SortedData, SortByColumns( BusinessMessagesTable.Data, sortFieldKey, SortOrder.Ascending ) );
                 Width: =App.Width
 
