@@ -1,6 +1,6 @@
 BusinessMessagesPage As screen:
     OnVisible: |-
-        =UpdateContext({businessMessages: Blank()}); UpdateContext( { businessMessages: business_messages.Run(activeBusiness.id, customerId) });
+        =UpdateContext({businessMessages: Blank()}); UpdateContext({ businessMessages: business_messages.Run(activeBusiness.id, customerId)});
 
     BusinessMessagesContainer As groupContainer.verticalAutoLayoutContainer:
         Height: =Parent.Height
@@ -31,8 +31,8 @@ BusinessMessagesPage As screen:
             ZIndex: =3
 
             BusinessMessagesTable As Table:
-                Data: =businessMessages
-                Fields: =businessMessages
+                Data: =
+                Fields: =
                 Height: =App.Height
                 LayoutMinHeight: =
                 LayoutMinWidth: =
