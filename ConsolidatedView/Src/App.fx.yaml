@@ -2,11 +2,10 @@ App As appinfo:
     BackEnabled: =true
     OnStart: |-
         =ClearCollect(appScreens, {Name: "Authenticate", Screen: AuthenticateQuestionsPage},{Name: "Permissions", Screen: PermissionsPage}, {Name: "Business Detail", Screen: BusinessDetailsPage}, {Name: "Land Parcel", Screen: LandParcelPage}, {Name: "Business Messages", Screen: BusinessMessagesPage });
-        Set(graphQlUrl, "https://f311-145-224-66-97.ngrok-free.app/");
         Set(customerId, "123");
         Set(
             customerBusinesses,
-            customer_businesses.Run("123", graphQlUrl).data.customer.businesses
+            customer_businesses.Run(customerId).data.customer.businesses
         );
         Set(activeBusiness, First(customerBusinesses));
     StartScreen: =AuthenticateQuestionsPage
