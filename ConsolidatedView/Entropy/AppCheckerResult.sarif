@@ -63,10 +63,10 @@
                   "relativeAddress": 0
                 },
                 "region": {
-                  "charLength": 9,
+                  "charLength": 23,
                   "charOffset": 0,
                   "snippet": {
-                    "text": "Table({})"
+                    "text": "Table(businessMessages)"
                   }
                 }
               },
@@ -79,14 +79,14 @@
           ],
           "message": {
             "arguments": [
-              "Name, Value"
+              "Table"
             ],
             "id": "issue"
           },
           "properties": {
             "level": "High"
           },
-          "ruleId": "app-InvalidTable",
+          "ruleId": "app-ErrInvalidArgs-Func",
           "ruleIndex": 1
         },
         {
@@ -94,24 +94,24 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "BusinessMessagesPage.BusinessMessagesContainer.BusinessMessagesBodyContainer.BusinessMessagesTable.Data"
+                  "fullyQualifiedName": "BusinessMessagesPage.BusinessMessagesContainer.BusinessMessagesBodyContainer.BusinessMessagesTable.Fields"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "BusinessMessagesPage.BusinessMessagesContainer.BusinessMessagesBodyContainer.BusinessMessagesTable.Data",
+                  "fullyQualifiedName": "BusinessMessagesPage.BusinessMessagesContainer.BusinessMessagesBodyContainer.BusinessMessagesTable.Fields",
                   "relativeAddress": 0
                 },
                 "region": {
-                  "charLength": 41,
+                  "charLength": 16,
                   "charOffset": 6,
                   "snippet": {
-                    "text": "business_messages.Run(\"123123\", \"123123\")"
+                    "text": "businessMessages"
                   }
                 }
               },
               "properties": {
-                "member": "Data",
+                "member": "Fields",
                 "module": "BusinessMessagesPage",
                 "type": "BusinessMessagesPage.BusinessMessagesContainer.BusinessMessagesBodyContainer.BusinessMessagesTable"
               }
@@ -123,7 +123,7 @@
           "properties": {
             "level": "High"
           },
-          "ruleId": "app-ErrBehaviorPropertyExpected",
+          "ruleId": "app-ErrNeedRecord",
           "ruleIndex": 2
         },
         {
@@ -140,10 +140,10 @@
                   "relativeAddress": 0
                 },
                 "region": {
-                  "charLength": 48,
+                  "charLength": 16,
                   "charOffset": 0,
                   "snippet": {
-                    "text": "Table(business_messages.Run(\"123123\", \"123123\"))"
+                    "text": "businessMessages"
                   }
                 }
               },
@@ -156,14 +156,15 @@
           ],
           "message": {
             "arguments": [
-              "Table"
+              "Table",
+              "Boolean"
             ],
             "id": "issue"
           },
           "properties": {
             "level": "High"
           },
-          "ruleId": "app-ErrInvalidArgs-Func",
+          "ruleId": "app-ErrIncompatibleRulePropTypes-PropKind-RuleKind",
           "ruleIndex": 3
         },
         {
@@ -1413,36 +1414,6 @@
           },
           "ruleId": "app-UnusedVariables",
           "ruleIndex": 9
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "BusinessMessagesPage.businessMessages"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "BusinessMessagesPage.businessMessages",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "businessMessages",
-                "module": "BusinessMessagesPage",
-                "type": "BusinessMessagesPage"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "app-UnusedVariables",
-          "ruleIndex": 9
         }
       ],
       "tool": {
@@ -1468,41 +1439,6 @@
               }
             },
             {
-              "id": "app-InvalidTable",
-              "messageStrings": {
-                "issue": {
-                  "text": "The table passed in has none of the expected columns: {0}"
-                }
-              },
-              "properties": {
-                "componentType": "app",
-                "howToFix": [
-                  "Specify a different value.",
-                  "Change the structure of the value to match the expected structure. We recommend using the ForAll function to rearrange the table's columns."
-                ],
-                "level": "High",
-                "primaryCategory": "formula",
-                "whyFix": ""
-              }
-            },
-            {
-              "id": "app-ErrBehaviorPropertyExpected",
-              "messageStrings": {
-                "issue": {
-                  "text": "Behavior function in a non-behavior property. You can't use this property to change values elsewhere in the app."
-                }
-              },
-              "properties": {
-                "componentType": "app",
-                "howToFix": [
-                  "Move the behavior function to a behavior-based property."
-                ],
-                "level": "High",
-                "primaryCategory": "formula",
-                "whyFix": ""
-              }
-            },
-            {
               "id": "app-ErrInvalidArgs-Func",
               "messageStrings": {
                 "issue": {
@@ -1511,6 +1447,37 @@
               },
               "properties": {
                 "componentType": "app",
+                "level": "High",
+                "primaryCategory": "formula",
+                "whyFix": ""
+              }
+            },
+            {
+              "id": "app-ErrNeedRecord",
+              "messageStrings": {
+                "issue": {
+                  "text": "Cannot use a non-record value in this context."
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "level": "High",
+                "primaryCategory": "formula",
+                "whyFix": ""
+              }
+            },
+            {
+              "id": "app-ErrIncompatibleRulePropTypes-PropKind-RuleKind",
+              "messageStrings": {
+                "issue": {
+                  "text": "Expected {0} value."
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "howToFix": [
+                  "Change the rule to produce a {0} value."
+                ],
                 "level": "High",
                 "primaryCategory": "formula",
                 "whyFix": ""
