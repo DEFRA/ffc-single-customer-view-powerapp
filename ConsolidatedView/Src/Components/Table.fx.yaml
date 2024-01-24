@@ -198,13 +198,13 @@ Table As CanvasComponent:
                     LayoutMinWidth: =320
                     LoadingSpinner: =LoadingSpinner.Data
                     TemplatePadding: =0
-                    TemplateSize: =Parent.Width / CountRows(Table.Fields)
+                    TemplateSize: =
                     Width: =Parent.Width
                     ZIndex: =3
 
                     TableBodyLabel As label:
-                        AutoHeight: =true
                         OnSelect: =Select(Parent)
+                        Overflow: =Overflow.Scroll
                         PaddingBottom: =0
                         PaddingLeft: =0
                         PaddingRight: =0

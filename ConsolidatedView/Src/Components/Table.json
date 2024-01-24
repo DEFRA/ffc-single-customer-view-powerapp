@@ -3252,7 +3252,14 @@
                         "Children": [],
                         "ControlPropertyState": [
                           "Live",
-                          "Overflow",
+                          {
+                            "AFDDataSourceName": "",
+                            "AutoRuleBindingEnabled": false,
+                            "AutoRuleBindingString": "Overflow.Hidden",
+                            "InvariantPropertyName": "Overflow",
+                            "IsLockable": false,
+                            "NameMapSourceSchema": "?"
+                          },
                           {
                             "AFDDataSourceName": "",
                             "AutoRuleBindingEnabled": false,
@@ -3347,14 +3354,7 @@
                             "IsLockable": false,
                             "NameMapSourceSchema": "?"
                           },
-                          {
-                            "AFDDataSourceName": "",
-                            "AutoRuleBindingEnabled": false,
-                            "AutoRuleBindingString": "false",
-                            "InvariantPropertyName": "AutoHeight",
-                            "IsLockable": false,
-                            "NameMapSourceSchema": "?"
-                          }
+                          "AutoHeight"
                         ],
                         "ControlUniqueId": "87",
                         "HasDynamicProperties": false,
@@ -3566,7 +3566,7 @@
                           },
                           {
                             "Category": "Design",
-                            "InvariantScript": "Overflow.Hidden",
+                            "InvariantScript": "Overflow.Scroll",
                             "Property": "Overflow",
                             "RuleProviderType": "Unknown"
                           },
@@ -3608,7 +3608,7 @@
                           },
                           {
                             "Category": "Design",
-                            "InvariantScript": "true",
+                            "InvariantScript": "false",
                             "Property": "AutoHeight",
                             "RuleProviderType": "Unknown"
                           },
@@ -3835,7 +3835,7 @@
                       },
                       {
                         "Category": "Design",
-                        "InvariantScript": "Parent.Width / CountRows(Table.Fields)",
+                        "InvariantScript": "",
                         "Property": "TemplateSize",
                         "RuleProviderType": "Unknown"
                       },
@@ -4729,7 +4729,7 @@
         "NameMapSourceSchema": "?"
       }
     ],
-    "LastModifiedTimestamp": "638417044413606058",
+    "LastModifiedTimestamp": "638417044871865432",
     "Name": "Table",
     "Rules": [
       {
@@ -4827,7 +4827,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638417044413606058",
+  "LastModifiedTimestamp": "638417044871865432",
   "Name": "3ba75f27abcc40b69cbcfdf1d92262a1",
   "OverridableProperties": {},
   "Version": "1.0"
