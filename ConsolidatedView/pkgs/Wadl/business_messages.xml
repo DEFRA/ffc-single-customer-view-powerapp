@@ -8,10 +8,29 @@
         <property name="text" type="string" />
         <property name="text_1" type="string" />
       </object>
-      <string name="ResponseActionOutput_messages_def" />
-      <object name="ResponseActionOutput">
-        <property name="messages" type="string" />
+      <string name="ResponseActionOutput_items_def_id_def" />
+      <string name="ResponseActionOutput_items_def_fields_def_items_def_name_def" />
+      <integer name="ResponseActionOutput_items_def_fields_def_items_def_value_def" />
+      <object name="ResponseActionOutput_items_def_fields_def_items_def">
+        <property name="name" type="string" />
+        <property name="value" type="integer" />
       </object>
+      <array typeRef="ResponseActionOutput_items_def_fields_def_items_def" name="ResponseActionOutput_items_def_fields_def" />
+      <string name="ResponseActionOutput_items_def_search_def" />
+      <string name="ResponseActionOutput_items_def_title_def" />
+      <string name="ResponseActionOutput_items_def_body_def" />
+      <boolean name="ResponseActionOutput_items_def_read_def" />
+      <integer name="ResponseActionOutput_items_def_date_def" />
+      <object name="ResponseActionOutput_items_def">
+        <property name="id" type="string" />
+        <property name="fields" typeRef="ResponseActionOutput_items_def_fields_def" />
+        <property name="search" type="string" />
+        <property name="title" type="string" />
+        <property name="body" type="string" />
+        <property name="read" type="boolean" />
+        <property name="date" type="integer" />
+      </object>
+      <array typeRef="ResponseActionOutput_items_def" name="ResponseActionOutput" />
       <object name="Run_responses_default_def" />
     </jsonTypes>
   </grammars>
