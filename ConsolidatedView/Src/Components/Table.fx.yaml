@@ -1,6 +1,37 @@
 Table As CanvasComponent:
     Data: |-
         =Table({
+          id:0,
+          search: "SampleText two2",
+          SampleStringField: "SampleText two",
+          SampleNumberField: 10,
+          SampleBooleanField: true,
+          fields: [{
+            name: "SampleStringField",
+            value: "SampleText two"
+          },{
+            name: "SampleNumberField",
+            value: 10
+          },{
+            name: "SampleBooleanField",
+            value: true
+          }]
+        },{
+          id:1,
+          search: "SampleText one",
+          SampleStringField: "SampleText one",
+          SampleNumberField: 2,
+          SampleBooleanField: false,
+          fields: [{
+            name: "SampleStringField",
+            value: "SampleText one"
+          },{
+            name: "SampleNumberField",
+            value: 2
+          },{
+            name: "SampleBooleanField",
+            value: false
+          }]
         })
     Fields: |-
         =Table({Value: "SampleStringField", Name: "Sample String Field"},{Value: "SampleNumberField", Name: "Sample Number Field"},{Value: "SampleBooleanField", Name: "Sample Boolean Field"})
