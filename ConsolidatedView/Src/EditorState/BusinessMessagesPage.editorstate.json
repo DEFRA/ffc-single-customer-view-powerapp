@@ -773,7 +773,14 @@
         "X",
         "Y",
         "ZIndex",
-        "Data",
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "Table({\n  id:0,\n  search: \"SampleText two2\",\n  SampleStringField: \"SampleText two\",\n  SampleNumberField: 10,\n  SampleBooleanField: true,\n  fields: [{\n    name: \"SampleStringField\",\n    value: \"SampleText two\"\n  },{\n    name: \"SampleNumberField\",\n    value: 10\n  },{\n    name: \"SampleBooleanField\",\n    value: true\n  }]\n},{\n  id:1,\n  search: \"SampleText one\",\n  SampleStringField: \"SampleText one\",\n  SampleNumberField: 2,\n  SampleBooleanField: false,\n  fields: [{\n    name: \"SampleStringField\",\n    value: \"SampleText one\"\n  },{\n    name: \"SampleNumberField\",\n    value: 2\n  },{\n    name: \"SampleBooleanField\",\n    value: false\n  }]\n})",
+          "InvariantPropertyName": "Data",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
         {
           "AFDDataSourceName": "",
           "AutoRuleBindingEnabled": false,
@@ -870,7 +877,7 @@
         {
           "Category": "Data",
           "PropertyName": "Data",
-          "RuleProviderType": "System"
+          "RuleProviderType": "Unknown"
         },
         {
           "Category": "Design",
