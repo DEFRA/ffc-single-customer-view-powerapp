@@ -100,7 +100,6 @@ LandParcelPage As screen:
                     ZIndex: =8
 
         LandParcelPageParcelsTable As Table:
-            Data: =landParcels.parcels
             Fields: |-
                 =Table({Value: "id", Name: "ID"},{Value: "sheetId", Name: "Sheet ID"},{Value: "area", Name: "Area"})
             Width: =Parent.Width

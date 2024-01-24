@@ -54,66 +54,26 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "BusinessMessagesPage.BusinessMessagesContainer.BusinessMessagesHeader.SubTitle"
+                  "fullyQualifiedName": "Table.TableContainer.TableBody.Items"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "BusinessMessagesPage.BusinessMessagesContainer.BusinessMessagesHeader.SubTitle",
+                  "fullyQualifiedName": "Table.TableContainer.TableBody.Items",
                   "relativeAddress": 0
                 },
                 "region": {
-                  "charLength": 14,
-                  "charOffset": 0,
+                  "charLength": 10,
+                  "charOffset": 12,
                   "snippet": {
-                    "text": "businessDetail"
+                    "text": "SortedData"
                   }
                 }
               },
               "properties": {
-                "member": "SubTitle",
-                "module": "BusinessMessagesPage",
-                "type": "BusinessMessagesPage.BusinessMessagesContainer.BusinessMessagesHeader"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "businessDetail"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "BusinessMessagesPage.BusinessMessagesContainer.BusinessMessagesHeader.SubTitle"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "BusinessMessagesPage.BusinessMessagesContainer.BusinessMessagesHeader.SubTitle",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 5,
-                  "charOffset": 14,
-                  "snippet": {
-                    "text": ".data"
-                  }
-                }
-              },
-              "properties": {
-                "member": "SubTitle",
-                "module": "BusinessMessagesPage",
-                "type": "BusinessMessagesPage.BusinessMessagesContainer.BusinessMessagesHeader"
+                "member": "Items",
+                "module": "Table",
+                "type": "Table.TableContainer.TableBody"
               }
             }
           ],
@@ -123,7 +83,7 @@
           "properties": {
             "level": "High"
           },
-          "ruleId": "app-ErrInvalidDot",
+          "ruleId": "app-ErrSearchWrongTableType",
           "ruleIndex": 1
         },
         {
@@ -131,191 +91,670 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "BusinessMessagesPage.BusinessMessagesContainer.BusinessMessagesHeader.SubTitle"
+                  "fullyQualifiedName": "Table.TableContainer.TableBody.Items"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "BusinessMessagesPage.BusinessMessagesContainer.BusinessMessagesHeader.SubTitle",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 9,
-                  "charOffset": 19,
-                  "snippet": {
-                    "text": ".business"
-                  }
-                }
-              },
-              "properties": {
-                "member": "SubTitle",
-                "module": "BusinessMessagesPage",
-                "type": "BusinessMessagesPage.BusinessMessagesContainer.BusinessMessagesHeader"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "BusinessMessagesPage.BusinessMessagesContainer.BusinessMessagesHeader.SubTitle"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "BusinessMessagesPage.BusinessMessagesContainer.BusinessMessagesHeader.SubTitle",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 5,
-                  "charOffset": 28,
-                  "snippet": {
-                    "text": ".info"
-                  }
-                }
-              },
-              "properties": {
-                "member": "SubTitle",
-                "module": "BusinessMessagesPage",
-                "type": "BusinessMessagesPage.BusinessMessagesContainer.BusinessMessagesHeader"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "BusinessMessagesPage.BusinessMessagesContainer.BusinessMessagesHeader.SubTitle"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "BusinessMessagesPage.BusinessMessagesContainer.BusinessMessagesHeader.SubTitle",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 5,
-                  "charOffset": 33,
-                  "snippet": {
-                    "text": ".name"
-                  }
-                }
-              },
-              "properties": {
-                "member": "SubTitle",
-                "module": "BusinessMessagesPage",
-                "type": "BusinessMessagesPage.BusinessMessagesContainer.BusinessMessagesHeader"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "BusinessMessagesPage.BusinessMessagesContainer.BusinessMessagesBodyContainer.BusinessMessagesTable.Data"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "BusinessMessagesPage.BusinessMessagesContainer.BusinessMessagesBodyContainer.BusinessMessagesTable.Data",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 16,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "businessMessages"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Data",
-                "module": "BusinessMessagesPage",
-                "type": "BusinessMessagesPage.BusinessMessagesContainer.BusinessMessagesBodyContainer.BusinessMessagesTable"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Table"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "app-ErrIncompatibleRulePropSchema-SameKind",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "LandParcelPage.LandParcelPageContainer.LandParcelPageParcelsTable.Data"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "LandParcelPage.LandParcelPageContainer.LandParcelPageParcelsTable.Data",
+                  "fullyQualifiedName": "Table.TableContainer.TableBody.Items",
                   "relativeAddress": 0
                 },
                 "region": {
                   "charLength": 8,
-                  "charOffset": 11,
+                  "charOffset": 50,
                   "snippet": {
-                    "text": ".parcels"
+                    "text": "\"search\""
                   }
                 }
               },
               "properties": {
-                "member": "Data",
-                "module": "LandParcelPage",
-                "type": "LandParcelPage.LandParcelPageContainer.LandParcelPageParcelsTable"
+                "member": "Items",
+                "module": "Table",
+                "type": "Table.TableContainer.TableBody"
               }
             }
           ],
           "message": {
             "arguments": [
-              "Table"
+              "search"
             ],
             "id": "issue"
           },
           "properties": {
-            "level": "Medium"
+            "level": "High"
           },
-          "ruleId": "app-ErrIncompatibleRulePropSchema-SameKind",
+          "ruleId": "app-ErrColDNE-Name",
           "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Table.TableContainer.TableBody.Items"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Table.TableContainer.TableBody.Items",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 60,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "Search(\n    SortedData,\n    SearchInput.Text,\n    \"search\"\n)"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Items",
+                "module": "Table",
+                "type": "Table.TableContainer.TableBody"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Search"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidArgs-Func",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Table.TableContainer.TableBody.TableRowContainer.TableRowColumn.Items"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Table.TableContainer.TableBody.TableRowContainer.TableRowColumn.Items",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 3,
+                  "charOffset": 43,
+                  "snippet": {
+                    "text": ".id"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Items",
+                "module": "Table",
+                "type": "Table.TableContainer.TableBody.TableRowContainer.TableRowColumn"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "id"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Table.TableContainer.TableBody.TableRowContainer.TableRowColumn.Items"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Table.TableContainer.TableBody.TableRowContainer.TableRowColumn.Items",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 47,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "AddColumns(Table.Fields, \"ItemId\", ThisItem.id)"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Items",
+                "module": "Table",
+                "type": "Table.TableContainer.TableBody.TableRowContainer.TableRowColumn"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "AddColumns"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidArgs-Func",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Table.TableContainer.TableBody.TableRowContainer.TableRowColumn.TableBodyLabel.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Table.TableContainer.TableBody.TableRowContainer.TableRowColumn.TableBodyLabel.Text",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 2,
+                  "charOffset": 26,
+                  "snippet": {
+                    "text": "id"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "Table",
+                "type": "Table.TableContainer.TableBody.TableRowContainer.TableRowColumn.TableBodyLabel"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "id"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Table.TableContainer.TableBody.TableRowContainer.TableRowColumn.TableBodyLabel.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Table.TableContainer.TableBody.TableRowContainer.TableRowColumn.TableBodyLabel.Text",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 1,
+                  "charOffset": 29,
+                  "snippet": {
+                    "text": "="
+                  }
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "Table",
+                "type": "Table.TableContainer.TableBody.TableRowContainer.TableRowColumn.TableBodyLabel"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Error",
+              "Error"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Table.TableContainer.TableBody.TableRowContainer.TableRowColumn.TableBodyLabel.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Table.TableContainer.TableBody.TableRowContainer.TableRowColumn.TableBodyLabel.Text",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 6,
+                  "charOffset": 48,
+                  "snippet": {
+                    "text": "fields"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "Table",
+                "type": "Table.TableContainer.TableBody.TableRowContainer.TableRowColumn.TableBodyLabel"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "fields"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Table.TableContainer.TableBody.TableRowContainer.TableRowColumn.TableBodyLabel.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Table.TableContainer.TableBody.TableRowContainer.TableRowColumn.TableBodyLabel.Text",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 48,
+                  "charOffset": 7,
+                  "snippet": {
+                    "text": "LookUp(Table.Data, id = ThisItem.ItemId, fields)"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "Table",
+                "type": "Table.TableContainer.TableBody.TableRowContainer.TableRowColumn.TableBodyLabel"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "LookUp"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidArgs-Func",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Table.TableContainer.TableBody.TableRowContainer.TableRowColumn.TableBodyLabel.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Table.TableContainer.TableBody.TableRowContainer.TableRowColumn.TableBodyLabel.Text",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 86,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "LookUp(LookUp(Table.Data, id = ThisItem.ItemId, fields), name = ThisItem.Value, value)"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "Table",
+                "type": "Table.TableContainer.TableBody.TableRowContainer.TableRowColumn.TableBodyLabel"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "LookUp"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidArgs-Func",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Table.TableContainer.TableBody.TableRowContainer.TableRowColumn.TableBodyLabel.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Table.TableContainer.TableBody.TableRowContainer.TableRowColumn.TableBodyLabel.Text",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 4,
+                  "charOffset": 57,
+                  "snippet": {
+                    "text": "name"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "Table",
+                "type": "Table.TableContainer.TableBody.TableRowContainer.TableRowColumn.TableBodyLabel"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "name"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Table.TableContainer.TableBody.TableRowContainer.TableRowColumn.TableBodyLabel.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Table.TableContainer.TableBody.TableRowContainer.TableRowColumn.TableBodyLabel.Text",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 1,
+                  "charOffset": 62,
+                  "snippet": {
+                    "text": "="
+                  }
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "Table",
+                "type": "Table.TableContainer.TableBody.TableRowContainer.TableRowColumn.TableBodyLabel"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Error",
+              "Text"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Table.TableContainer.TableBody.TableRowContainer.TableRowColumn.TableBodyLabel.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Table.TableContainer.TableBody.TableRowContainer.TableRowColumn.TableBodyLabel.Text",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 5,
+                  "charOffset": 80,
+                  "snippet": {
+                    "text": "value"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "Table",
+                "type": "Table.TableContainer.TableBody.TableRowContainer.TableRowColumn.TableBodyLabel"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "value"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "BusinessMessagesPage.BusinessMessagesContainer.BusinessMessagesHeader.SubTitle"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "BusinessMessagesPage.BusinessMessagesContainer.BusinessMessagesHeader.SubTitle",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 14,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "businessDetail"
+                  }
+                }
+              },
+              "properties": {
+                "member": "SubTitle",
+                "module": "BusinessMessagesPage",
+                "type": "BusinessMessagesPage.BusinessMessagesContainer.BusinessMessagesHeader"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "businessDetail"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "BusinessMessagesPage.BusinessMessagesContainer.BusinessMessagesHeader.SubTitle"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "BusinessMessagesPage.BusinessMessagesContainer.BusinessMessagesHeader.SubTitle",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 5,
+                  "charOffset": 14,
+                  "snippet": {
+                    "text": ".data"
+                  }
+                }
+              },
+              "properties": {
+                "member": "SubTitle",
+                "module": "BusinessMessagesPage",
+                "type": "BusinessMessagesPage.BusinessMessagesContainer.BusinessMessagesHeader"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "BusinessMessagesPage.BusinessMessagesContainer.BusinessMessagesHeader.SubTitle"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "BusinessMessagesPage.BusinessMessagesContainer.BusinessMessagesHeader.SubTitle",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 9,
+                  "charOffset": 19,
+                  "snippet": {
+                    "text": ".business"
+                  }
+                }
+              },
+              "properties": {
+                "member": "SubTitle",
+                "module": "BusinessMessagesPage",
+                "type": "BusinessMessagesPage.BusinessMessagesContainer.BusinessMessagesHeader"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "BusinessMessagesPage.BusinessMessagesContainer.BusinessMessagesHeader.SubTitle"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "BusinessMessagesPage.BusinessMessagesContainer.BusinessMessagesHeader.SubTitle",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 5,
+                  "charOffset": 28,
+                  "snippet": {
+                    "text": ".info"
+                  }
+                }
+              },
+              "properties": {
+                "member": "SubTitle",
+                "module": "BusinessMessagesPage",
+                "type": "BusinessMessagesPage.BusinessMessagesContainer.BusinessMessagesHeader"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "BusinessMessagesPage.BusinessMessagesContainer.BusinessMessagesHeader.SubTitle"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "BusinessMessagesPage.BusinessMessagesContainer.BusinessMessagesHeader.SubTitle",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 5,
+                  "charOffset": 33,
+                  "snippet": {
+                    "text": ".name"
+                  }
+                }
+              },
+              "properties": {
+                "member": "SubTitle",
+                "module": "BusinessMessagesPage",
+                "type": "BusinessMessagesPage.BusinessMessagesContainer.BusinessMessagesHeader"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -392,7 +831,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 1
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -429,7 +868,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 1
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -466,7 +905,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 1
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -503,7 +942,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 1
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -533,7 +972,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 3
+          "ruleIndex": 6
         },
         {
           "locations": [
@@ -563,7 +1002,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 4
+          "ruleIndex": 7
         },
         {
           "locations": [
@@ -593,7 +1032,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 3
+          "ruleIndex": 6
         },
         {
           "locations": [
@@ -623,7 +1062,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 4
+          "ruleIndex": 7
         },
         {
           "locations": [
@@ -653,7 +1092,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-FocusBorderShouldBeVisible",
-          "ruleIndex": 5
+          "ruleIndex": 8
         },
         {
           "locations": [
@@ -683,7 +1122,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 3
+          "ruleIndex": 6
         },
         {
           "locations": [
@@ -713,7 +1152,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 3
+          "ruleIndex": 6
         },
         {
           "locations": [
@@ -743,7 +1182,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-FocusBorderShouldBeVisible",
-          "ruleIndex": 5
+          "ruleIndex": 8
         },
         {
           "locations": [
@@ -773,7 +1212,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 3
+          "ruleIndex": 6
         },
         {
           "locations": [
@@ -803,7 +1242,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 4
+          "ruleIndex": 7
         },
         {
           "locations": [
@@ -833,7 +1272,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 3
+          "ruleIndex": 6
         },
         {
           "locations": [
@@ -863,7 +1302,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 4
+          "ruleIndex": 7
         },
         {
           "locations": [
@@ -893,7 +1332,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 3
+          "ruleIndex": 6
         },
         {
           "locations": [
@@ -923,7 +1362,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 4
+          "ruleIndex": 7
         },
         {
           "locations": [
@@ -953,7 +1392,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 3
+          "ruleIndex": 6
         },
         {
           "locations": [
@@ -983,7 +1422,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 4
+          "ruleIndex": 7
         },
         {
           "locations": [
@@ -1013,7 +1452,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 3
+          "ruleIndex": 6
         },
         {
           "locations": [
@@ -1043,7 +1482,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 4
+          "ruleIndex": 7
         },
         {
           "locations": [
@@ -1073,7 +1512,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 3
+          "ruleIndex": 6
         },
         {
           "locations": [
@@ -1103,7 +1542,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 4
+          "ruleIndex": 7
         },
         {
           "locations": [
@@ -1133,7 +1572,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 3
+          "ruleIndex": 6
         },
         {
           "locations": [
@@ -1163,7 +1602,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 4
+          "ruleIndex": 7
         },
         {
           "locations": [
@@ -1193,7 +1632,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-FocusBorderShouldBeVisible",
-          "ruleIndex": 5
+          "ruleIndex": 8
         },
         {
           "locations": [
@@ -1223,7 +1662,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 3
+          "ruleIndex": 6
         },
         {
           "locations": [
@@ -1253,7 +1692,37 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 4
+          "ruleIndex": 7
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "BusinessMessagesPage.businessMessages"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "BusinessMessagesPage.businessMessages",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "businessMessages",
+                "module": "BusinessMessagesPage",
+                "type": "BusinessMessagesPage"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-UnusedVariables",
+          "ruleIndex": 9
         }
       ],
       "tool": {
@@ -1279,10 +1748,10 @@
               }
             },
             {
-              "id": "app-ErrInvalidDot",
+              "id": "app-ErrSearchWrongTableType",
               "messageStrings": {
                 "issue": {
-                  "text": "Invalid use of '.'"
+                  "text": "Table doesn't contain any column of text type."
                 }
               },
               "properties": {
@@ -1293,19 +1762,61 @@
               }
             },
             {
-              "id": "app-ErrIncompatibleRulePropSchema-SameKind",
+              "id": "app-ErrColDNE-Name",
               "messageStrings": {
                 "issue": {
-                  "text": "Expected a different collection record structure."
+                  "text": "The specified column '{0}' does not exist."
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "level": "High",
+                "primaryCategory": "formula",
+                "whyFix": ""
+              }
+            },
+            {
+              "id": "app-ErrInvalidArgs-Func",
+              "messageStrings": {
+                "issue": {
+                  "text": "The function '{0}' has some invalid arguments."
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "level": "High",
+                "primaryCategory": "formula",
+                "whyFix": ""
+              }
+            },
+            {
+              "id": "app-ErrIncompatibleTypesForEquality-Left-Right",
+              "messageStrings": {
+                "issue": {
+                  "text": "Incompatible types for comparison. These types can't be compared: {0}, {1}."
                 }
               },
               "properties": {
                 "componentType": "app",
                 "howToFix": [
-                  "Specify a different collection.",
-                  "Change the structure of the collection being returned to match the expected structure."
+                  "You might need to convert the value to be the same type, such as converting a date string (e.g., \"12/31/2018\") to a date value.",
+                  "If you’re comparing records or tables, the field or column types must match exactly."
                 ],
-                "level": "Medium",
+                "level": "High",
+                "primaryCategory": "formula",
+                "whyFix": ""
+              }
+            },
+            {
+              "id": "app-ErrInvalidDot",
+              "messageStrings": {
+                "issue": {
+                  "text": "Invalid use of '.'"
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "level": "High",
                 "primaryCategory": "formula",
                 "whyFix": ""
               }
@@ -1359,6 +1870,23 @@
                 "level": "Medium",
                 "primaryCategory": "accessibility",
                 "whyFix": "If the focus isn't visible, people who don't use a mouse won't be able to see it when they're interacting with the app."
+              }
+            },
+            {
+              "id": "app-UnusedVariables",
+              "messageStrings": {
+                "issue": {
+                  "text": "Unused variable"
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "howToFix": [
+                  "Remove the unused variable."
+                ],
+                "level": "Medium",
+                "primaryCategory": "performance",
+                "whyFix": "This variable is declared but is not referenced by any control, so it is not needed."
               }
             }
           ],

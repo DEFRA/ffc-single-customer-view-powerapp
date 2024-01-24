@@ -3835,7 +3835,7 @@
                       },
                       {
                         "Category": "Design",
-                        "InvariantScript": "",
+                        "InvariantScript": "Parent.Width / CountRows(Table.Fields)",
                         "Property": "TemplateSize",
                         "RuleProviderType": "Unknown"
                       },
@@ -4714,7 +4714,7 @@
       {
         "AFDDataSourceName": "",
         "AutoRuleBindingEnabled": false,
-        "AutoRuleBindingString": "Table({\n  id:0,\n  search: \"SampleText two\",\n  SampleStringField: \"SampleText two\",\n  SampleNumberField: 10,\n  SampleBooleanField: true,\n  fields: [{\n    name: \"SampleStringField\",\n    value: \"SampleText two\"\n  },{\n    name: \"SampleNumberField\",\n    value: 10\n  },{\n    name: \"SampleBooleanField\",\n    value: true\n  }]\n},{\n  id:1,\n  search: \"SampleText one\",\n  fields: [{\n    name: \"SampleStringField\",\n    value: \"SampleText one\"\n  },{\n    name: \"SampleNumberField\",\n    value: 2\n  },{\n    name: \"SampleBooleanField\",\n    value: false\n  }]\n})",
+        "AutoRuleBindingString": "Table({\n\n})",
         "InvariantPropertyName": "Data",
         "IsLockable": false,
         "NameMapSourceSchema": "?"
@@ -4729,12 +4729,12 @@
         "NameMapSourceSchema": "?"
       }
     ],
-    "LastModifiedTimestamp": "638417044871865432",
+    "LastModifiedTimestamp": "638417045845191038",
     "Name": "Table",
     "Rules": [
       {
         "Category": "Data",
-        "InvariantScript": "Table({\n  id:0,\n  search: \"SampleText two2\",\n  SampleStringField: \"SampleText two\",\n  SampleNumberField: 10,\n  SampleBooleanField: true,\n  fields: [{\n    name: \"SampleStringField\",\n    value: \"SampleText two\"\n  },{\n    name: \"SampleNumberField\",\n    value: 10\n  },{\n    name: \"SampleBooleanField\",\n    value: true\n  }]\n},{\n  id:1,\n  search: \"SampleText one\",\n  SampleStringField: \"SampleText one\",\n  SampleNumberField: 2,\n  SampleBooleanField: false,\n  fields: [{\n    name: \"SampleStringField\",\n    value: \"SampleText one\"\n  },{\n    name: \"SampleNumberField\",\n    value: 2\n  },{\n    name: \"SampleBooleanField\",\n    value: false\n  }]\n})",
+        "InvariantScript": "Table({\n})",
         "Property": "Data",
         "RuleProviderType": "System"
       },
@@ -4806,7 +4806,7 @@
       "Name": "Data",
       "PropertyDataTypeKey": "Table",
       "Tooltip": "A custom property",
-      "Type": "{\"Version\":\"1.336\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"Table\",\"EnumString\":\"\",\"Type\":[{\"Name\":\"SampleBooleanField\",\"Kind\":\"Boolean\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"SampleNumberField\",\"Kind\":\"Number\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"SampleStringField\",\"Kind\":\"String\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"fields\",\"Kind\":\"Table\",\"EnumString\":\"\",\"Type\":[{\"Name\":\"name\",\"Kind\":\"String\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"value\",\"Kind\":\"String\",\"EnumString\":\"\",\"Type\":[]}]},{\"Name\":\"id\",\"Kind\":\"Number\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"search\",\"Kind\":\"String\",\"EnumString\":\"\",\"Type\":[]}]}}"
+      "Type": "{\"Version\":\"1.336\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"Table\",\"EnumString\":\"\",\"Type\":[]}}"
     },
     {
       "Category": 0,
@@ -4827,7 +4827,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638417044871865432",
+  "LastModifiedTimestamp": "638417045845191038",
   "Name": "3ba75f27abcc40b69cbcfdf1d92262a1",
   "OverridableProperties": {},
   "Version": "1.0"

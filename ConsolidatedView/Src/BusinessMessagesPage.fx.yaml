@@ -31,7 +31,6 @@ BusinessMessagesPage As screen:
             ZIndex: =3
 
             BusinessMessagesTable As Table:
-                Data: =businessMessages
                 Fields: |-
                     =Table(
                         {Value: "id", Name: "ID"},   
