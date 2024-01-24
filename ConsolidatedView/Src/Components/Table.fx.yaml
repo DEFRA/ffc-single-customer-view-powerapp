@@ -183,33 +183,3 @@ Table As CanvasComponent:
             Width: =Parent.Width
             ZIndex: =4
 
-            TableRowContainer As groupContainer.horizontalAutoLayoutContainer:
-                Height: =40
-                LayoutMode: =LayoutMode.Auto
-                Width: =Parent.Width
-                ZIndex: =1
-
-                TableRowColumn As gallery.galleryHorizontal:
-                    AlignInContainer: =AlignInContainer.SetByContainer
-                    DelayItemLoading: =true
-                    Height: =40
-                    Items: =AddColumns(Table.Fields, "ItemId", ThisItem.id)
-                    LayoutMinHeight: =287
-                    LayoutMinWidth: =320
-                    LoadingSpinner: =LoadingSpinner.Data
-                    TemplatePadding: =0
-                    TemplateSize: =Parent.Width / CountRows(Table.Fields)
-                    Width: =Parent.Width
-                    ZIndex: =3
-
-                    TableBodyLabel As label:
-                        OnSelect: =Select(Parent)
-                        Overflow: =Overflow.Scroll
-                        PaddingBottom: =0
-                        PaddingLeft: =0
-                        PaddingRight: =0
-                        PaddingTop: =0
-                        Text: =LookUp(LookUp(Table.Data, id = ThisItem.ItemId, fields), name = ThisItem.Value, value)
-                        Width: =Parent.Width
-                        ZIndex: =1
-
