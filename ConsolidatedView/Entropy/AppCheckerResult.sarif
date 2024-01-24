@@ -54,194 +54,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "PermissionsPage.PermissionPageContainer.PermissionPageTitle.SubTitle"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "PermissionsPage.PermissionPageContainer.PermissionPageTitle.SubTitle",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 14,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "businessDetail"
-                  }
-                }
-              },
-              "properties": {
-                "member": "SubTitle",
-                "module": "PermissionsPage",
-                "type": "PermissionsPage.PermissionPageContainer.PermissionPageTitle"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "businessDetail"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "PermissionsPage.PermissionPageContainer.PermissionPageTitle.SubTitle"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "PermissionsPage.PermissionPageContainer.PermissionPageTitle.SubTitle",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 5,
-                  "charOffset": 14,
-                  "snippet": {
-                    "text": ".data"
-                  }
-                }
-              },
-              "properties": {
-                "member": "SubTitle",
-                "module": "PermissionsPage",
-                "type": "PermissionsPage.PermissionPageContainer.PermissionPageTitle"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "PermissionsPage.PermissionPageContainer.PermissionPageTitle.SubTitle"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "PermissionsPage.PermissionPageContainer.PermissionPageTitle.SubTitle",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 9,
-                  "charOffset": 19,
-                  "snippet": {
-                    "text": ".business"
-                  }
-                }
-              },
-              "properties": {
-                "member": "SubTitle",
-                "module": "PermissionsPage",
-                "type": "PermissionsPage.PermissionPageContainer.PermissionPageTitle"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "PermissionsPage.PermissionPageContainer.PermissionPageTitle.SubTitle"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "PermissionsPage.PermissionPageContainer.PermissionPageTitle.SubTitle",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 5,
-                  "charOffset": 28,
-                  "snippet": {
-                    "text": ".info"
-                  }
-                }
-              },
-              "properties": {
-                "member": "SubTitle",
-                "module": "PermissionsPage",
-                "type": "PermissionsPage.PermissionPageContainer.PermissionPageTitle"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "PermissionsPage.PermissionPageContainer.PermissionPageTitle.SubTitle"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "PermissionsPage.PermissionPageContainer.PermissionPageTitle.SubTitle",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 5,
-                  "charOffset": 33,
-                  "snippet": {
-                    "text": ".name"
-                  }
-                }
-              },
-              "properties": {
-                "member": "SubTitle",
-                "module": "PermissionsPage",
-                "type": "PermissionsPage.PermissionPageContainer.PermissionPageTitle"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "BusinessMessagesPage.BusinessMessagesContainer.BusinessMessagesHeader.SubTitle"
                 }
               ],
@@ -439,10 +251,10 @@
                   "relativeAddress": 0
                 },
                 "region": {
-                  "charLength": 43,
+                  "charLength": 16,
                   "charOffset": 0,
                   "snippet": {
-                    "text": "Table(ParseJSON(businessMessages.messages))"
+                    "text": "businessMessages"
                   }
                 }
               },
@@ -455,14 +267,15 @@
           ],
           "message": {
             "arguments": [
-              "SampleBooleanField, SampleNumberField, SampleStringField..."
+              "Table",
+              "Text"
             ],
             "id": "issue"
           },
           "properties": {
             "level": "High"
           },
-          "ruleId": "app-InvalidTable",
+          "ruleId": "app-ErrIncompatibleRulePropTypes-PropKind-RuleKind",
           "ruleIndex": 2
         },
         {
@@ -510,49 +323,66 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "BusinessDetailSectionComponent_2.Gallery2_2.AccessibleLabel"
+                  "fullyQualifiedName": "PermissionsPage.PermissionPageContainer.PermissionPageTitle.SubTitle"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "BusinessDetailSectionComponent_2.Gallery2_2.AccessibleLabel",
+                  "fullyQualifiedName": "PermissionsPage.PermissionPageContainer.PermissionPageTitle.SubTitle",
                   "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 14,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "businessDetail"
+                  }
                 }
               },
               "properties": {
-                "member": "AccessibleLabel",
-                "module": "BusinessDetailSectionComponent_2",
-                "type": "BusinessDetailSectionComponent_2.Gallery2_2"
+                "member": "SubTitle",
+                "module": "PermissionsPage",
+                "type": "PermissionsPage.PermissionPageContainer.PermissionPageTitle"
               }
             }
           ],
           "message": {
+            "arguments": [
+              "businessDetail"
+            ],
             "id": "issue"
           },
           "properties": {
-            "level": "Medium"
+            "level": "High"
           },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
         },
         {
           "locations": [
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "BusinessDetailSectionComponent_2.Gallery2_2.TabIndex"
+                  "fullyQualifiedName": "PermissionsPage.PermissionPageContainer.PermissionPageTitle.SubTitle"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "BusinessDetailSectionComponent_2.Gallery2_2.TabIndex",
+                  "fullyQualifiedName": "PermissionsPage.PermissionPageContainer.PermissionPageTitle.SubTitle",
                   "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 5,
+                  "charOffset": 14,
+                  "snippet": {
+                    "text": ".data"
+                  }
                 }
               },
               "properties": {
-                "member": "TabIndex",
-                "module": "BusinessDetailSectionComponent_2",
-                "type": "BusinessDetailSectionComponent_2.Gallery2_2"
+                "member": "SubTitle",
+                "module": "PermissionsPage",
+                "type": "PermissionsPage.PermissionPageContainer.PermissionPageTitle"
               }
             }
           ],
@@ -560,10 +390,121 @@
             "id": "issue"
           },
           "properties": {
-            "level": "Medium"
+            "level": "High"
           },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 5
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "PermissionsPage.PermissionPageContainer.PermissionPageTitle.SubTitle"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "PermissionsPage.PermissionPageContainer.PermissionPageTitle.SubTitle",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 9,
+                  "charOffset": 19,
+                  "snippet": {
+                    "text": ".business"
+                  }
+                }
+              },
+              "properties": {
+                "member": "SubTitle",
+                "module": "PermissionsPage",
+                "type": "PermissionsPage.PermissionPageContainer.PermissionPageTitle"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "PermissionsPage.PermissionPageContainer.PermissionPageTitle.SubTitle"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "PermissionsPage.PermissionPageContainer.PermissionPageTitle.SubTitle",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 5,
+                  "charOffset": 28,
+                  "snippet": {
+                    "text": ".info"
+                  }
+                }
+              },
+              "properties": {
+                "member": "SubTitle",
+                "module": "PermissionsPage",
+                "type": "PermissionsPage.PermissionPageContainer.PermissionPageTitle"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "PermissionsPage.PermissionPageContainer.PermissionPageTitle.SubTitle"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "PermissionsPage.PermissionPageContainer.PermissionPageTitle.SubTitle",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 5,
+                  "charOffset": 33,
+                  "snippet": {
+                    "text": ".name"
+                  }
+                }
+              },
+              "properties": {
+                "member": "SubTitle",
+                "module": "PermissionsPage",
+                "type": "PermissionsPage.PermissionPageContainer.PermissionPageTitle"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -793,6 +734,66 @@
                 "member": "TabIndex",
                 "module": "BusinessDetailSectionComponent_1",
                 "type": "BusinessDetailSectionComponent_1.Gallery2_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "BusinessDetailSectionComponent_2.Gallery2_2.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "BusinessDetailSectionComponent_2.Gallery2_2.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "BusinessDetailSectionComponent_2",
+                "type": "BusinessDetailSectionComponent_2.Gallery2_2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "BusinessDetailSectionComponent_2.Gallery2_2.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "BusinessDetailSectionComponent_2.Gallery2_2.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "BusinessDetailSectionComponent_2",
+                "type": "BusinessDetailSectionComponent_2.Gallery2_2"
               }
             }
           ],
@@ -1533,17 +1534,16 @@
               }
             },
             {
-              "id": "app-InvalidTable",
+              "id": "app-ErrIncompatibleRulePropTypes-PropKind-RuleKind",
               "messageStrings": {
                 "issue": {
-                  "text": "The table passed in has none of the expected columns: {0}"
+                  "text": "Expected {0} value."
                 }
               },
               "properties": {
                 "componentType": "app",
                 "howToFix": [
-                  "Specify a different value.",
-                  "Change the structure of the value to match the expected structure. We recommend using the ForAll function to rearrange the table's columns."
+                  "Change the rule to produce a {0} value."
                 ],
                 "level": "High",
                 "primaryCategory": "formula",
