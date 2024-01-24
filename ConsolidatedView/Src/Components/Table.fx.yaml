@@ -203,6 +203,7 @@ Table As CanvasComponent:
                     ZIndex: =3
 
                     TableBodyLabel As label:
+                        AutoHeight: =true
                         OnSelect: =Select(Parent)
                         PaddingBottom: =0
                         PaddingLeft: =0

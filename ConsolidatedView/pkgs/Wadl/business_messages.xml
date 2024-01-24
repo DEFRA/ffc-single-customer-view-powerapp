@@ -10,10 +10,10 @@
       </object>
       <string name="ResponseActionOutput_items_def_id_def" />
       <string name="ResponseActionOutput_items_def_fields_def_items_def_name_def" />
-      <integer name="ResponseActionOutput_items_def_fields_def_items_def_value_def" />
+      <string name="ResponseActionOutput_items_def_fields_def_items_def_value_def" />
       <object name="ResponseActionOutput_items_def_fields_def_items_def">
         <property name="name" type="string" />
-        <property name="value" type="integer" />
+        <property name="value" type="string" />
       </object>
       <array typeRef="ResponseActionOutput_items_def_fields_def_items_def" name="ResponseActionOutput_items_def_fields_def" />
       <string name="ResponseActionOutput_items_def_search_def" />

@@ -3346,6 +3346,14 @@
                             "InvariantPropertyName": "PaddingLeft",
                             "IsLockable": false,
                             "NameMapSourceSchema": "?"
+                          },
+                          {
+                            "AFDDataSourceName": "",
+                            "AutoRuleBindingEnabled": false,
+                            "AutoRuleBindingString": "false",
+                            "InvariantPropertyName": "AutoHeight",
+                            "IsLockable": false,
+                            "NameMapSourceSchema": "?"
                           }
                         ],
                         "ControlUniqueId": "87",
@@ -3596,6 +3604,12 @@
                             "Category": "Design",
                             "InvariantScript": "Parent.Width",
                             "Property": "Width",
+                            "RuleProviderType": "Unknown"
+                          },
+                          {
+                            "Category": "Design",
+                            "InvariantScript": "true",
+                            "Property": "AutoHeight",
                             "RuleProviderType": "Unknown"
                           },
                           {
@@ -4715,7 +4729,7 @@
         "NameMapSourceSchema": "?"
       }
     ],
-    "LastModifiedTimestamp": "638416875792035156",
+    "LastModifiedTimestamp": "638417044413606058",
     "Name": "Table",
     "Rules": [
       {
@@ -4813,7 +4827,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638416875792035156",
+  "LastModifiedTimestamp": "638417044413606058",
   "Name": "3ba75f27abcc40b69cbcfdf1d92262a1",
   "OverridableProperties": {},
   "Version": "1.0"
