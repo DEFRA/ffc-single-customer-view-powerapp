@@ -33,8 +33,12 @@ BusinessMessagesPage As screen:
             BusinessMessagesTable As Table:
                 Data: =businessMessages
                 Fields: |-
-                    =Table( 
-                        {Value: "date", Name: "Date"}
+                    =Table(
+                        {Value: "id", Name: "ID"},
+                        {Value: "date", Name: "Date"},
+                        {Value: "title", Name: "Title"},
+                        {Value: "body", Name: "Date"},
+                        {Value: "read", Name: "Read"}
                     )
                 Height: =App.Height
                 LayoutMinHeight: =
