@@ -2,7 +2,7 @@ App As appinfo:
     BackEnabled: =true
     OnStart: |-
         =ClearCollect(appScreens, {Name: "Authenticate", Screen: AuthenticateQuestionsPage},{Name: "Permissions", Screen: PermissionsPage}, {Name: "Business Detail", Screen: BusinessDetailsPage}, {Name: "Land Parcel", Screen: LandParcelPage}, {Name: "Business Messages", Screen: BusinessMessagesPage });
-        Set(customerId, "123");
+        Set(customerId, "123123");
         Set(
             customerBusinesses,
             customer_businesses.Run(customerId).data.customer.businesses
