@@ -190,9 +190,12 @@ Table As CanvasComponent:
                 ZIndex: =1
 
                 TableRowColumn As gallery.galleryHorizontal:
+                    AlignInContainer: =AlignInContainer.SetByContainer
                     DelayItemLoading: =true
                     Height: =40
                     Items: =AddColumns(Table.Fields, "ItemId", ThisItem.id)
+                    LayoutMinHeight: =287
+                    LayoutMinWidth: =320
                     LoadingSpinner: =LoadingSpinner.Data
                     TemplatePadding: =0
                     TemplateSize: =Parent.Width / CountRows(Table.Fields)
