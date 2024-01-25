@@ -34,7 +34,6 @@ BusinessMessagesPage As screen:
                 Data: =businessMessages
                 Fields: |-
                     =Table(
-                        {Value: "title", Name: "Title"},
                         {Value: "body", Name: "Body"},
                         {Value: "id", Name: "ID"},   
                         {Value: "date", Name: "Date"},
