@@ -30,7 +30,7 @@ BusinessMessagesPage As screen:
             LayoutMode: =LayoutMode.Auto
             ZIndex: =3
 
-            BusinessMessagesTable As Table:
+            "BusinessMessagesTable As '3ba75f27abcc40b69cbcfdf1d92262a1'":
                 Data: =businessMessages
                 Fields: |-
                     =Table(

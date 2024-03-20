@@ -10,6 +10,7 @@
         "SectionIndex": 7,
         "SectionName": null,
         "SectionType": null,
+        "ShowInCanvasInlineActionBar": false,
         "Type": 29,
         "WizardStep": null
       },
@@ -22,6 +23,7 @@
         "SectionIndex": 7,
         "SectionName": null,
         "SectionType": null,
+        "ShowInCanvasInlineActionBar": false,
         "Type": 0,
         "WizardStep": null
       },
@@ -34,6 +36,7 @@
         "SectionIndex": 7,
         "SectionName": null,
         "SectionType": null,
+        "ShowInCanvasInlineActionBar": false,
         "Type": 30,
         "WizardStep": null
       },
@@ -46,6 +49,7 @@
         "SectionIndex": 7,
         "SectionName": null,
         "SectionType": null,
+        "ShowInCanvasInlineActionBar": false,
         "Type": 0,
         "WizardStep": null
       },
@@ -58,6 +62,7 @@
         "SectionIndex": 5,
         "SectionName": null,
         "SectionType": null,
+        "ShowInCanvasInlineActionBar": false,
         "Type": 0,
         "WizardStep": null
       },
@@ -70,6 +75,7 @@
         "SectionIndex": 5,
         "SectionName": null,
         "SectionType": null,
+        "ShowInCanvasInlineActionBar": false,
         "Type": 0,
         "WizardStep": null
       },
@@ -82,6 +88,7 @@
         "SectionIndex": 4,
         "SectionName": null,
         "SectionType": null,
+        "ShowInCanvasInlineActionBar": false,
         "Type": 0,
         "WizardStep": null
       },
@@ -94,6 +101,7 @@
         "SectionIndex": 4,
         "SectionName": null,
         "SectionType": null,
+        "ShowInCanvasInlineActionBar": false,
         "Type": 0,
         "WizardStep": null
       },
@@ -106,6 +114,7 @@
         "SectionIndex": 4,
         "SectionName": null,
         "SectionType": null,
+        "ShowInCanvasInlineActionBar": false,
         "Type": 0,
         "WizardStep": null
       },
@@ -118,6 +127,7 @@
         "SectionIndex": 3,
         "SectionName": null,
         "SectionType": null,
+        "ShowInCanvasInlineActionBar": false,
         "Type": 0,
         "WizardStep": null
       },
@@ -130,6 +140,7 @@
         "SectionIndex": 3,
         "SectionName": null,
         "SectionType": null,
+        "ShowInCanvasInlineActionBar": false,
         "Type": 0,
         "WizardStep": null
       },
@@ -142,6 +153,7 @@
         "SectionIndex": 3,
         "SectionName": null,
         "SectionType": null,
+        "ShowInCanvasInlineActionBar": false,
         "Type": 0,
         "WizardStep": null
       },
@@ -154,6 +166,7 @@
         "SectionIndex": 3,
         "SectionName": null,
         "SectionType": null,
+        "ShowInCanvasInlineActionBar": false,
         "Type": 0,
         "WizardStep": null
       },
@@ -166,6 +179,7 @@
         "SectionIndex": 2,
         "SectionName": null,
         "SectionType": null,
+        "ShowInCanvasInlineActionBar": false,
         "Type": 0,
         "WizardStep": null
       },
@@ -178,6 +192,7 @@
         "SectionIndex": 5,
         "SectionName": null,
         "SectionType": null,
+        "ShowInCanvasInlineActionBar": false,
         "Type": 0,
         "WizardStep": null
       },
@@ -190,6 +205,7 @@
         "SectionIndex": 0,
         "SectionName": null,
         "SectionType": null,
+        "ShowInCanvasInlineActionBar": false,
         "Type": 0,
         "WizardStep": null
       },
@@ -202,6 +218,7 @@
         "SectionIndex": 5,
         "SectionName": null,
         "SectionType": null,
+        "ShowInCanvasInlineActionBar": false,
         "Type": 0,
         "WizardStep": null
       },
@@ -214,6 +231,7 @@
         "SectionIndex": 5,
         "SectionName": null,
         "SectionType": null,
+        "ShowInCanvasInlineActionBar": false,
         "Type": 29,
         "WizardStep": null
       },
@@ -226,6 +244,7 @@
         "SectionIndex": 5,
         "SectionName": null,
         "SectionType": null,
+        "ShowInCanvasInlineActionBar": false,
         "Type": 0,
         "WizardStep": null
       },
@@ -238,6 +257,7 @@
         "SectionIndex": 9,
         "SectionName": null,
         "SectionType": null,
+        "ShowInCanvasInlineActionBar": false,
         "Type": 0,
         "WizardStep": null
       },
@@ -250,6 +270,7 @@
         "SectionIndex": 9,
         "SectionName": null,
         "SectionType": null,
+        "ShowInCanvasInlineActionBar": false,
         "Type": 0,
         "WizardStep": null
       },
@@ -262,6 +283,7 @@
         "SectionIndex": 9,
         "SectionName": null,
         "SectionType": null,
+        "ShowInCanvasInlineActionBar": false,
         "Type": 0,
         "WizardStep": null
       },
@@ -274,6 +296,7 @@
         "SectionIndex": 9,
         "SectionName": null,
         "SectionType": null,
+        "ShowInCanvasInlineActionBar": false,
         "Type": 0,
         "WizardStep": null
       },
@@ -286,6 +309,7 @@
         "SectionIndex": 5,
         "SectionName": null,
         "SectionType": null,
+        "ShowInCanvasInlineActionBar": false,
         "Type": 0,
         "WizardStep": null
       },
@@ -298,6 +322,7 @@
         "SectionIndex": 6,
         "SectionName": null,
         "SectionType": null,
+        "ShowInCanvasInlineActionBar": false,
         "Type": 0,
         "WizardStep": null
       },
@@ -310,6 +335,7 @@
         "SectionIndex": 6,
         "SectionName": null,
         "SectionType": null,
+        "ShowInCanvasInlineActionBar": false,
         "Type": 0,
         "WizardStep": null
       },
@@ -322,6 +348,7 @@
         "SectionIndex": 9,
         "SectionName": null,
         "SectionType": null,
+        "ShowInCanvasInlineActionBar": false,
         "Type": 0,
         "WizardStep": null
       },
@@ -334,6 +361,7 @@
         "SectionIndex": 6,
         "SectionName": null,
         "SectionType": null,
+        "ShowInCanvasInlineActionBar": false,
         "Type": 0,
         "WizardStep": null
       },
@@ -346,6 +374,7 @@
         "SectionIndex": 6,
         "SectionName": null,
         "SectionType": null,
+        "ShowInCanvasInlineActionBar": false,
         "Type": 0,
         "WizardStep": null
       },
@@ -358,6 +387,7 @@
         "SectionIndex": 8,
         "SectionName": null,
         "SectionType": null,
+        "ShowInCanvasInlineActionBar": false,
         "Type": 0,
         "WizardStep": null
       },
@@ -370,6 +400,7 @@
         "SectionIndex": 1,
         "SectionName": null,
         "SectionType": null,
+        "ShowInCanvasInlineActionBar": false,
         "Type": 0,
         "WizardStep": null
       },
@@ -382,6 +413,7 @@
         "SectionIndex": 9,
         "SectionName": null,
         "SectionType": null,
+        "ShowInCanvasInlineActionBar": false,
         "Type": 0,
         "WizardStep": null
       },
@@ -394,6 +426,7 @@
         "SectionIndex": 2,
         "SectionName": null,
         "SectionType": null,
+        "ShowInCanvasInlineActionBar": false,
         "Type": 0,
         "WizardStep": null
       },
@@ -406,6 +439,7 @@
         "SectionIndex": 2,
         "SectionName": null,
         "SectionType": null,
+        "ShowInCanvasInlineActionBar": false,
         "Type": 0,
         "WizardStep": null
       },
@@ -418,6 +452,7 @@
         "SectionIndex": 2,
         "SectionName": null,
         "SectionType": null,
+        "ShowInCanvasInlineActionBar": false,
         "Type": 0,
         "WizardStep": null
       },
@@ -430,6 +465,7 @@
         "SectionIndex": 2,
         "SectionName": null,
         "SectionType": null,
+        "ShowInCanvasInlineActionBar": false,
         "Type": 0,
         "WizardStep": null
       },
@@ -442,6 +478,7 @@
         "SectionIndex": 5,
         "SectionName": null,
         "SectionType": null,
+        "ShowInCanvasInlineActionBar": false,
         "Type": 0,
         "WizardStep": null
       }
@@ -456,6 +493,7 @@
         "SectionIndex": 0,
         "SectionName": "Design",
         "SectionType": null,
+        "ShowInCanvasInlineActionBar": false,
         "Type": 0,
         "WizardStep": null
       },
@@ -468,6 +506,7 @@
         "SectionIndex": 0,
         "SectionName": "Design",
         "SectionType": null,
+        "ShowInCanvasInlineActionBar": false,
         "Type": 0,
         "WizardStep": null
       },
@@ -480,6 +519,7 @@
         "SectionIndex": 0,
         "SectionName": "Design",
         "SectionType": null,
+        "ShowInCanvasInlineActionBar": false,
         "Type": 0,
         "WizardStep": null
       },
@@ -492,6 +532,7 @@
         "SectionIndex": 0,
         "SectionName": "Design",
         "SectionType": null,
+        "ShowInCanvasInlineActionBar": false,
         "Type": 0,
         "WizardStep": null
       },
@@ -504,6 +545,7 @@
         "SectionIndex": 0,
         "SectionName": "Design",
         "SectionType": null,
+        "ShowInCanvasInlineActionBar": false,
         "Type": 0,
         "WizardStep": null
       },
@@ -516,6 +558,7 @@
         "SectionIndex": 0,
         "SectionName": "Design",
         "SectionType": null,
+        "ShowInCanvasInlineActionBar": false,
         "Type": 0,
         "WizardStep": null
       },
@@ -528,6 +571,7 @@
         "SectionIndex": 0,
         "SectionName": "Design",
         "SectionType": null,
+        "ShowInCanvasInlineActionBar": false,
         "Type": 0,
         "WizardStep": null
       },
@@ -540,6 +584,7 @@
         "SectionIndex": 0,
         "SectionName": "Design",
         "SectionType": null,
+        "ShowInCanvasInlineActionBar": false,
         "Type": 0,
         "WizardStep": null
       },
@@ -552,6 +597,7 @@
         "SectionIndex": 0,
         "SectionName": "Design",
         "SectionType": null,
+        "ShowInCanvasInlineActionBar": false,
         "Type": 0,
         "WizardStep": null
       }
@@ -3077,6 +3123,13 @@
     },
     {
       "IsControlSpecific": false,
+      "LoadingOrder": 5,
+      "ModifiedPath": "",
+      "Path": "/ctrllib/common/js/container.js",
+      "Type": 0
+    },
+    {
+      "IsControlSpecific": false,
       "LoadingOrder": 6,
       "ModifiedPath": "",
       "Path": "/ctrllib/PCFControls/js/PCFControlWrapper.js",
@@ -3091,399 +3144,399 @@
     },
     {
       "IsControlSpecific": false,
-      "LoadingOrder": 7,
+      "LoadingOrder": 8,
       "ModifiedPath": "",
-      "Path": "{\"Id\":\"ManifestTemplate\",\"Data\":{\"ConstructorName\":\"Microsoft.Map\",\"CustomControlId\":\"Microsoft.Map\",\"IsVirtual\":false,\"Properties\":{\"Resources\":[{\"Name\":\"/PCF/prop-types.js\",\"LoadOrder\":1,\"Type\":0,\"LibraryName\":null},{\"Name\":\"/PCF/react-fela.js\",\"LoadOrder\":2,\"Type\":0,\"LibraryName\":null},{\"Name\":\"/PCF/fela.js\",\"LoadOrder\":3,\"Type\":0,\"LibraryName\":null},{\"Name\":\"/PCF/fela-dom.js\",\"LoadOrder\":4,\"Type\":0,\"LibraryName\":null},{\"Name\":\"/ctrllib/PCFControls/js/PCFControlWrapper.js\",\"LoadOrder\":6,\"Type\":0,\"LibraryName\":null},{\"Name\":\"/ctrllib/PcfControlProxy/js/PcfControlProxy.js\",\"LoadOrder\":7,\"Type\":0,\"LibraryName\":null}],\"GroupDefinitions\":null,\"DataSetDefinitions\":{\"Items\":{\"DisplayName\":\"Locations\",\"Type\":\"Grid\",\"Columns\":{\"0\":{\"Required\":false,\"Usage\":2,\"Name\":\"ItemsLabels\",\"Type\":\"SingleLine_Text\"},\"1\":{\"Required\":false,\"Usage\":2,\"Name\":\"ItemsLatitudes\",\"Type\":\"FP\"},\"2\":{\"Required\":false,\"Usage\":2,\"Name\":\"ItemsLongitudes\",\"Type\":\"FP\"},\"3\":{\"Required\":false,\"Usage\":2,\"Name\":\"ItemsAddresses\",\"Type\":\"SingleLine_Text\"},\"4\":{\"Required\":false,\"Usage\":2,\"Name\":\"ItemsColors\",\"Type\":\"SingleLine_Text\"},\"5\":{\"Required\":false,\"Usage\":2,\"Name\":\"ItemsIcons\",\"Type\":\"SingleLine_Text\"}},\"Primary\":true,\"InitialDataSetFetch\":true,\"CDSDataSetOptions\":null},\"Shapes\":{\"DisplayName\":\"Shapes\",\"Type\":\"Grid\",\"Columns\":{\"0\":{\"Required\":false,\"Usage\":0,\"Name\":\"ShapeGeoJSONObjects\",\"Type\":\"SingleLine_Text\"},\"1\":{\"Required\":false,\"Usage\":0,\"Name\":\"ShapeLabels\",\"Type\":\"SingleLine_Text\"},\"2\":{\"Required\":false,\"Usage\":0,\"Name\":\"ShapeColors\",\"Type\":\"SingleLine_Text\"}},\"Primary\":false,\"InitialDataSetFetch\":true,\"CDSDataSetOptions\":null},\"RouteWaypoints\":{\"DisplayName\":\"Route waypoints\",\"Type\":\"Grid\",\"Columns\":{\"0\":{\"Required\":false,\"Usage\":2,\"Name\":\"RouteWaypointsLabels\",\"Type\":\"SingleLine_Text\"},\"1\":{\"Required\":false,\"Usage\":2,\"Name\":\"RouteWaypointsLatitudes\",\"Type\":\"FP\"},\"2\":{\"Required\":false,\"Usage\":2,\"Name\":\"RouteWaypointsLongitudes\",\"Type\":\"FP\"},\"3\":{\"Required\":false,\"Usage\":2,\"Name\":\"RouteWaypointsAddresses\",\"Type\":\"SingleLine_Text\"}},\"Primary\":false,\"InitialDataSetFetch\":true,\"CDSDataSetOptions\":null}},\"Properties\":{\"AddressDataSource\":{\"Required\":true,\"Usage\":1,\"DefaultValue\":\"Default\"},\"DefaultLocation\":{\"Required\":true,\"Usage\":1,\"DefaultValue\":\"false\"},\"DefaultLatitude\":{\"Required\":true,\"Usage\":1,\"DefaultValue\":\"47.642967\"},\"DefaultLongitude\":{\"Required\":true,\"Usage\":1,\"DefaultValue\":\"-122.126801\"},\"DefaultZoomLevel\":{\"Required\":true,\"Usage\":1,\"DefaultValue\":\"16\"},\"CurrentLocation\":{\"Required\":true,\"Usage\":1,\"DefaultValue\":\"false\"},\"CurrentLocationLatitude\":{\"Required\":true,\"Usage\":1,\"DefaultValue\":\"0\"},\"CurrentLocationLongitude\":{\"Required\":true,\"Usage\":1,\"DefaultValue\":\"0\"},\"MapStyle\":{\"Required\":true,\"Usage\":1,\"DefaultValue\":\"Road\"},\"SatelliteView\":{\"Required\":true,\"Usage\":1,\"DefaultValue\":\"false\"},\"Clustering\":{\"Required\":true,\"Usage\":1,\"DefaultValue\":\"true\"},\"Compass\":{\"Required\":true,\"Usage\":1,\"DefaultValue\":\"true\"},\"Zoom\":{\"Required\":true,\"Usage\":1,\"DefaultValue\":\"true\"},\"Pitch\":{\"Required\":true,\"Usage\":1,\"DefaultValue\":\"true\"},\"InfoCards\":{\"Required\":true,\"Usage\":1,\"DefaultValue\":\"None\"},\"PinColor\":{\"Required\":true,\"Usage\":1,\"DefaultValue\":\"#1D72A9\"},\"ShowShapes\":{\"Required\":true,\"Usage\":1,\"DefaultValue\":\"true\"},\"ShowShapeLabels\":{\"Required\":true,\"Usage\":1,\"DefaultValue\":\"true\"},\"ShapeDrawing\":{\"Required\":true,\"Usage\":1,\"DefaultValue\":\"false\"},\"ShapeEditingDeleting\":{\"Required\":true,\"Usage\":1,\"DefaultValue\":\"false\"},\"UseRouting\":{\"Required\":true,\"Usage\":1,\"DefaultValue\":\"false\"},\"RouteMaintainOrder\":{\"Required\":true,\"Usage\":1,\"DefaultValue\":\"false\"},\"RouteOptimization\":{\"Required\":true,\"Usage\":1,\"DefaultValue\":\"None\"},\"RouteTravelMode\":{\"Required\":true,\"Usage\":1,\"DefaultValue\":\"Car\"},\"ShowRoutePins\":{\"Required\":true,\"Usage\":1,\"DefaultValue\":\"true\"},\"Transparency\":{\"Required\":true,\"Usage\":1,\"DefaultValue\":\"0\"},\"BorderStyle\":{\"Required\":true,\"Usage\":1,\"DefaultValue\":\"solid\"},\"BorderThickness\":{\"Required\":true,\"Usage\":1,\"DefaultValue\":\"0\"},\"BorderColor\":{\"Required\":true,\"Usage\":1,\"DefaultValue\":\"#00126B\"},\"BorderRadius\":{\"Required\":true,\"Usage\":1,\"DefaultValue\":\"0\"},\"TabIndex\":{\"Required\":true,\"Usage\":1,\"DefaultValue\":\"0\"},\"CanvasApp\":{\"Required\":true,\"Usage\":1,\"DefaultValue\":\"\"},\"PinIcons\":{\"Required\":true,\"Usage\":1,\"DefaultValue\":\"marker\"},\"CenterLocation\":{\"Required\":true,\"Usage\":2,\"DefaultValue\":\"\"},\"GeocodedItems\":{\"Required\":true,\"Usage\":2,\"DefaultValue\":\"\"},\"ClickedLocation\":{\"Required\":true,\"Usage\":2,\"DefaultValue\":\"\"},\"Bounds\":{\"Required\":true,\"Usage\":2,\"DefaultValue\":\"\"},\"GeoJSON\":{\"Required\":true,\"Usage\":2,\"DefaultValue\":\"\"},\"SelectedShape\":{\"Required\":true,\"Usage\":2,\"DefaultValue\":\"\"},\"DeletedShape\":{\"Required\":true,\"Usage\":2,\"DefaultValue\":\"\"},\"RouteDirection\":{\"Required\":true,\"Usage\":2,\"DefaultValue\":\"\"},\"Items\":{\"Required\":true,\"Usage\":1,\"DefaultValue\":\"\"},\"Selected\":{\"Required\":true,\"Usage\":2,\"DefaultValue\":\"\"},\"SelectedItems\":{\"Required\":true,\"Usage\":2,\"DefaultValue\":\"\"},\"ItemsLabels\":{\"Required\":true,\"Usage\":0,\"DefaultValue\":\"\"},\"ItemsLatitudes\":{\"Required\":true,\"Usage\":0,\"DefaultValue\":\"\"},\"ItemsLongitudes\":{\"Required\":true,\"Usage\":0,\"DefaultValue\":\"\"},\"ItemsAddresses\":{\"Required\":true,\"Usage\":0,\"DefaultValue\":\"\"},\"ItemsColors\":{\"Required\":true,\"Usage\":0,\"DefaultValue\":\"\"},\"ItemsIcons\":{\"Required\":true,\"Usage\":0,\"DefaultValue\":\"\"},\"Shapes_Items\":{\"Required\":true,\"Usage\":1,\"DefaultValue\":\"\"},\"Shapes_Selected\":{\"Required\":true,\"Usage\":2,\"DefaultValue\":\"\"},\"Shapes_SelectedItems\":{\"Required\":true,\"Usage\":2,\"DefaultValue\":\"\"},\"ShapeGeoJSONObjects\":{\"Required\":true,\"Usage\":1,\"DefaultValue\":\"\"},\"ShapeLabels\":{\"Required\":true,\"Usage\":1,\"DefaultValue\":\"\"},\"ShapeColors\":{\"Required\":true,\"Usage\":1,\"DefaultValue\":\"\"},\"RouteWaypoints_Items\":{\"Required\":true,\"Usage\":1,\"DefaultValue\":\"\"},\"RouteWaypoints_Selected\":{\"Required\":true,\"Usage\":2,\"DefaultValue\":\"\"},\"RouteWaypoints_SelectedItems\":{\"Required\":true,\"Usage\":2,\"DefaultValue\":\"\"},\"RouteWaypointsLabels\":{\"Required\":true,\"Usage\":0,\"DefaultValue\":\"\"},\"RouteWaypointsLatitudes\":{\"Required\":true,\"Usage\":0,\"DefaultValue\":\"\"},\"RouteWaypointsLongitudes\":{\"Required\":true,\"Usage\":0,\"DefaultValue\":\"\"},\"RouteWaypointsAddresses\":{\"Required\":true,\"Usage\":0,\"DefaultValue\":\"\"}},\"FeatureUsage\":null},\"Events\":{\"OnItemsChange\":{\"EventName\":\"OnItemsChange\"},\"OnLoad\":{\"EventName\":\"OnLoad\"},\"OnMapClick\":{\"EventName\":\"OnMapClick\"},\"OnShapeCreated\":{\"EventName\":\"OnShapeCreated\"},\"OnShapeSelected\":{\"EventName\":\"OnShapeSelected\"},\"OnShapeEdited\":{\"EventName\":\"OnShapeEdited\"},\"OnShapeDeleted\":{\"EventName\":\"OnShapeDeleted\"},\"OnRouteDirectionChange\":{\"EventName\":\"OnRouteDirectionChange\"}},\"CommonEvents\":null,\"DesignMap\":null,\"PropertyDependencies\":[{\"Input\":\"DefaultLocation\",\"Output\":\"CenterLocation\",\"RequiredFor\":\"schema\"},{\"Input\":\"PinColor\",\"Output\":\"GeocodedItems\",\"RequiredFor\":\"schema\"},{\"Input\":\"DefaultLocation\",\"Output\":\"ClickedLocation\",\"RequiredFor\":\"schema\"},{\"Input\":\"DefaultLocation\",\"Output\":\"Bounds\",\"RequiredFor\":\"schema\"},{\"Input\":\"Transparency\",\"Output\":\"SelectedShape\",\"RequiredFor\":\"schema\"},{\"Input\":\"Transparency\",\"Output\":\"DeletedShape\",\"RequiredFor\":\"schema\"},{\"Input\":\"UseRouting\",\"Output\":\"RouteDirection\",\"RequiredFor\":\"schema\"},{\"Input\":\"Items\",\"Output\":\"Selected\",\"RequiredFor\":\"\"},{\"Input\":\"Items\",\"Output\":\"SelectedItems\",\"RequiredFor\":\"\"},{\"Input\":\"Shapes_Items\",\"Output\":\"Shapes_Selected\",\"RequiredFor\":\"\"},{\"Input\":\"Shapes_Items\",\"Output\":\"Shapes_SelectedItems\",\"RequiredFor\":\"\"},{\"Input\":\"RouteWaypoints_Items\",\"Output\":\"RouteWaypoints_Selected\",\"RequiredFor\":\"\"},{\"Input\":\"RouteWaypoints_Items\",\"Output\":\"RouteWaypoints_SelectedItems\",\"RequiredFor\":\"\"}],\"Children\":null}}",
+      "Path": "{\"Id\":\"ManifestTemplate\",\"Data\":{\"ConstructorName\":\"Microsoft.Map\",\"CustomControlId\":\"Microsoft.Map\",\"IsVirtual\":false,\"Properties\":{\"Resources\":[{\"Name\":\"/PCF/prop-types.js\",\"LoadOrder\":1,\"Type\":0,\"LibraryName\":null},{\"Name\":\"/PCF/react-fela.js\",\"LoadOrder\":2,\"Type\":0,\"LibraryName\":null},{\"Name\":\"/PCF/fela.js\",\"LoadOrder\":3,\"Type\":0,\"LibraryName\":null},{\"Name\":\"/PCF/fela-dom.js\",\"LoadOrder\":4,\"Type\":0,\"LibraryName\":null},{\"Name\":\"/ctrllib/common/js/container.js\",\"LoadOrder\":5,\"Type\":0,\"LibraryName\":null},{\"Name\":\"/ctrllib/PCFControls/js/PCFControlWrapper.js\",\"LoadOrder\":6,\"Type\":0,\"LibraryName\":null},{\"Name\":\"/ctrllib/PcfControlProxy/js/PcfControlProxy.js\",\"LoadOrder\":7,\"Type\":0,\"LibraryName\":null}],\"GroupDefinitions\":null,\"DataSetDefinitions\":{\"Items\":{\"DisplayName\":\"Locations\",\"Type\":\"Grid\",\"Columns\":{\"0\":{\"Required\":false,\"Usage\":2,\"Name\":\"ItemsLabels\",\"Type\":\"SingleLine_Text\"},\"1\":{\"Required\":false,\"Usage\":2,\"Name\":\"ItemsLatitudes\",\"Type\":\"FP\"},\"2\":{\"Required\":false,\"Usage\":2,\"Name\":\"ItemsLongitudes\",\"Type\":\"FP\"},\"3\":{\"Required\":false,\"Usage\":2,\"Name\":\"ItemsAddresses\",\"Type\":\"SingleLine_Text\"},\"4\":{\"Required\":false,\"Usage\":2,\"Name\":\"ItemsColors\",\"Type\":\"SingleLine_Text\"},\"5\":{\"Required\":false,\"Usage\":2,\"Name\":\"ItemsIcons\",\"Type\":\"SingleLine_Text\"}},\"Primary\":true,\"InitialDataSetFetch\":true,\"CDSDataSetOptions\":null},\"Shapes\":{\"DisplayName\":\"Shapes\",\"Type\":\"Grid\",\"Columns\":{\"0\":{\"Required\":false,\"Usage\":0,\"Name\":\"ShapeGeoJSONObjects\",\"Type\":\"SingleLine_Text\"},\"1\":{\"Required\":false,\"Usage\":0,\"Name\":\"ShapeLabels\",\"Type\":\"SingleLine_Text\"},\"2\":{\"Required\":false,\"Usage\":0,\"Name\":\"ShapeColors\",\"Type\":\"SingleLine_Text\"}},\"Primary\":false,\"InitialDataSetFetch\":true,\"CDSDataSetOptions\":null},\"RouteWaypoints\":{\"DisplayName\":\"Route waypoints\",\"Type\":\"Grid\",\"Columns\":{\"0\":{\"Required\":false,\"Usage\":2,\"Name\":\"RouteWaypointsLabels\",\"Type\":\"SingleLine_Text\"},\"1\":{\"Required\":false,\"Usage\":2,\"Name\":\"RouteWaypointsLatitudes\",\"Type\":\"FP\"},\"2\":{\"Required\":false,\"Usage\":2,\"Name\":\"RouteWaypointsLongitudes\",\"Type\":\"FP\"},\"3\":{\"Required\":false,\"Usage\":2,\"Name\":\"RouteWaypointsAddresses\",\"Type\":\"SingleLine_Text\"}},\"Primary\":false,\"InitialDataSetFetch\":true,\"CDSDataSetOptions\":null}},\"Properties\":{\"AddressDataSource\":{\"Required\":true,\"Usage\":1,\"DefaultValue\":\"Default\"},\"DefaultLocation\":{\"Required\":true,\"Usage\":1,\"DefaultValue\":\"false\"},\"DefaultLatitude\":{\"Required\":true,\"Usage\":1,\"DefaultValue\":\"47.642967\"},\"DefaultLongitude\":{\"Required\":true,\"Usage\":1,\"DefaultValue\":\"-122.126801\"},\"DefaultZoomLevel\":{\"Required\":true,\"Usage\":1,\"DefaultValue\":\"16\"},\"CurrentLocation\":{\"Required\":true,\"Usage\":1,\"DefaultValue\":\"false\"},\"CurrentLocationLatitude\":{\"Required\":true,\"Usage\":1,\"DefaultValue\":\"0\"},\"CurrentLocationLongitude\":{\"Required\":true,\"Usage\":1,\"DefaultValue\":\"0\"},\"MapStyle\":{\"Required\":true,\"Usage\":1,\"DefaultValue\":\"Road\"},\"SatelliteView\":{\"Required\":true,\"Usage\":1,\"DefaultValue\":\"false\"},\"Clustering\":{\"Required\":true,\"Usage\":1,\"DefaultValue\":\"true\"},\"Compass\":{\"Required\":true,\"Usage\":1,\"DefaultValue\":\"true\"},\"Zoom\":{\"Required\":true,\"Usage\":1,\"DefaultValue\":\"true\"},\"Pitch\":{\"Required\":true,\"Usage\":1,\"DefaultValue\":\"true\"},\"InfoCards\":{\"Required\":true,\"Usage\":1,\"DefaultValue\":\"None\"},\"PinColor\":{\"Required\":true,\"Usage\":1,\"DefaultValue\":\"#1D72A9\"},\"ShowShapes\":{\"Required\":true,\"Usage\":1,\"DefaultValue\":\"true\"},\"ShowShapeLabels\":{\"Required\":true,\"Usage\":1,\"DefaultValue\":\"true\"},\"ShapeDrawing\":{\"Required\":true,\"Usage\":1,\"DefaultValue\":\"false\"},\"ShapeEditingDeleting\":{\"Required\":true,\"Usage\":1,\"DefaultValue\":\"false\"},\"UseRouting\":{\"Required\":true,\"Usage\":1,\"DefaultValue\":\"false\"},\"RouteMaintainOrder\":{\"Required\":true,\"Usage\":1,\"DefaultValue\":\"false\"},\"RouteOptimization\":{\"Required\":true,\"Usage\":1,\"DefaultValue\":\"None\"},\"RouteTravelMode\":{\"Required\":true,\"Usage\":1,\"DefaultValue\":\"Car\"},\"ShowRoutePins\":{\"Required\":true,\"Usage\":1,\"DefaultValue\":\"true\"},\"Transparency\":{\"Required\":true,\"Usage\":1,\"DefaultValue\":\"0\"},\"BorderStyle\":{\"Required\":true,\"Usage\":1,\"DefaultValue\":\"solid\"},\"BorderThickness\":{\"Required\":true,\"Usage\":1,\"DefaultValue\":\"0\"},\"BorderColor\":{\"Required\":true,\"Usage\":1,\"DefaultValue\":\"#00126B\"},\"BorderRadius\":{\"Required\":true,\"Usage\":1,\"DefaultValue\":\"0\"},\"TabIndex\":{\"Required\":true,\"Usage\":1,\"DefaultValue\":\"0\"},\"CanvasApp\":{\"Required\":true,\"Usage\":1,\"DefaultValue\":\"\"},\"PinIcons\":{\"Required\":true,\"Usage\":1,\"DefaultValue\":\"marker\"},\"CenterLocation\":{\"Required\":true,\"Usage\":2,\"DefaultValue\":\"\"},\"GeocodedItems\":{\"Required\":true,\"Usage\":2,\"DefaultValue\":\"\"},\"ClickedLocation\":{\"Required\":true,\"Usage\":2,\"DefaultValue\":\"\"},\"Bounds\":{\"Required\":true,\"Usage\":2,\"DefaultValue\":\"\"},\"GeoJSON\":{\"Required\":true,\"Usage\":2,\"DefaultValue\":\"\"},\"SelectedShape\":{\"Required\":true,\"Usage\":2,\"DefaultValue\":\"\"},\"DeletedShape\":{\"Required\":true,\"Usage\":2,\"DefaultValue\":\"\"},\"RouteDirection\":{\"Required\":true,\"Usage\":2,\"DefaultValue\":\"\"},\"Items\":{\"Required\":true,\"Usage\":1,\"DefaultValue\":\"\"},\"Selected\":{\"Required\":true,\"Usage\":2,\"DefaultValue\":\"\"},\"SelectedItems\":{\"Required\":true,\"Usage\":2,\"DefaultValue\":\"\"},\"ItemsLabels\":{\"Required\":true,\"Usage\":0,\"DefaultValue\":\"\"},\"ItemsLatitudes\":{\"Required\":true,\"Usage\":0,\"DefaultValue\":\"\"},\"ItemsLongitudes\":{\"Required\":true,\"Usage\":0,\"DefaultValue\":\"\"},\"ItemsAddresses\":{\"Required\":true,\"Usage\":0,\"DefaultValue\":\"\"},\"ItemsColors\":{\"Required\":true,\"Usage\":0,\"DefaultValue\":\"\"},\"ItemsIcons\":{\"Required\":true,\"Usage\":0,\"DefaultValue\":\"\"},\"Shapes_Items\":{\"Required\":true,\"Usage\":1,\"DefaultValue\":\"\"},\"Shapes_Selected\":{\"Required\":true,\"Usage\":2,\"DefaultValue\":\"\"},\"Shapes_SelectedItems\":{\"Required\":true,\"Usage\":2,\"DefaultValue\":\"\"},\"ShapeGeoJSONObjects\":{\"Required\":true,\"Usage\":1,\"DefaultValue\":\"\"},\"ShapeLabels\":{\"Required\":true,\"Usage\":1,\"DefaultValue\":\"\"},\"ShapeColors\":{\"Required\":true,\"Usage\":1,\"DefaultValue\":\"\"},\"RouteWaypoints_Items\":{\"Required\":true,\"Usage\":1,\"DefaultValue\":\"\"},\"RouteWaypoints_Selected\":{\"Required\":true,\"Usage\":2,\"DefaultValue\":\"\"},\"RouteWaypoints_SelectedItems\":{\"Required\":true,\"Usage\":2,\"DefaultValue\":\"\"},\"RouteWaypointsLabels\":{\"Required\":true,\"Usage\":0,\"DefaultValue\":\"\"},\"RouteWaypointsLatitudes\":{\"Required\":true,\"Usage\":0,\"DefaultValue\":\"\"},\"RouteWaypointsLongitudes\":{\"Required\":true,\"Usage\":0,\"DefaultValue\":\"\"},\"RouteWaypointsAddresses\":{\"Required\":true,\"Usage\":0,\"DefaultValue\":\"\"}},\"FeatureUsage\":null},\"Events\":{\"OnItemsChange\":{\"EventName\":\"OnItemsChange\"},\"OnLoad\":{\"EventName\":\"OnLoad\"},\"OnMapClick\":{\"EventName\":\"OnMapClick\"},\"OnShapeCreated\":{\"EventName\":\"OnShapeCreated\"},\"OnShapeSelected\":{\"EventName\":\"OnShapeSelected\"},\"OnShapeEdited\":{\"EventName\":\"OnShapeEdited\"},\"OnShapeDeleted\":{\"EventName\":\"OnShapeDeleted\"},\"OnRouteDirectionChange\":{\"EventName\":\"OnRouteDirectionChange\"}},\"CommonEvents\":null,\"DesignMap\":null,\"PropertyDependencies\":[{\"Input\":\"DefaultLocation\",\"Output\":\"CenterLocation\",\"RequiredFor\":\"schema\"},{\"Input\":\"PinColor\",\"Output\":\"GeocodedItems\",\"RequiredFor\":\"schema\"},{\"Input\":\"DefaultLocation\",\"Output\":\"ClickedLocation\",\"RequiredFor\":\"schema\"},{\"Input\":\"DefaultLocation\",\"Output\":\"Bounds\",\"RequiredFor\":\"schema\"},{\"Input\":\"Transparency\",\"Output\":\"SelectedShape\",\"RequiredFor\":\"schema\"},{\"Input\":\"Transparency\",\"Output\":\"DeletedShape\",\"RequiredFor\":\"schema\"},{\"Input\":\"UseRouting\",\"Output\":\"RouteDirection\",\"RequiredFor\":\"schema\"},{\"Input\":\"Items\",\"Output\":\"Selected\",\"RequiredFor\":\"\"},{\"Input\":\"Items\",\"Output\":\"SelectedItems\",\"RequiredFor\":\"\"},{\"Input\":\"Shapes_Items\",\"Output\":\"Shapes_Selected\",\"RequiredFor\":\"\"},{\"Input\":\"Shapes_Items\",\"Output\":\"Shapes_SelectedItems\",\"RequiredFor\":\"\"},{\"Input\":\"RouteWaypoints_Items\",\"Output\":\"RouteWaypoints_Selected\",\"RequiredFor\":\"\"},{\"Input\":\"RouteWaypoints_Items\",\"Output\":\"RouteWaypoints_SelectedItems\",\"RequiredFor\":\"\"}],\"Children\":null}}",
       "Type": 3
     },
     {
       "IsControlSpecific": false,
-      "LoadingOrder": 8,
+      "LoadingOrder": 9,
       "ModifiedPath": "",
       "Path": "{\"Id\":\"ManifestPropertyTypes\",\"Data\":{\"Properties\":[{\"Name\":\"AddressDataSource\",\"Type\":\"Enum\",\"ComplexType\":\"\",\"IsPrimary\":false,\"IsIncluded\":false},{\"Name\":\"DefaultLocation\",\"Type\":\"TwoOptions\",\"ComplexType\":\"None\",\"IsPrimary\":false,\"IsIncluded\":false},{\"Name\":\"DefaultLatitude\",\"Type\":\"FP\",\"ComplexType\":\"None\",\"IsPrimary\":false,\"IsIncluded\":false},{\"Name\":\"DefaultLongitude\",\"Type\":\"FP\",\"ComplexType\":\"None\",\"IsPrimary\":false,\"IsIncluded\":false},{\"Name\":\"DefaultZoomLevel\",\"Type\":\"Whole_None\",\"ComplexType\":\"None\",\"IsPrimary\":false,\"IsIncluded\":false},{\"Name\":\"CurrentLocation\",\"Type\":\"TwoOptions\",\"ComplexType\":\"None\",\"IsPrimary\":false,\"IsIncluded\":false},{\"Name\":\"CurrentLocationLatitude\",\"Type\":\"FP\",\"ComplexType\":\"None\",\"IsPrimary\":false,\"IsIncluded\":false},{\"Name\":\"CurrentLocationLongitude\",\"Type\":\"FP\",\"ComplexType\":\"None\",\"IsPrimary\":false,\"IsIncluded\":false},{\"Name\":\"MapStyle\",\"Type\":\"Enum\",\"ComplexType\":\"None\",\"IsPrimary\":false,\"IsIncluded\":false},{\"Name\":\"SatelliteView\",\"Type\":\"TwoOptions\",\"ComplexType\":\"None\",\"IsPrimary\":false,\"IsIncluded\":false},{\"Name\":\"Clustering\",\"Type\":\"TwoOptions\",\"ComplexType\":\"None\",\"IsPrimary\":false,\"IsIncluded\":false},{\"Name\":\"Compass\",\"Type\":\"TwoOptions\",\"ComplexType\":\"None\",\"IsPrimary\":false,\"IsIncluded\":false},{\"Name\":\"Zoom\",\"Type\":\"TwoOptions\",\"ComplexType\":\"None\",\"IsPrimary\":false,\"IsIncluded\":false},{\"Name\":\"Pitch\",\"Type\":\"TwoOptions\",\"ComplexType\":\"None\",\"IsPrimary\":false,\"IsIncluded\":false},{\"Name\":\"InfoCards\",\"Type\":\"Enum\",\"ComplexType\":\"None\",\"IsPrimary\":false,\"IsIncluded\":false},{\"Name\":\"PinColor\",\"Type\":\"SingleLine_Text\",\"ComplexType\":\"Color\",\"IsPrimary\":false,\"IsIncluded\":false},{\"Name\":\"ShowShapes\",\"Type\":\"TwoOptions\",\"ComplexType\":\"None\",\"IsPrimary\":false,\"IsIncluded\":false},{\"Name\":\"ShowShapeLabels\",\"Type\":\"TwoOptions\",\"ComplexType\":\"None\",\"IsPrimary\":false,\"IsIncluded\":false},{\"Name\":\"ShapeDrawing\",\"Type\":\"TwoOptions\",\"ComplexType\":\"None\",\"IsPrimary\":false,\"IsIncluded\":false},{\"Name\":\"ShapeEditingDeleting\",\"Type\":\"TwoOptions\",\"ComplexType\":\"None\",\"IsPrimary\":false,\"IsIncluded\":false},{\"Name\":\"UseRouting\",\"Type\":\"TwoOptions\",\"ComplexType\":\"None\",\"IsPrimary\":false,\"IsIncluded\":false},{\"Name\":\"RouteMaintainOrder\",\"Type\":\"TwoOptions\",\"ComplexType\":\"None\",\"IsPrimary\":false,\"IsIncluded\":false},{\"Name\":\"RouteOptimization\",\"Type\":\"Enum\",\"ComplexType\":\"None\",\"IsPrimary\":false,\"IsIncluded\":false},{\"Name\":\"RouteTravelMode\",\"Type\":\"Enum\",\"ComplexType\":\"None\",\"IsPrimary\":false,\"IsIncluded\":false},{\"Name\":\"ShowRoutePins\",\"Type\":\"TwoOptions\",\"ComplexType\":\"None\",\"IsPrimary\":false,\"IsIncluded\":false},{\"Name\":\"Transparency\",\"Type\":\"Whole_None\",\"ComplexType\":\"None\",\"IsPrimary\":false,\"IsIncluded\":false},{\"Name\":\"BorderStyle\",\"Type\":\"SingleLine_Text\",\"ComplexType\":\"BorderStyle\",\"IsPrimary\":false,\"IsIncluded\":false},{\"Name\":\"BorderThickness\",\"Type\":\"Whole_None\",\"ComplexType\":\"None\",\"IsPrimary\":false,\"IsIncluded\":false},{\"Name\":\"BorderColor\",\"Type\":\"SingleLine_Text\",\"ComplexType\":\"Color\",\"IsPrimary\":false,\"IsIncluded\":false},{\"Name\":\"BorderRadius\",\"Type\":\"Whole_None\",\"ComplexType\":\"None\",\"IsPrimary\":false,\"IsIncluded\":false},{\"Name\":\"TabIndex\",\"Type\":\"Whole_None\",\"ComplexType\":\"None\",\"IsPrimary\":false,\"IsIncluded\":false},{\"Name\":\"CanvasApp\",\"Type\":\"TwoOptions\",\"ComplexType\":\"\",\"IsPrimary\":false,\"IsIncluded\":false},{\"Name\":\"PinIcons\",\"Type\":\"Enum\",\"ComplexType\":\"\",\"IsPrimary\":false,\"IsIncluded\":false},{\"Name\":\"CenterLocation\",\"Type\":\"Object\",\"ComplexType\":\"\",\"IsPrimary\":false,\"IsIncluded\":false},{\"Name\":\"GeocodedItems\",\"Type\":\"Object\",\"ComplexType\":\"\",\"IsPrimary\":false,\"IsIncluded\":false},{\"Name\":\"ClickedLocation\",\"Type\":\"Object\",\"ComplexType\":\"\",\"IsPrimary\":false,\"IsIncluded\":false},{\"Name\":\"Bounds\",\"Type\":\"Object\",\"ComplexType\":\"\",\"IsPrimary\":false,\"IsIncluded\":false},{\"Name\":\"GeoJSON\",\"Type\":\"Multiple\",\"ComplexType\":\"\",\"IsPrimary\":false,\"IsIncluded\":false},{\"Name\":\"SelectedShape\",\"Type\":\"Object\",\"ComplexType\":\"\",\"IsPrimary\":false,\"IsIncluded\":false},{\"Name\":\"DeletedShape\",\"Type\":\"Object\",\"ComplexType\":\"\",\"IsPrimary\":false,\"IsIncluded\":false},{\"Name\":\"RouteDirection\",\"Type\":\"Object\",\"ComplexType\":\"\",\"IsPrimary\":false,\"IsIncluded\":false},{\"Name\":\"Items\",\"Type\":\"DataSet\",\"ComplexType\":\"None\",\"IsPrimary\":true,\"IsIncluded\":false},{\"Name\":\"Selected\",\"Type\":\"Object\",\"ComplexType\":\"\",\"IsPrimary\":false,\"IsIncluded\":false},{\"Name\":\"SelectedItems\",\"Type\":\"DataSet\",\"ComplexType\":\"\",\"IsPrimary\":false,\"IsIncluded\":false},{\"Name\":\"ItemsLabels\",\"Type\":\"String\",\"ComplexType\":\"\",\"IsPrimary\":false,\"IsIncluded\":false},{\"Name\":\"ItemsLatitudes\",\"Type\":\"String\",\"ComplexType\":\"\",\"IsPrimary\":false,\"IsIncluded\":false},{\"Name\":\"ItemsLongitudes\",\"Type\":\"String\",\"ComplexType\":\"\",\"IsPrimary\":false,\"IsIncluded\":false},{\"Name\":\"ItemsAddresses\",\"Type\":\"String\",\"ComplexType\":\"\",\"IsPrimary\":false,\"IsIncluded\":false},{\"Name\":\"ItemsColors\",\"Type\":\"String\",\"ComplexType\":\"\",\"IsPrimary\":false,\"IsIncluded\":false},{\"Name\":\"ItemsIcons\",\"Type\":\"String\",\"ComplexType\":\"\",\"IsPrimary\":false,\"IsIncluded\":false},{\"Name\":\"Shapes_Items\",\"Type\":\"DataSet\",\"ComplexType\":\"\",\"IsPrimary\":false,\"IsIncluded\":false},{\"Name\":\"Shapes_Selected\",\"Type\":\"Object\",\"ComplexType\":\"\",\"IsPrimary\":false,\"IsIncluded\":false},{\"Name\":\"Shapes_SelectedItems\",\"Type\":\"DataSet\",\"ComplexType\":\"\",\"IsPrimary\":false,\"IsIncluded\":false},{\"Name\":\"ShapeGeoJSONObjects\",\"Type\":\"String\",\"ComplexType\":\"\",\"IsPrimary\":false,\"IsIncluded\":false},{\"Name\":\"ShapeLabels\",\"Type\":\"String\",\"ComplexType\":\"\",\"IsPrimary\":false,\"IsIncluded\":false},{\"Name\":\"ShapeColors\",\"Type\":\"String\",\"ComplexType\":\"\",\"IsPrimary\":false,\"IsIncluded\":false},{\"Name\":\"RouteWaypoints_Items\",\"Type\":\"DataSet\",\"ComplexType\":\"None\",\"IsPrimary\":false,\"IsIncluded\":false},{\"Name\":\"RouteWaypoints_Selected\",\"Type\":\"Object\",\"ComplexType\":\"\",\"IsPrimary\":false,\"IsIncluded\":false},{\"Name\":\"RouteWaypoints_SelectedItems\",\"Type\":\"DataSet\",\"ComplexType\":\"\",\"IsPrimary\":false,\"IsIncluded\":false},{\"Name\":\"RouteWaypointsLabels\",\"Type\":\"String\",\"ComplexType\":\"\",\"IsPrimary\":false,\"IsIncluded\":false},{\"Name\":\"RouteWaypointsLatitudes\",\"Type\":\"String\",\"ComplexType\":\"\",\"IsPrimary\":false,\"IsIncluded\":false},{\"Name\":\"RouteWaypointsLongitudes\",\"Type\":\"String\",\"ComplexType\":\"\",\"IsPrimary\":false,\"IsIncluded\":false},{\"Name\":\"RouteWaypointsAddresses\",\"Type\":\"String\",\"ComplexType\":\"\",\"IsPrimary\":false,\"IsIncluded\":false},{\"Name\":\"PCFTeamsTheme\",\"Type\":\"String\",\"ComplexType\":\"\",\"IsPrimary\":false,\"IsIncluded\":true},{\"Name\":\"X\",\"Type\":\"Number\",\"ComplexType\":\"\",\"IsPrimary\":false,\"IsIncluded\":true},{\"Name\":\"Y\",\"Type\":\"Number\",\"ComplexType\":\"\",\"IsPrimary\":false,\"IsIncluded\":true},{\"Name\":\"Width\",\"Type\":\"Number\",\"ComplexType\":\"\",\"IsPrimary\":false,\"IsIncluded\":true},{\"Name\":\"Height\",\"Type\":\"Number\",\"ComplexType\":\"\",\"IsPrimary\":false,\"IsIncluded\":true},{\"Name\":\"Visible\",\"Type\":\"Boolean\",\"ComplexType\":\"\",\"IsPrimary\":false,\"IsIncluded\":true},{\"Name\":\"DisplayMode\",\"Type\":\"DisplayMode\",\"ComplexType\":\"\",\"IsPrimary\":false,\"IsIncluded\":true},{\"Name\":\"Tooltip\",\"Type\":\"String\",\"ComplexType\":\"\",\"IsPrimary\":false,\"IsIncluded\":true}]}}",
       "Type": 3
     },
     {
       "IsControlSpecific": false,
-      "LoadingOrder": 9,
+      "LoadingOrder": 10,
       "ModifiedPath": "",
       "Path": "{\"Id\":\"PowerAppsControlInfo\",\"Data\":{\"TemplateVersion\":1,\"Version\":\"1.8.27\",\"IsFirstParty\":true}}",
       "Type": 3
     },
     {
       "IsControlSpecific": true,
-      "LoadingOrder": 13,
+      "LoadingOrder": 14,
       "ModifiedPath": "",
       "Path": "/PCFControls/Map/bundle.js",
       "Type": 0
     },
     {
       "IsControlSpecific": true,
-      "LoadingOrder": 14,
+      "LoadingOrder": 15,
       "ModifiedPath": "",
       "Path": "/PCFControls/Map/AzureMaps.css",
       "Type": 1
     },
     {
       "IsControlSpecific": true,
-      "LoadingOrder": 15,
+      "LoadingOrder": 16,
       "ModifiedPath": "",
       "Path": "/PCFControls/Map/atlas.min.css",
       "Type": 1
     },
     {
       "IsControlSpecific": true,
-      "LoadingOrder": 16,
+      "LoadingOrder": 17,
       "ModifiedPath": "",
       "Path": "/PCFControls/Map/atlas-drawing.min.css",
       "Type": 1
     },
     {
       "IsControlSpecific": true,
-      "LoadingOrder": 11,
+      "LoadingOrder": 12,
       "ModifiedPath": "",
       "Path": "/PCFControls/Map/libs/mapPolyfill.js",
       "Type": 0
     },
     {
       "IsControlSpecific": true,
-      "LoadingOrder": 12,
+      "LoadingOrder": 13,
       "ModifiedPath": "",
       "Path": "/PCFControls/Map/libs/atlas.js",
       "Type": 0
     },
     {
       "IsControlSpecific": true,
-      "LoadingOrder": 9,
+      "LoadingOrder": 10,
       "ModifiedPath": "",
       "Path": "/PCFControls/Map/strings/Map.1033.resx",
       "Type": 2
     },
     {
       "IsControlSpecific": false,
-      "LoadingOrder": 17,
+      "LoadingOrder": 18,
       "ModifiedPath": "",
       "Path": "{\"Id\":\"FormattingData\",\"Data\":{\"timeZoneUtcOffsetMinutes\":0,\"dateTimeFormatInfo\":{\"AMDesignator\":\"AM\",\"Calendar\":{\"MinSupportedDateTime\":\"0001-01-01T00:00:00\",\"MaxSupportedDateTime\":\"9999-12-31T23:59:59.9999999\",\"AlgorithmType\":1,\"CalendarType\":1,\"Eras\":[1],\"TwoDigitYearMax\":2049,\"IsReadOnly\":false},\"DateSeparator\":\"/\",\"FirstDayOfWeek\":1,\"CalendarWeekRule\":2,\"FullDateTimePattern\":\"dd MMMM yyyy HH:mm:ss\",\"LongDatePattern\":\"dd MMMM yyyy\",\"LongTimePattern\":\"HH:mm:ss\",\"MonthDayPattern\":\"d MMMM\",\"PMDesignator\":\"PM\",\"RFC1123Pattern\":\"ddd, dd MMM yyyy HH':'mm':'ss 'GMT'\",\"ShortDatePattern\":\"dd/MM/yyyy\",\"ShortTimePattern\":\"HH:mm\",\"SortableDateTimePattern\":\"yyyy'-'MM'-'dd'T'HH':'mm':'ss\",\"TimeSeparator\":\":\",\"UniversalSortableDateTimePattern\":\"yyyy'-'MM'-'dd HH':'mm':'ss'Z'\",\"YearMonthPattern\":\"MMMM yyyy\",\"AbbreviatedDayNames\":[\"Sun\",\"Mon\",\"Tue\",\"Wed\",\"Thu\",\"Fri\",\"Sat\"],\"ShortestDayNames\":[\"Su\",\"Mo\",\"Tu\",\"We\",\"Th\",\"Fr\",\"Sa\"],\"DayNames\":[\"Sunday\",\"Monday\",\"Tuesday\",\"Wednesday\",\"Thursday\",\"Friday\",\"Saturday\"],\"AbbreviatedMonthNames\":[\"Jan\",\"Feb\",\"Mar\",\"Apr\",\"May\",\"Jun\",\"Jul\",\"Aug\",\"Sep\",\"Oct\",\"Nov\",\"Dec\",\"\"],\"MonthNames\":[\"January\",\"February\",\"March\",\"April\",\"May\",\"June\",\"July\",\"August\",\"September\",\"October\",\"November\",\"December\",\"\"],\"IsReadOnly\":false,\"NativeCalendarName\":\"Gregorian Calendar\",\"AbbreviatedMonthGenitiveNames\":[\"Jan\",\"Feb\",\"Mar\",\"Apr\",\"May\",\"Jun\",\"Jul\",\"Aug\",\"Sep\",\"Oct\",\"Nov\",\"Dec\",\"\"],\"MonthGenitiveNames\":[\"January\",\"February\",\"March\",\"April\",\"May\",\"June\",\"July\",\"August\",\"September\",\"October\",\"November\",\"December\",\"\"]},\"numberFormatInfo\":{\"CurrencyDecimalDigits\":2,\"CurrencyDecimalSeparator\":\".\",\"IsReadOnly\":false,\"CurrencyGroupSizes\":[3],\"NumberGroupSizes\":[3],\"PercentGroupSizes\":[3],\"CurrencyGroupSeparator\":\",\",\"CurrencySymbol\":\"£\",\"NaNSymbol\":\"NaN\",\"CurrencyNegativePattern\":1,\"NumberNegativePattern\":1,\"PercentPositivePattern\":1,\"PercentNegativePattern\":1,\"NegativeInfinitySymbol\":\"-∞\",\"NegativeSign\":\"-\",\"NumberDecimalDigits\":2,\"NumberDecimalSeparator\":\".\",\"NumberGroupSeparator\":\",\",\"CurrencyPositivePattern\":0,\"PositiveInfinitySymbol\":\"∞\",\"PositiveSign\":\"+\",\"PercentDecimalDigits\":2,\"PercentDecimalSeparator\":\".\",\"PercentGroupSeparator\":\",\",\"PercentSymbol\":\"%\",\"PerMilleSymbol\":\"‰\",\"NativeDigits\":[\"0\",\"1\",\"2\",\"3\",\"4\",\"5\",\"6\",\"7\",\"8\",\"9\"],\"DigitSubstitution\":1},\"timeZoneAdjusters\":[],\"formatInfoCultureName\":\"en-GB\",\"formatter\":null,\"languagesByCode\":{\"2057\":\"English (United Kingdom)\",\"-1\":\"All Languages\"}}}",
       "Type": 3
     },
     {
       "IsControlSpecific": true,
-      "LoadingOrder": 18,
+      "LoadingOrder": 19,
       "ModifiedPath": "",
       "Path": "/PCFControls/Map/strings/Map.1025.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
-      "LoadingOrder": 18,
+      "LoadingOrder": 19,
       "ModifiedPath": "",
       "Path": "/PCFControls/Map/strings/Map.1026.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
-      "LoadingOrder": 18,
+      "LoadingOrder": 19,
       "ModifiedPath": "",
       "Path": "/PCFControls/Map/strings/Map.1027.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
-      "LoadingOrder": 18,
+      "LoadingOrder": 19,
       "ModifiedPath": "",
       "Path": "/PCFControls/Map/strings/Map.1028.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
-      "LoadingOrder": 18,
+      "LoadingOrder": 19,
       "ModifiedPath": "",
       "Path": "/PCFControls/Map/strings/Map.1029.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
-      "LoadingOrder": 18,
+      "LoadingOrder": 19,
       "ModifiedPath": "",
       "Path": "/PCFControls/Map/strings/Map.1030.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
-      "LoadingOrder": 18,
+      "LoadingOrder": 19,
       "ModifiedPath": "",
       "Path": "/PCFControls/Map/strings/Map.1031.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
-      "LoadingOrder": 18,
+      "LoadingOrder": 19,
       "ModifiedPath": "",
       "Path": "/PCFControls/Map/strings/Map.1032.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
-      "LoadingOrder": 18,
+      "LoadingOrder": 19,
       "ModifiedPath": "",
       "Path": "/PCFControls/Map/strings/Map.1033.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
-      "LoadingOrder": 18,
+      "LoadingOrder": 19,
       "ModifiedPath": "",
       "Path": "/PCFControls/Map/strings/Map.1035.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
-      "LoadingOrder": 18,
+      "LoadingOrder": 19,
       "ModifiedPath": "",
       "Path": "/PCFControls/Map/strings/Map.1036.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
-      "LoadingOrder": 18,
+      "LoadingOrder": 19,
       "ModifiedPath": "",
       "Path": "/PCFControls/Map/strings/Map.1037.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
-      "LoadingOrder": 18,
+      "LoadingOrder": 19,
       "ModifiedPath": "",
       "Path": "/PCFControls/Map/strings/Map.1038.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
-      "LoadingOrder": 18,
+      "LoadingOrder": 19,
       "ModifiedPath": "",
       "Path": "/PCFControls/Map/strings/Map.1040.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
-      "LoadingOrder": 18,
+      "LoadingOrder": 19,
       "ModifiedPath": "",
       "Path": "/PCFControls/Map/strings/Map.1041.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
-      "LoadingOrder": 18,
+      "LoadingOrder": 19,
       "ModifiedPath": "",
       "Path": "/PCFControls/Map/strings/Map.1042.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
-      "LoadingOrder": 18,
+      "LoadingOrder": 19,
       "ModifiedPath": "",
       "Path": "/PCFControls/Map/strings/Map.1043.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
-      "LoadingOrder": 18,
+      "LoadingOrder": 19,
       "ModifiedPath": "",
       "Path": "/PCFControls/Map/strings/Map.1044.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
-      "LoadingOrder": 18,
+      "LoadingOrder": 19,
       "ModifiedPath": "",
       "Path": "/PCFControls/Map/strings/Map.1045.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
-      "LoadingOrder": 18,
+      "LoadingOrder": 19,
       "ModifiedPath": "",
       "Path": "/PCFControls/Map/strings/Map.1046.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
-      "LoadingOrder": 18,
+      "LoadingOrder": 19,
       "ModifiedPath": "",
       "Path": "/PCFControls/Map/strings/Map.1048.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
-      "LoadingOrder": 18,
+      "LoadingOrder": 19,
       "ModifiedPath": "",
       "Path": "/PCFControls/Map/strings/Map.1049.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
-      "LoadingOrder": 18,
+      "LoadingOrder": 19,
       "ModifiedPath": "",
       "Path": "/PCFControls/Map/strings/Map.1050.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
-      "LoadingOrder": 18,
+      "LoadingOrder": 19,
       "ModifiedPath": "",
       "Path": "/PCFControls/Map/strings/Map.1051.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
-      "LoadingOrder": 18,
+      "LoadingOrder": 19,
       "ModifiedPath": "",
       "Path": "/PCFControls/Map/strings/Map.1053.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
-      "LoadingOrder": 18,
+      "LoadingOrder": 19,
       "ModifiedPath": "",
       "Path": "/PCFControls/Map/strings/Map.1054.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
-      "LoadingOrder": 18,
+      "LoadingOrder": 19,
       "ModifiedPath": "",
       "Path": "/PCFControls/Map/strings/Map.1055.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
-      "LoadingOrder": 18,
+      "LoadingOrder": 19,
       "ModifiedPath": "",
       "Path": "/PCFControls/Map/strings/Map.1057.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
-      "LoadingOrder": 18,
+      "LoadingOrder": 19,
       "ModifiedPath": "",
       "Path": "/PCFControls/Map/strings/Map.1058.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
-      "LoadingOrder": 18,
+      "LoadingOrder": 19,
       "ModifiedPath": "",
       "Path": "/PCFControls/Map/strings/Map.1060.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
-      "LoadingOrder": 18,
+      "LoadingOrder": 19,
       "ModifiedPath": "",
       "Path": "/PCFControls/Map/strings/Map.1061.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
-      "LoadingOrder": 18,
+      "LoadingOrder": 19,
       "ModifiedPath": "",
       "Path": "/PCFControls/Map/strings/Map.1062.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
-      "LoadingOrder": 18,
+      "LoadingOrder": 19,
       "ModifiedPath": "",
       "Path": "/PCFControls/Map/strings/Map.1063.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
-      "LoadingOrder": 18,
+      "LoadingOrder": 19,
       "ModifiedPath": "",
       "Path": "/PCFControls/Map/strings/Map.1066.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
-      "LoadingOrder": 18,
+      "LoadingOrder": 19,
       "ModifiedPath": "",
       "Path": "/PCFControls/Map/strings/Map.1069.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
-      "LoadingOrder": 18,
+      "LoadingOrder": 19,
       "ModifiedPath": "",
       "Path": "/PCFControls/Map/strings/Map.1081.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
-      "LoadingOrder": 18,
+      "LoadingOrder": 19,
       "ModifiedPath": "",
       "Path": "/PCFControls/Map/strings/Map.1086.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
-      "LoadingOrder": 18,
+      "LoadingOrder": 19,
       "ModifiedPath": "",
       "Path": "/PCFControls/Map/strings/Map.1087.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
-      "LoadingOrder": 18,
+      "LoadingOrder": 19,
       "ModifiedPath": "",
       "Path": "/PCFControls/Map/strings/Map.1110.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
-      "LoadingOrder": 18,
+      "LoadingOrder": 19,
       "ModifiedPath": "",
       "Path": "/PCFControls/Map/strings/Map.2052.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
-      "LoadingOrder": 18,
+      "LoadingOrder": 19,
       "ModifiedPath": "",
       "Path": "/PCFControls/Map/strings/Map.2070.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
-      "LoadingOrder": 18,
+      "LoadingOrder": 19,
       "ModifiedPath": "",
       "Path": "/PCFControls/Map/strings/Map.2074.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
-      "LoadingOrder": 18,
+      "LoadingOrder": 19,
       "ModifiedPath": "",
       "Path": "/PCFControls/Map/strings/Map.3076.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
-      "LoadingOrder": 18,
+      "LoadingOrder": 19,
       "ModifiedPath": "",
       "Path": "/PCFControls/Map/strings/Map.3082.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
-      "LoadingOrder": 18,
+      "LoadingOrder": 19,
       "ModifiedPath": "",
       "Path": "/PCFControls/Map/strings/Map.3098.json",
       "Type": 5
     },
     {
       "IsControlSpecific": false,
-      "LoadingOrder": 18,
+      "LoadingOrder": 19,
       "ModifiedPath": "",
       "Path": "{\"Id\":\"LocalizedStrings\",\"Data\":{\"LocStrings\":{\"Map_GA_Display_Key\":\"Map\",\"Map_Display_Key\":\"Map (preview)\",\"Map_Desc_Key\":\"Dynamic map control powered by Azure Maps\",\"Items_Display_Key\":\"Locations\",\"Items_Desc_Key\":\"Locations displayed on map\",\"ItemsLabels_Display_Key\":\"Location labels\",\"ItemsLabels_Desc_Key\":\"Labels of the locations\",\"ItemsAddresses_Display_Key\":\"Location addresses\",\"ItemsAddresses_Desc_Key\":\"Addresses of the locations\",\"ItemsLongitudes_Display_Key\":\"Location longitudes\",\"ItemsLongitudes_Desc_Key\":\"Longitudes of the locations\",\"ItemsLatitudes_Display_Key\":\"Location latitudes\",\"ItemsLatitudes_Desc_Key\":\"Latitudes of the locations\",\"RoutingWaypoints_Display_Key\":\"Route waypoints\",\"RoutingWaypoints_Desc_Key\":\"Route waypoints displayed on map\",\"RoutingWaypointsAddresses_Display_Key\":\"Route waypoint addresses\",\"RoutingWaypointsAddresses_Desc_Key\":\"Addresses of the route waypoints\",\"RoutingWaypointsLabels_Display_Key\":\"Route waypoint labels\",\"RoutingWaypointsLabels_Desc_Key\":\"Labels of the route waypoints\",\"RoutingWaypointsLongitudes_Display_Key\":\"Route waypoint longitudes\",\"RoutingWaypointsLongitudes_Desc_Key\":\"Longitudes of the route waypoints\",\"RoutingWaypointsLatitudes_Display_Key\":\"Route waypoint latitudes\",\"RoutingWaypointsLatitudes_Desc_Key\":\"Latitudes of the route waypoints\",\"ItemsColors_Display_Key\":\"Location colors\",\"ItemsColors_Desc_Key\":\"Colors of the locations\",\"ItemsIcons_Display_Key\":\"Location icons\",\"ItemsIcons_Desc_Key\":\"Icons of the locations\",\"AzureMapsKey_Display_Key\":\"Azure Maps key\",\"AzureMapsKey_Desc_Key\":\"Azure Maps S0 or S1 tier subscription key for the map\",\"DefaultLocation_Display_Key\":\"Use default location\",\"DefaultLocation_Desc_Key\":\"Use default location set by user\",\"DefaultLongitude_Display_Key\":\"Default longitude\",\"DefaultLongitude_Desc_Key\":\"Default longitude set by user\",\"DefaultLatitude_Display_Key\":\"Default latitude\",\"DefaultLatitude_Desc_Key\":\"Default latitude set by user\",\"DefaultZoomLevel_Display_Key\":\"Default zoom level\",\"DefaultZoomLevel_Desc_Key\":\"Default zoom level set by user. Accepts values from 0 to 22\",\"CenterLocation_Display_Key\":\"Center location\",\"CenterLocation_Desc_Key\":\"Center location of the map\",\"CenterLongitude_Display_Key\":\"Center longitude\",\"CenterLongitude_Desc_Key\":\"Center longitude of the map\",\"CenterLatitude_Display_Key\":\"Center latitude\",\"CenterLatitude_Desc_Key\":\"Center latitude of the map\",\"Items_GeocodedItems_Display_Key\":\"Geocoded locations\",\"Items_GeocodedItems_Desc_Key\":\"Geocoded locations of the map\",\"ClickedLocation_Display_Key\":\"Clicked location\",\"ClickedLocation_Desc_Key\":\"Clicked location of the map\",\"ItemsAddresses_Warning_Display_Key\":\"Using addresses requires the map to geocode each time the component loads, costing credits. Save the lat/long results in your data source instead. ##LINK0## Learn more ##/LINK0##\",\"DefaultStyle_Display_Key\":\"Default style\",\"DefaultStyle_Desc_Key\":\"Default style set by user\",\"CurrentLocation_Display_Key\":\"Show current location\",\"CurrentLocation_Desc_Key\":\"Show current location on the map\",\"CurrentLocationLongitude_Display_Key\":\"Current location longitude\",\"CurrentLocationLongitude_Desc_Key\":\"Longitude of the current location pin. To place at the user's location, set to Location.Longitude\",\"CurrentLocationLatitude_Display_Key\":\"Current location latitude\",\"CurrentLocationLatitude_Desc_Key\":\"Latitude of the current location pin. To place at the user's location, set to Location.Latitude\",\"Loading_Display_Key\":\"Loading ...\",\"SatelliteView_Display_Key\":\"Satellite view\",\"SatelliteView_Desc_Key\":\"Use satellite view (overrides Map style)\",\"AddressDataSource_Display_Key\":\"Address data source\",\"AddressDataSource_Desc_Key\":\"The data source used for address formatting and geocoding.\",\"AddressDataSource_Default_Display_Key\":\"Default\",\"AddressDataSource_BingMaps_Display_Key\":\"Bing Maps\",\"AddressDataSource_AzureMaps_Display_Key\":\"Azure Maps\",\"MapStyle_Display_Key\":\"Map style\",\"MapStyle_Desc_Key\":\"Set the map style\",\"MapStyle_Road_Display_Key\":\"Road\",\"MapStyle_Satellite_Display_Key\":\"Satellite\",\"MapStyle_SatelliteRoadLabels_Display_Key\":\"Satellite road labels\",\"MapStyle_GrayscaleDark_Display_Key\":\"Grayscale dark\",\"MapStyle_GrayscaleLight_Display_Key\":\"Grayscale light\",\"MapStyle_Night_Display_Key\":\"Night\",\"MapStyle_RoadShadedRelief_Display_Key\":\"Road shaded relief\",\"MapStyle_HighContrastDark_Display_Key\":\"High contrast dark\",\"MapStyle_HighContrastLight_Display_Key\":\"High contrast light\",\"Clustering_Display_Key\":\"Cluster pins\",\"Clustering_Desc_Key\":\"Use pin clustering\",\"EnableCurrentLocationControl_Display_Key\":\"Current location control\",\"EnableCurrentLocationControl_Desc_Key\":\"Enable current location control\",\"Compass_Display_Key\":\"Compass control\",\"Compass_Desc_Key\":\"Enable compass control\",\"Zoom_Display_Key\":\"Zoom control\",\"Zoom_Desc_Key\":\"Enable zoom control\",\"Pitch_Display_Key\":\"Pitch control\",\"Pitch_Desc_Key\":\"Enable pitch control\",\"Style_Display_Key\":\"Style control\",\"Style_Desc_Key\":\"Enable style control\",\"PinColor_Display_Key\":\"Pin color\",\"PinColor_Desc_Key\":\"Color of pins shown on the map\",\"ShowDirections\":\"Show Directions\",\"ShowDirections_Desc_Key\":\"Show a directions on info cards when a pin is clicked.\",\"Bounds_Display_Key\":\"Bounds\",\"Bounds_Desc_Key\":\"A record defining the current North, South, East, and West bounds of the map.\",\"MaxPins_Display_Key\":\"Maximum map pins\",\"MaxPins_Desc_Key\":\"Maximum number of pins shown on the map\",\"TrafficIncidents_Display_Key\":\"Show traffic incidents\",\"TrafficIncidents_Desc_Key\":\"Show traffic incidents on the map\",\"TrafficFlowTypes_Display_Key\":\"Traffic flow types\",\"TrafficFlowTypes_Desc_Key\":\"Traffic flow types on the map\",\"RefreshExpiredTiles_Display_Key\":\"Refresh expired tiles\",\"RefreshExpiredTiles_Desc_Key\":\"Refresh expired tiles on the map\",\"RefreshExpiredTilesWarnHighUsage_Display_Key\":\"Refreshing expired tiles is turned on. Learn how this increases your daily credit count usage here.\",\"Map_TrafficFlowTypes_None_Display_Key\":\"None\",\"Map_TrafficFlowTypes_Relative_Display_Key\":\"Relative\",\"Map_TrafficFlowTypes_RelativeDelayOnly_Display_Key\":\"Relative delay only\",\"UseRouting_Display_Key\":\"Enable routing\",\"UseRouting_Desc_Key\":\"Enable routing on the map. Routes cannot be shown until you enable full map and address services in the admin center\",\"RouteMaintainFirst_Display_Key\":\"Maintain first waypoint\",\"RouteMaintainFirst_Desc_Key\":\"Maintain first waypoint when calculating a route\",\"RouteMaintainLast_Display_Key\":\"Maintain last waypoint\",\"RouteMaintainLast_Desc_Key\":\"Maintain last waypoint when calculating a route\",\"RouteMaintainOrder_Display_Key\":\"Maintain waypoint order\",\"RouteMaintainOrder_Desc_Key\":\"Maintain waypoint order when calculating a route\",\"RouteOptimization_Display_Key\":\"Optimize route\",\"RouteOptimization_Desc_Key\":\"Optimize route when calculating a route\",\"RouteOptimization_None_Display_Key\":\"None\",\"RouteOptimization_Time_Display_Key\":\"Time\",\"RouteOptimization_Distance_Display_Key\":\"Distance\",\"ShowRoutePins_Display_Key\":\"Show Route Pins\",\"ShowRoutePins_Desc_Key\":\"Show pins over route waypoints\",\"TravelMode_Display_Key\":\"Route travel mode\",\"TravelMode_Desc_Key\":\"Route travel mode for route calculation\",\"TravelMode_Car_Display_Key\":\"Car\",\"TravelMode_Truck_Display_Key\":\"Truck\",\"Avoid_Display_Key\":\"Route avoidance\",\"Avoid_Desc_Key\":\"Avoidance for route calculations\",\"AvoidNone_Display_Key\":\"None\",\"AvoidNone_Desc_Key\":\"Avoid nothing for route calculations\",\"AvoidHighways_Display_Key\":\"Highways\",\"AvoidHighways_Desc_Key\":\"Avoid highways for route calculations\",\"AvoidTolls_Display_Key\":\"Tolls\",\"AvoidTolls_Desc_Key\":\"Avoid tolls for route calculations\",\"AvoidUnpavedRoads_Display_Key\":\"Unpaved roads\",\"AvoidUnpavedRoads_Desc_Key\":\"Avoid unpaved roads for route calculations\",\"AvoidFerries_Display_Key\":\"Ferries\",\"AvoidFerries_Desc_Key\":\"Avoid ferries for route calculations\",\"InfoCards_Display_Key\":\"Show info cards\",\"InfoCards_Desc_Key\":\"Show info cards on the map\",\"InfoCards_None_Display_Key\":\"None\",\"InfoCards_OnClick_Display_Key\":\"On click\",\"InfoCards_OnHover_Display_Key\":\"On hover\",\"Transparency_Display_Key\":\"Transparency\",\"Transparency_Desc_Key\":\"Transparency of the map\",\"BorderStyle_Display_Key\":\"Border style\",\"BorderStyle_Desc_Key\":\"Style of visual borders\",\"BorderThickness_Display_Key\":\"Border thickness\",\"BorderThickness_Desc_Key\":\"Thickness (width) of visual borders\",\"BorderColor_Display_Key\":\"Border color\",\"BorderColor_Desc_Key\":\"Color of visual borders\",\"BorderRadius_Display_Key\":\"Border radius\",\"BorderRadius_Desc_Key\":\"Radius of visual borders\",\"TabIndex_Display_Key\":\"Tab index\",\"TabIndex_Desc_Key\":\"Specifies the order when the user navigates with the Tab key\",\"ConnectionError_Display_Key\":\"Cannot connect to mapping service. Check your internet connection or visit ##LINK0## Azure Status ##/LINK0## for more information.\",\"WebGLError_Display_Key\":\"WebGL isn't enabled for your browser. Read the documentation at ##LINK0## enabling WebGL ##/LINK0## to resolve this issue.\",\"InternetExplorerError_Display_Key\":\"Internet Explorer doesn't support the Map control. Edit or use this app and use this feature in a modern browser (such as Microsoft Edge). Check the ##LINK0## Supported Browsers List ##/LINK0## for more information.\",\"MaxWaypointExceeded_Display_Key\":\"Exceeded maximum number of waypoints (150). ##LINK0## Learn more ##/LINK0##\",\"GeospatialOrganizationSettingError_Display_Key\":\"Maps cannot be shown. To show them, enable map and address services in the admin center. ##LINK0## Learn more ##/LINK0##\",\"GeospatialOrganizationSettingFieldServiceError_Display_Key\":\"Maps cannot be shown in your environment. Please contact your IT administrator. If you are an admin, click ##LINK0## here ##/LINK0## to learn more.\",\"GeospatialLimitedOrganizationSettingRoutingError_Display_Key\":\"Routes cannot be shown. To show them, enable full map and address services in the admin center. ##LINK0## Learn more ##/LINK0##\",\"CDSOrganizationsDatasourceError_Display_Key\":\"This component requires the Organizations data source to provide mapping information. Please re-add the Organizations data source. ##LINK0## Learn more ##/LINK0##\",\"DataLossPreventionError_Display_Key\":\"This component requires the Microsoft Spatial Services connector. Using this connector conflicts with your company's data loss prevention policies. ##LINK0## Learn more ##/LINK0##\",\"DataLossPrevention2Error_Display_Key\":\"This component requires the Power Apps Geospatial Control Services connector. Using this connector conflicts with your company's data loss prevention policies. ##LINK0## Learn more ##/LINK0##\",\"MaxPinsMakerError_Display_Key\":\"This data set contains more pins than the maximum limit (5000). Only the first 5000 pins will be shown on the map.\",\"MaxAddressesMakerError_Display_Key\":\"This data set contains more addresses than the maximum limit (50). Only the first 50 addresses will be shown on the map.\",\"MaxPinsAndAddressesMakerError_Display_Key\":\"This data set contains more pins than the maximum limit (5000) and more addresses than the maximum limit (50). Only the first 50 addresses will be shown on the map, with a total pin limit of 5000.\",\"MaxPinsUserError_Display_Key\":\"There are more pins than can be shown. Contact the app developer or your admin for more information.\",\"AriaSVGImage_Display_Key\":\"Icon showing the world\",\"InvalidKeyError_Display_Key\":\"The Map component requires a valid Azure Maps license key to be ##LINK0## entered in the properties panel ##/LINK0##. If you don't have an Azure Maps license you can setup a trial license ##LINK1## here ##/LINK1##.\",\"S1KeyNeededError_Display_Key\":\"Satellite view requires an S1 Azure Maps subscription and the provided key is for an S0 subscription. ##LINK0## Learn more ##/LINK0##\",\"Continue_Display_Key\":\"Continue\",\"Cancel_Display_Key\":\"Cancel\",\"True_Display_Key\":\"True\",\"False_Display_Key\":\"False\",\"Width_Display_Key\":\"Width\",\"Width_Desc_Key\":\"Width of the visual\",\"Height_Display_Key\":\"Height\",\"Height_Desc_Key\":\"Height of the visual\",\"Shapes_Display_Key\":\"Shapes\",\"Shapes_Desc_Key\":\"Data set specifying shapes to be put on the map. Requires ShapeGeoJSONObjects column and optional Shape label and Shape color columns.\",\"ShapeGeoJSONObjects_Display_Key\":\"Shape GeoJSON Objects\",\"ShapeGeoJSONObjects_Desc_Key\":\"Required column specifying GeoJSON shapes to be put on the map (in shape collection or single shape GeoJSON format).\",\"ShapeLabels_Display_Key\":\"Shape label\",\"ShapeLabels_Desc_Key\":\"Optional column specifying a label to go with the corresponding GeoJSON.\",\"ShapeColors_Display_Key\":\"Shape color\",\"ShapeColors_Desc_Key\":\"Optional column specifying a CSS color to go with the corresponding GeoJSON.\",\"GeoJSON_Display_Key\":\"GeoJSON\",\"GeoJSON_Desc_Key\":\"List of features on the map (in feature collection GeoJSON format).\",\"SelectedShape_Display_Key\":\"Selected shape\",\"SelectedShape_Desc_Key\":\"Single shape GeoJSON of the selected shape, or empty shape collection GeoJSON if no shape is selected.\",\"DeletedShape_Display_Key\":\"Deleted shape\",\"DeletedShape_Desc_Key\":\"Single shape GeoJSON of the most recently deleted shape, or empty shape collection GeoJSON if no shape was deleted.\",\"RouteDirections_Display_Key\":\"Route directions\",\"RouteDirections_Desc_Key\":\"Optimal route direction collection from source to destination route waypoint when routing is enabled.\",\"OnRouteDirectionChange_Display_Key\":\"OnRouteDirectionChange\",\"OnRouteDirectionChange_Desc_Key\":\"How the app responds when route direction is changed.\",\"OnLoad_Display_Key\":\"OnLoad\",\"OnLoad_Desc_Key\":\"How the app responds when the map finishes loading.\",\"OnItemsChange_Display_Key\":\"OnItemsChange\",\"OnItemsChange_Desc_Key\":\"How the app responds when the map locations change.\",\"OnMapClick_Display_Key\":\"OnMapClick\",\"OnMapClick_Desc_Key\":\"How the app responds when any location is clicked.\",\"OnShapeCreated_Display_Key\":\"OnShapeCreated\",\"OnShapeCreated_Desc_Key\":\"How the app responds when a shape on the map is created.\",\"OnShapeSelected_Display_Key\":\"OnShapeSelected\",\"OnShapeSelected_Desc_Key\":\"How the app responds when a shape on the map is selected.\",\"OnShapeEdited_Display_Key\":\"OnShapeEdited\",\"OnShapeEdited_Desc_Key\":\"How the app responds when a shape on the map is edited.\",\"OnShapeDeleted_Display_Key\":\"OnShapeDeleted\",\"OnShapeDeleted_Desc_Key\":\"How the app responds when a shape on the map is deleted.\",\"ShowShapes_Display_Key\":\"Show shapes\",\"ShowShapes_Desc_Key\":\"Show imported shapes on the map.\",\"ShowShapeLabels_Display_Key\":\"Show shape labels\",\"ShowShapeLabels_Desc_Key\":\"Show shape labels on the map.\",\"ShapeDrawing_Display_Key\":\"(Preview) Enable shape drawing\",\"ShapeDrawing_Desc_Key\":\"(Preview) Enable drawing shapes on the map by the map user.\",\"ShapeEditingDeleting_Display_Key\":\"(Preview) Enable shape deleting and label editing\",\"ShapeEditingDeleting_Desc_Key\":\"(Preview) Enable shape deleting and label editing on the map by the map user.\",\"ShapeLabel_Display_Key\":\"Shape {0}\",\"DeleteShape_Display_Key\":\"Delete shape\",\"EditLabel_Display_Key\":\"Edit shape label\",\"ShapeTitle_Display_Key\":\"Label for the selected shape\",\"Confirm_Display_Key\":\"Confirm shape label\",\"MaxGeoJSONError_Display_Key\":\"This data set contains more GeoJSON objects than the maximum limit ({0}). Only the first {0} GeoJSON objects will be shown on the map.\",\"InvalidGeoJSONError_Display_Key\":\"This data set contains some invalid GeoJSON objects. Some of the GeoJSON objects will not be shown.\",\"MaxAndInvalidGeoJSONError_Display_Key\":\"This data set contains more GeoJSON objects than the maximum limit ({0}) and some invalid GeoJSON objects. Only the first {0} valid GeoJSON objects will be shown on the map.\",\"GeoJSONUserError_Display_Key\":\"There are GeoJSON objects that can't be shown. Contact the app developer or your admin for more information.\",\"InvalidRouteError_Display_Key\":\"A route for the given waypoints cannot be provided. Try removing waypoints across bodies of water or disabling routing.\",\"Directions_Display_Key\":\"Directions ({0})\",\"AppleMaps_Display_Key\":\"Apple Maps\",\"GoogleMaps_Display_Key\":\"Google Maps\",\"BingMaps_Display_Key\":\"Bing Maps\",\"CurrentLocationControl_Tooltip\":\"Locate me\",\"CurrentLocationControl_LocationPermissions_ErrorText\":\"Cannot get your location. Please enable location settings for this app.\",\"Pin_NarratorText_Display_Key\":\"Pin location at latitude {0}, longitude {1}\",\"Pin_GeocodeError_Display_Key\":\"{0} pins from addresses cannot be shown. To show them, enable full map and address services in the admin center. Click to learn more.\"}}}",
       "Type": 3
