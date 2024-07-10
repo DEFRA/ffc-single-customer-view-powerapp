@@ -1,8 +1,0 @@
-[
-  {
-    "ApiId": "/providers/microsoft.powerapps/apis/shared_customerregistry-5f1510abe58485dba2-5f0edb110ee270a9d1",
-    "Name": "CustomerRegistry",
-    "ServiceKind": "ConnectedWadl",
-    "Type": "ServiceInfo"
-  }
-]
