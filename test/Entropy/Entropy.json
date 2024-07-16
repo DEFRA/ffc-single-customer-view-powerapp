@@ -1,82 +1,26 @@
 {
   "ComponentIndexes": {},
   "ControlUniqueGuids": {},
-  "ControlUniqueIds": {
-    "App": 1,
-    "Container1": 6,
-    "Host": 3,
-    "Label1": 5,
-    "Label2": 8,
-    "Label4": 9,
-    "Label5": 10,
-    "Screen1": 4
-  },
+  "ControlUniqueIds": {},
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "07/16/2024 08:56:33",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {},
-  "LocalDatabaseReferencesAsEmpty": true,
+  "LocalDatabaseReferencesAsEmpty": false,
   "LocalResourceFileNames": {},
   "LocalResourceRootPaths": {},
   "OrderComponentMetadata": {},
   "OrderComponentTemplate": {},
-  "OrderDataSource": {
-    "Activities": 13,
-    "Activities\\activitypointer_activitytypecode": 5,
-    "Activities\\activitypointer_deliveryprioritycode": 7,
-    "Activities\\activitypointer_instancetypecode": 8,
-    "Activities\\activitypointer_isbilled": 0,
-    "Activities\\activitypointer_ismapiprivate": 1,
-    "Activities\\activitypointer_isregularactivity": 2,
-    "Activities\\activitypointer_isworkflowcreated": 3,
-    "Activities\\activitypointer_leftvoicemail": 4,
-    "Activities\\activitypointer_prioritycode": 9,
-    "Activities\\activitypointer_statecode": 10,
-    "Activities\\activitypointer_statuscode": 11,
-    "Activities\\default.cds_activitypointer_views": 12,
-    "Activities\\socialprofile_community": 6
-  },
+  "OrderDataSource": {},
   "OrderGroupControls": {},
   "OrderPcfTemplate": {},
   "OrderTemplate": {},
-  "OrderXMLTemplate": {
-    "groupContainer": 1,
-    "label": 0
-  },
-  "OverridablePropertiesEntry": {
-    "App": {},
-    "Container1": {},
-    "Host": {},
-    "Label1": {},
-    "Label2": {},
-    "Label4": {},
-    "Label5": {},
-    "Screen1": {}
-  },
+  "OrderXMLTemplate": {},
+  "OverridablePropertiesEntry": {},
   "PCFDynamicSchemaForIRRetrievalEntry": {},
   "PCFTemplateEntry": {},
-  "PublishOrderIndices": {
-    "App": 0,
-    "Container1": 5,
-    "Host": 0,
-    "Label1": 4,
-    "Label2": 7,
-    "Label4": 0,
-    "Label5": 0,
-    "Screen1": 3
-  },
+  "PublishOrderIndices": {},
   "ResourcesJsonIndices": {},
   "RuleScreenIdWithoutScreen": {},
-  "TemplateVersions": {},
-  "VolatileProperties": {
-    "AnalysisLoadTime": 0.0445651,
-    "ControlCount": {
-      "groupContainer": 1,
-      "label": 3,
-      "screen": 1
-    },
-    "DeserializationLoadTime": 1.1076696
-  },
-  "WasLocalDatabaseReferencesEmpty": true
+  "TemplateVersions": {}
 }
