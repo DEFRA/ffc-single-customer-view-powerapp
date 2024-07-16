@@ -25,3 +25,9 @@ Screen1 As screen:
             Y: =50
             ZIndex: =2
 
+        Label4 As label:
+            Text: ="Jack added this"
+            X: =60
+            Y: =345
+            ZIndex: =3
+
