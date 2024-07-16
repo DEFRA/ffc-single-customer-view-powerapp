@@ -7,17 +7,18 @@ Screen1 As screen:
         ZIndex: =1
 
     Container1 As groupContainer.manualLayoutContainer:
+        DropShadow: =DropShadow.None
         Height: =478
+        LayoutDirection: =LayoutDirection.Manual
+        LayoutMode: =LayoutMode.Auto
+        RadiusBottomLeft: =0
+        RadiusBottomRight: =0
+        RadiusTopLeft: =0
+        RadiusTopRight: =0
         Width: =684
         X: =60
         Y: =180
         ZIndex: =5
-
-        Label3 As label:
-            Text: ="Jack overwrote"
-            X: =40
-            Y: =40
-            ZIndex: =1
 
         Label2 As label:
             Text: ="Chris added this text"
@@ -30,4 +31,10 @@ Screen1 As screen:
             X: =60
             Y: =345
             ZIndex: =3
+
+        Label5 As label:
+            Text: ="Text"
+            X: =40
+            Y: =40
+            ZIndex: =4
 
