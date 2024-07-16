@@ -12,3 +12,9 @@ Screen1 As screen:
         Y: =40
         ZIndex: =2
 
+    Label3 As label:
+        Text: ="Chris other lable"
+        X: =190
+        Y: =40
+        ZIndex: =3
+
