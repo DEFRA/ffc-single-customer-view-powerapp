@@ -15,7 +15,7 @@ Screen1 As screen:
         RadiusBottomRight: =0
         RadiusTopLeft: =0
         RadiusTopRight: =0
-        Width: =684
+        Width: =1150
         X: =60
         Y: =180
         ZIndex: =5
@@ -26,16 +26,24 @@ Screen1 As screen:
             Y: =50
             ZIndex: =2
 
-        Label5 As label:
-            Text: ="Text"
-            X: =40
-            Y: =40
-            ZIndex: =4
-
         Label3 As label:
             ContentLanguage: ="Chris"
             Text: ="Text"
             X: =80
             Y: =80
             ZIndex: =5
+
+        Label5 As label:
+            Text: |-
+                ="estsr
+                "
+            X: =40
+            Y: =40
+            ZIndex: =6
+
+        Button1 As button:
+            Text: ="Button"
+            X: =100
+            Y: =100
+            ZIndex: =7
 
