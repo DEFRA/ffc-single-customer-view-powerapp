@@ -13,7 +13,7 @@ Screen1 As screen:
         ZIndex: =2
 
     Label3 As label:
-        Text: ="Chris other text"
+        Text: ="Jack overwrote"
         X: =190
         Y: =40
         ZIndex: =3
