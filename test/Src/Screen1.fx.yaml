@@ -42,7 +42,8 @@ Screen1 As screen:
             ZIndex: =6
 
         Button1 As button:
-            Text: ="Button"
+            AutoDisableOnSelect: =false
+            Text: ="Button Updated"
             X: =100
             Y: =100
             ZIndex: =7

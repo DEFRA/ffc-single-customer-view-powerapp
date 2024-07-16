@@ -1,26 +1,87 @@
 {
   "ComponentIndexes": {},
   "ControlUniqueGuids": {},
-  "ControlUniqueIds": {},
+  "ControlUniqueIds": {
+    "App": 1,
+    "Button1": 10,
+    "Container1": 6,
+    "Host": 3,
+    "Label1": 5,
+    "Label2": 9,
+    "Label3": 7,
+    "Label5": 8,
+    "Screen1": 4
+  },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
+  "HeaderLastSavedDateTimeUTC": "07/16/2024 08:59:40",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {},
-  "LocalDatabaseReferencesAsEmpty": false,
+  "LocalDatabaseReferencesAsEmpty": true,
   "LocalResourceFileNames": {},
   "LocalResourceRootPaths": {},
   "OrderComponentMetadata": {},
   "OrderComponentTemplate": {},
-  "OrderDataSource": {},
+  "OrderDataSource": {
+    "Activities": 13,
+    "Activities\\activitypointer_activitytypecode": 5,
+    "Activities\\activitypointer_deliveryprioritycode": 7,
+    "Activities\\activitypointer_instancetypecode": 8,
+    "Activities\\activitypointer_isbilled": 0,
+    "Activities\\activitypointer_ismapiprivate": 1,
+    "Activities\\activitypointer_isregularactivity": 2,
+    "Activities\\activitypointer_isworkflowcreated": 3,
+    "Activities\\activitypointer_leftvoicemail": 4,
+    "Activities\\activitypointer_prioritycode": 9,
+    "Activities\\activitypointer_statecode": 10,
+    "Activities\\activitypointer_statuscode": 11,
+    "Activities\\default.cds_activitypointer_views": 12,
+    "Activities\\socialprofile_community": 6
+  },
   "OrderGroupControls": {},
   "OrderPcfTemplate": {},
   "OrderTemplate": {},
-  "OrderXMLTemplate": {},
-  "OverridablePropertiesEntry": {},
+  "OrderXMLTemplate": {
+    "button": 2,
+    "groupContainer": 1,
+    "label": 0
+  },
+  "OverridablePropertiesEntry": {
+    "App": {},
+    "Button1": {},
+    "Container1": {},
+    "Host": {},
+    "Label1": {},
+    "Label2": {},
+    "Label3": {},
+    "Label5": {},
+    "Screen1": {}
+  },
   "PCFDynamicSchemaForIRRetrievalEntry": {},
   "PCFTemplateEntry": {},
-  "PublishOrderIndices": {},
+  "PublishOrderIndices": {
+    "App": 0,
+    "Button1": 9,
+    "Container1": 5,
+    "Host": 0,
+    "Label1": 4,
+    "Label2": 8,
+    "Label3": 6,
+    "Label5": 7,
+    "Screen1": 3
+  },
   "ResourcesJsonIndices": {},
   "RuleScreenIdWithoutScreen": {},
-  "TemplateVersions": {}
+  "TemplateVersions": {},
+  "VolatileProperties": {
+    "AnalysisLoadTime": 0.0188516,
+    "ControlCount": {
+      "button": 1,
+      "groupContainer": 1,
+      "label": 4,
+      "screen": 1
+    },
+    "DeserializationLoadTime": 0.8281862
+  },
+  "WasLocalDatabaseReferencesEmpty": true
 }
